@@ -1,8 +1,24 @@
 // wait DOM to be loaded
 document.addEventListener("DOMContentLoaded", () => {
-
+    initLoader();
     initCursor();
 })
+
+
+
+// Loader animation
+
+function initLoader() {
+    const loader = document.querySelector('.loader');
+
+    // hide loader after animation
+    setTimeout(() => {
+        loader.classList.add("hidden");
+        document.body.style.overflow = "auto";
+    }, 2500)
+}
+
+
 
 // custom cursor
 function initCursor() {
