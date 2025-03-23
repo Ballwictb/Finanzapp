@@ -155,7 +155,93 @@
     </div>
 
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge" data-elem="hero.badge">TFG La Arboleda</div>
+                    <h1 class="hero-title" data-elem="hero.title">Control financiero <span class="text-gradient"
+                            data-elem="hero.titleHighlight">inteligente</span></h1>
+                    <p class="hero-description" data-elem="hero.description">Gestiona tus finanzas personales con una
+                        plataforma que te ayuda a visualizar, planificar y optimizar tu dinero de forma intuitiva.</p>
+                    <div class="hero-cta">
+                        <a href="#" class="btn btn-primary btn-large" data-elem="hero.cta.primary">Comenzar</a>
+                        <a href="#demo" class="btn btn-play">
+                            <div class="play-icon">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <span data-elem="hero.cta.secondary">Ver video</span>
+                        </a>
+                    </div>
+                    <!-- Posible hero stats -->
+                </div>
+                <div class="hero-visual">
+                    <div class="dashboard-preview">
+                        <div class="dashboard-header">
+                            <div class="dashboard-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="dashboard-content">
+                            <div class="dashboard-chart">
+                                <canvas id="mainChart"></canvas>
+                            </div>
+                            <div class="dashboard-stats">
+                                <div class="stat-card">
+                                    <div class="stat-card-icon blue">
+                                        <i class="fas fa-arrow-up"></i>
+                                    </div>
+                                    <div class="stat-card-info">
+                                        <div class="stat-card-label" data-elem="dashboard.income">Ingresos</div>
+                                        <div class="stat-card-value">2.540€</div>
+                                    </div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-card-icon red">
+                                        <i class="fas fa-arrow-down"></i>
+                                    </div>
+                                    <div class="stat-card-info">
+                                        <div class="stat-card-label" data-elem="dashboard.expenses">Gastos</div>
+                                        <div class="stat-card-value">1.825€</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-element" id="element1">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="floating-element" id="element2">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <div class="floating-element" id="element3">
+                            <i class="fas fa-piggy-bank"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- hero-shape -->
+        <div class="hero-shape">
+            <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path fill="#4d94ff" fill-opacity="1"
+                    d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,224C672,213,768,171,864,149.3C960,128,1056,128,1152,149.3C1248,171,1344,213,1392,234.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
 
+    </section>
+
+
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Custom JS -->
     <script src="./js/landing_page.js"></script>
 </body>
 
