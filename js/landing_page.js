@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initCursor();
     initHeaderScroll();
     initMobileMenu();
+    initHeroChart();
 })
 
 
@@ -60,12 +61,14 @@ function initMobileMenu() {
     const mobileMenu = document.querySelector('.mobile-menu');
     const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
     const headerD = document.querySelector(".header");
+    const hero = document.querySelector(".hero");
 
     menuToggle.addEventListener('click', () => {
         menuToggle.classList.add('active');
         mobileMenu.classList.add('active');
         document.body.style.overflow = 'hidden';
         headerD.style.filter = 'blur(10px)';
+        hero.style.filter = 'blur(10px)';
     });
 
     menuClose.addEventListener('click', () => {
@@ -73,6 +76,7 @@ function initMobileMenu() {
         mobileMenu.classList.remove('active');
         document.body.style.overflow = 'auto';
         headerD.style.filter = 'blur(0px)';
+        hero.style.filter = 'blur(0px)';
 
     });
 
@@ -81,6 +85,73 @@ function initMobileMenu() {
             menuToggle.classList.remove('active');
             mobileMenu.classList.remove('active');
             document.body.style.overflow = 'auto';
+            headerD.style.filter = 'blur(0px)';
+            hero.style.filter = 'blur(0px)';
         });
     });
+}
+
+function initHeroChart() {
+    const ctx = document.getElementById("mainChart");
+
+    if (ctx) {
+
+        const chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun'],
+                datasets: [
+                    {
+                        label: 'Ingresos',
+                        data: [1500, 1800, 1600, 2200, 1900, 2540],
+                        borderColor: '#0066ff',
+                        backgroundColor: 'rgba(0, 102, 255, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    },
+                    {
+                        label: 'Gastos',
+                        data: [1200, 1400, 1300, 1800, 1600, 1825],
+                        borderColor: '#ff3366',
+                        backgroundColor: 'rgba(255, 51, 102, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            display: true,
+                            color: 'rgba(0, 0, 0, 0.05)'
+                        },
+                        ticks: {
+                            callback: function (value) {
+                                return value + '€';
+                            }
+                        }
+                    },
+                    x: {
+                        grid: {
+                            display: false
+                        }
+                    }
+                }
+            }
+        })
+    }
+
 }
