@@ -100,7 +100,6 @@ body {
     transform: translate(-50%, -50%);
     z-index: var(--z-tooltip);
     transition: width 0.2s height 0.2s;
-    opacity: 0;
 }
 
 .cursor-follower {
@@ -113,7 +112,6 @@ body {
     transform: translate(-50%, -50%);
     z-index: var(--z-tooltip);
     transition: all 0.2s ease-out;
-    opacity: 0;
 }
 
 body:hover .cursor,
