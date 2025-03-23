@@ -1,0 +1,19 @@
+/* Variables */
+:root {
+    /* colors */
+    --color-primary: #0066ff;
+    --color-primary-dark: #0052cc;
+    --color-primary-ligt: #4d94ff;
+    --color-secondary: #ff3366;
+    --color-secondary-dark: #e6004c;
+    --color-secondary-light: #ff6699;
+    --color-dark: #0a1128;
+    --color-dark-blue: #1c2541;
+    --color-white: #ffffff;
+    --color-light: #f8f9fa;
+    --color-gray: #6c757d;
+    --color-gray-light: #dee2e6;
+    --color-success: #28a745;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+}
