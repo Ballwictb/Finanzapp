@@ -2,6 +2,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     initLoader();
     initCursor();
+    initHeaderScroll()
+
 })
 
 
@@ -36,4 +38,17 @@ function initCursor() {
             cursorFollower.style.top = e.clientY + 'px';
         }, 50);
     })
+}
+
+// Header scroll effect
+function initHeaderScroll() {
+    const header = document.querySelector('.header');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
 }
