@@ -720,4 +720,12 @@ body:hover .cursor-follower {
     .menu-toggle {
         display: block;
     }
+
+    .cursor {
+        opacity: 0;
+    }
+
+    .cursor-follower {
+        opacity: 0;
+    }
 }
