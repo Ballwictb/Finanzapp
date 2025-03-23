@@ -549,6 +549,7 @@ body:hover .cursor-follower {
 .language-toggle {
     display: flex;
     align-items: center;
+    height: 61px;
     gap: var(--space-xs);
     padding: var(--space-xs) var(--space-sm);
     border-radius: var(--radius-md);
