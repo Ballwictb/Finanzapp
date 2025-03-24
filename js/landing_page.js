@@ -62,6 +62,7 @@ function initMobileMenu() {
     const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
     const headerD = document.querySelector(".header");
     const hero = document.querySelector(".hero");
+    const features = document.getElementById("features");
 
     menuToggle.addEventListener('click', () => {
         menuToggle.classList.add('active');
@@ -69,6 +70,10 @@ function initMobileMenu() {
         document.body.style.overflow = 'hidden';
         headerD.style.filter = 'blur(10px)';
         hero.style.filter = 'blur(10px)';
+        features.style.filter = 'blur(10px)';
+
+
+
     });
 
     menuClose.addEventListener('click', () => {
@@ -77,7 +82,7 @@ function initMobileMenu() {
         document.body.style.overflow = 'auto';
         headerD.style.filter = 'blur(0px)';
         hero.style.filter = 'blur(0px)';
-
+        features.style.filter = 'blur(0px)';
     });
 
     mobileNavLinks.forEach(link => {
@@ -87,6 +92,7 @@ function initMobileMenu() {
             document.body.style.overflow = 'auto';
             headerD.style.filter = 'blur(0px)';
             hero.style.filter = 'blur(0px)';
+            features.style.filter = 'blur(0px)';
         });
     });
 }
