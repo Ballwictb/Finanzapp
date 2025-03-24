@@ -1183,6 +1183,19 @@ body:hover .cursor-follower {
     .hero-shape {
         display: none;
     }
+
+    .step {
+        flex-direction: column;
+    }
+
+    .step.reverse {
+        flex-direction: column;
+    }
+
+    .step-content,
+    .step-image {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
