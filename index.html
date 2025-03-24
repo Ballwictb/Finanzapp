@@ -34,6 +34,9 @@
     <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/landing_page.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -103,9 +106,10 @@
                         <a href="#" data-lang="fr">Français</a>
                     </div>
                 </div>
-                <a href="#" class="btn btn-outline" data-elem="buttons.login" aria-label="Iniciar Sesión">Iniciar
+                <a href="./login.html" class="btn btn-outline" data-elem="buttons.login"
+                    aria-label="Iniciar Sesión">Iniciar
                     sesión</a>
-                <a href="#" class="btn btn-primary" data-elem="buttons.register"
+                <a href="./register.html" class="btn btn-primary" data-elem="buttons.register"
                     aria-label="Registrarse">Registrarse</a>
             </div>
             <button class="menu-toggle" aria-label="Menú">
@@ -238,11 +242,82 @@
 
 
 
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-elem="features.title">Características <span class="text-gradient"
+                        data-elem="features.titleHighlight">principales</span></h2>
+                <p class="section-description" data-elem="features.description">Descubre cómo FinanzApp puede
+                    transformar tu gestión financiera</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon blue">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3 class="feature-title" data-elem="features.cards.analysis.title">Análisis inteligente</h3>
+                    <p class="feature-description" data-elem="features.cards.analysis.description">Visualiza tus
+                        patrones de gasto con gráficos interactivos y descubre oportunidades de ahorro.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon red">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3 class="feature-title" data-elem="features.cards.budgets.title">Presupuestos dinámicos</h3>
+                    <p class="feature-description" data-elem="features.cards.budgets.description">Crea presupuestos
+                        personalizados que se adaptan a tus hábitos y te alertan cuando te desvías.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon blue">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="feature-title" data-elem="features.cards.goals.title">Objetivos financieros</h3>
+                    <p class="feature-description" data-elem="features.cards.goals.description">Establece metas de
+                        ahorro y visualiza tu progreso con indicadores claros y motivadores.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon red">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3 class="feature-title" data-elem="features.cards.alerts.title">Noticias personalizadas</h3>
+                    <p class="feature-description" data-elem="features.cards.alerts.description">Recibe notificaciones
+                        sobre actualizaciones de la app.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon blue">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 class="feature-title" data-elem="features.cards.security.title">Seguridad avanzada</h3>
+                    <p class="feature-description" data-elem="features.cards.security.description">Tus datos están
+                        protegidos con encriptación.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon red">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="feature-title" data-elem="features.cards.access.title">Acceso multiplataforma</h3>
+                    <p class="feature-description" data-elem="features.cards.access.description">Gestiona tus finanzas
+                        desde cualquier dispositivo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <!-- Custom JS -->
     <script src="./js/landing_page.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Init AOS -->
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
