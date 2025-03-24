@@ -1049,7 +1049,68 @@ body:hover .cursor-follower {
     color: var(--color-gray);
 }
 
+/* how it work  */
+.how-it-works {
+    padding: var(--space-3xl) 0;
+    background: var(--color-light);
+}
 
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3xl);
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3xl);
+}
+
+.step.reverse {
+    flex-direction: row-reverse;
+}
+
+.step-number {
+    font-size: var(--font-size-4xl);
+    font-weight: 800;
+    color: var(--color-primary);
+    opacity: 0.2;
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+.step-content {
+    flex: 1;
+    position: relative;
+    padding-top: var(--space-xl);
+}
+
+.step-title {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-md);
+}
+
+.step-description {
+    color: var(--color-gray);
+    max-width: 400px;
+}
+
+.step-image {
+    flex: 1;
+}
+
+.step-img {
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    transition: all var(--transition-normal);
+}
+
+.step:hover .step-img {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-xl);
+}
 
 /* media */
 
