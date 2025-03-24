@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initHeaderScroll();
     initMobileMenu();
     initHeroChart();
+    initBackToTop();
 })
 
 
@@ -160,4 +161,24 @@ function initHeroChart() {
         })
     }
 
+}
+
+// Back to top button
+function initBackToTop() {
+    const backToTopButton = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            backToTopButton.classList.add('active');
+        } else {
+            backToTopButton.classList.remove('active');
+        }
+    });
+
+    backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
 }
