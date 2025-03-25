@@ -1152,6 +1152,8 @@ body:hover .cursor-follower {
     color: var(--color-white);
     position: relative;
     overflow: hidden;
+    mask-image: linear-gradient(to top, black 90%, transparent 100%);
+
 }
 
 .cta-content {
@@ -1207,6 +1209,7 @@ body:hover .cursor-follower {
     width: 100%;
     height: auto;
     display: block;
+    mask-image: linear-gradient(to bottom, black 10%, transparent 90%);
 }
 
 /* media */
