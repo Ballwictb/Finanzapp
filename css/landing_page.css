@@ -1354,6 +1354,14 @@ body:hover .cursor-follower {
     .step-image {
         width: 100%;
     }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1421,5 +1429,8 @@ body:hover .cursor-follower {
         width: 40px;
     }
 
+    .footer-links {
+        grid-template-columns: 1fr;
+    }
 
 }
