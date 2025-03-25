@@ -1144,6 +1144,71 @@ body:hover .cursor-follower {
     transform: translateY(-5px);
 }
 
+
+/* Cta section  */
+.cta {
+    padding: var(--space-3xl) 0;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+    color: var(--color-white);
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.cta-title {
+    font-size: var(--font-size-4xl);
+    margin-bottom: var(--space-lg);
+}
+
+.cta-description {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-xl);
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-lg);
+    margin-bottom: var(--space-lg);
+}
+
+.cta .btn-outline {
+    border-color: var(--color-white);
+    color: var(--color-white);
+}
+
+.cta .btn-outline:hover {
+    background: var(--color-white);
+    color: var(--color-primary);
+}
+
+.cta-note {
+    font-size: var(--font-size-sm);
+    opacity: 0.7;
+}
+
+.cta-shape {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.cta-shape svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* media */
 
 @media only screen and (max-width: 992px) {
