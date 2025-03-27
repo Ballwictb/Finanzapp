@@ -61,6 +61,13 @@
     gap: 10px;
 }
 
+.btn-large {
+
+    padding: var(--space-sm) var(--space-2xl) !important;
+    font-size: var(--font-size-lg);
+}
+
+
 .login-form .btn-primary:hover {
     background: var(--color-primary-dark);
 }
