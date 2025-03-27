@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initMobileMenu();
     initHeroChart();
     initBackToTop();
+    initCookieConsent();
 })
 
 
@@ -61,40 +62,43 @@ function initMobileMenu() {
     const menuClose = document.querySelector('.menu-close');
     const mobileMenu = document.querySelector('.mobile-menu');
     const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
-    const headerD = document.querySelector(".header");
-    const hero = document.querySelector(".hero");
-    const features = document.getElementById("features");
 
-    menuToggle.addEventListener('click', () => {
+
+    const mainContent = document.querySelectorAll('.blurM');
+    function openMenu() {
         menuToggle.classList.add('active');
         mobileMenu.classList.add('active');
         document.body.style.overflow = 'hidden';
-        headerD.style.filter = 'blur(10px)';
-        hero.style.filter = 'blur(10px)';
-        features.style.filter = 'blur(10px)';
+        mainContent.forEach(mainM => {
+            mainM.style.filter = 'blur(10px)';
+        })
+    }
 
-
-
-    });
-
-    menuClose.addEventListener('click', () => {
+    function closeMenu() {
         menuToggle.classList.remove('active');
         mobileMenu.classList.remove('active');
         document.body.style.overflow = 'auto';
-        headerD.style.filter = 'blur(0px)';
-        hero.style.filter = 'blur(0px)';
-        features.style.filter = 'blur(0px)';
-    });
+        mainContent.forEach(mainM => {
+            mainM.style.filter = 'blur(0px)';
+        })
+    }
+
+    menuToggle.addEventListener('click', openMenu);
+
+    menuClose.addEventListener('click', closeMenu);
 
     mobileNavLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            menuToggle.classList.remove('active');
-            mobileMenu.classList.remove('active');
-            document.body.style.overflow = 'auto';
-            headerD.style.filter = 'blur(0px)';
-            hero.style.filter = 'blur(0px)';
-            features.style.filter = 'blur(0px)';
-        });
+        link.addEventListener('click', closeMenu);
+    });
+
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (event) => {
+        const isClickInsideMenu = mobileMenu.contains(event.target);
+        const isClickOnToggle = menuToggle.contains(event.target);
+
+        if (mobileMenu.classList.contains('active') && !isClickInsideMenu && !isClickOnToggle) {
+            closeMenu();
+        }
     });
 }
 
@@ -180,5 +184,36 @@ function initBackToTop() {
             top: 0,
             behavior: 'smooth'
         });
+    });
+}
+
+
+// Cookie consent
+function initCookieConsent() {
+    const cookieConsent = document.getElementById('cookieConsent');
+    const acceptButton = document.getElementById('cookieAccept');
+    const rejectButton = document.getElementById('cookieReject');
+    const settingsButton = document.getElementById('cookieSettings');
+
+    const cookieChoice = localStorage.getItem('cookieChoice');
+
+    if (!cookieChoice) {
+        setTimeout(() => {
+            cookieConsent.style.display = 'block';
+        }, 3000);
+    }
+
+    acceptButton.addEventListener('click', () => {
+        localStorage.setItem('cookieChoice', 'accepted');
+        cookieConsent.style.display = 'none';
+    });
+
+    rejectButton.addEventListener('click', () => {
+        localStorage.setItem('cookieChoice', 'rejected');
+        cookieConsent.style.display = 'none';
+    });
+
+    settingsButton.addEventListener('click', () => {
+        window.location.href = 'cookies.html';
     });
 }
