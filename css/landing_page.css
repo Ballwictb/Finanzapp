@@ -1498,6 +1498,186 @@ body:hover .cursor-follower {
     gap: var(--space-sm);
 }
 
+
+
+/* About section */
+.about-section {
+    padding: var(--space-3xl) 0;
+}
+
+.about-intro {
+    max-width: 800px;
+    margin: 0 auto var(--space-3xl);
+    text-align: center;
+}
+
+.team-section,
+.values-section {
+    margin-bottom: var(--space-3xl);
+}
+
+.section-title {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--space-lg);
+    text-align: center;
+}
+
+.section-title .highlight {
+    color: var(--color-primary);
+}
+
+.section-description {
+    font-size: var(--font-size-lg);
+    line-height: 1.7;
+    margin-bottom: var(--space-lg);
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Team Grid */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-xl);
+    margin-top: var(--space-2xl);
+}
+
+.team-card {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.team-image {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.team-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-normal);
+}
+
+.team-grid .team-card:nth-of-type(3) .team-photo {
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    transition: transform var(--transition-normal);
+}
+
+.team-card:hover .team-photo {
+    transform: scale(1.05);
+}
+
+.team-info {
+    padding: var(--space-lg);
+}
+
+.team-name {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-xs);
+}
+
+.team-role {
+    color: var(--color-primary);
+    font-weight: 500;
+    margin-bottom: var(--space-md);
+}
+
+.team-bio {
+    font-size: var(--font-size-md);
+    line-height: 1.6;
+    margin-bottom: var(--space-lg);
+    color: var(--color-gray);
+}
+
+.team-social {
+    display: flex;
+    gap: var(--space-sm);
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--color-light);
+    color: var(--color-dark);
+    transition: all var(--transition-normal);
+}
+
+.social-link:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.social-link.linkedin:hover {
+    background: #0077b5;
+}
+
+.social-link.github:hover {
+    background: #333;
+}
+
+/* Values Grid */
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-xl);
+    margin-top: var(--space-2xl);
+}
+
+.value-card {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    transition: transform var(--transition-normal);
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-2xl);
+    margin: 0 auto var(--space-lg);
+}
+
+.value-title {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-md);
+}
+
+.value-description {
+    font-size: var(--font-size-md);
+    line-height: 1.6;
+    color: var(--color-gray);
+}
+
 /* media */
 
 @media only screen and (max-width: 992px) {
@@ -1562,6 +1742,14 @@ body:hover .cursor-follower {
     .contact-content {
         grid-template-columns: 1fr;
     }
+
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1609,6 +1797,14 @@ body:hover .cursor-follower {
     .cookie-content {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
     }
 }
 
