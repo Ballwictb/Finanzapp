@@ -1,35 +1,36 @@
-name: Build  #Definimos el nombre del flujo de trabajo, en este caso Build
+name: SonarCloud Analysis
 
-on:  # En la rama main es donde se desencadenara todo lo siguiente
+on:
   push:
     branches:
-      - main
-  pull_request:
-    types: [opened, synchronize, reopened]
+      - main  # O la rama que quieras analizar
 
-jobs: # aqui empieza todo lo que se hará en el YAML
-  sonarcloud:
-    name: SonarCloud
-    runs-on: ubuntu-latest  # en estas tres lineas se corre una maquina ubuntu, en su ultima versión
+jobs:
+  sonar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    env:
-      NODE_VERSION: 20  # en este caso se usa Node, en su version 20
-
-    steps:  # Aqui se definen los pasos que se llevaran a cabo 
-      - uses: actions/checkout@v4.1.1  # en este paso se clona el repositorio
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
         with:
-          fetch-depth: 0 
+          distribution: 'temurin'
+          java-version: '17'
 
-      - name: Setup Node.js
-        run: |  # en este paso la maaquina ubuntu actualiza los paquetes, instala nodejs y npm, ademas de mostrar sus versiones
-          sudo apt-get update  # Actualiza los paquetes del sistema
-          sudo apt-get install -y nodejs npm  # Instala Node.js y npm
-          node -v  # Muestra la versión de Node.js instalada
-          npm -v  # Muestra la versión de npm instalada
+      - name: Cache SonarCloud packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.sonar/cache
+          key: ${{ runner.os }}-sonar
+          restore-keys: ${{ runner.os }}-sonar
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master  # Por ultimo se realiza el escaneo, requiriendo las variables de entorno de
-        # github y sonar
+        uses: SonarSource/sonarqube-scan-action@v5.0.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} 
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          args: >
+            -Dsonar.organization=ballwictb-1
+            -Dsonar.projectKey=Ballwictb_FinanzApp
+            -Dsonar.host.url=https://sonarcloud.io
