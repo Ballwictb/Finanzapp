@@ -3,7 +3,7 @@ name: SonarCloud Analysis
 on:
   push:
     branches:
-      - main  # O la rama que quieras analizar
+      - main
 
 jobs:
   sonar:
