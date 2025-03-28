@@ -27,21 +27,21 @@ Gestiona tus finanzas personales con una plataforma intuitiva que te ayuda a vis
 
 ## 🛠️ Tecnologías Utilizadas
 
-🔹 **Backend:**  
+🔹🔧 **Backend:**  
   - **PHP** para la creación de la lógica del servidor y la gestión de peticiones de los usuarios.
   - **MySQL** como base de datos para almacenar la información de los usuarios y sus finanzas.  
 
-🔹 **Frontend:**  
+🔹🎨 **Frontend:**  
   - **React** para construir una interfaz de usuario interactiva y dinámica, con componentes reutilizables
   - **JS** para gestionar la lógica de la aplicación del lado del cliente y la manipulación de datos en tiempo real.
   - **HTML** para estructurar la aplicación y proporcionar accesibilidad y semántica a los elementos.
 
-🔹 **APIS**  
+🔹🌐 **APIS**  
   - **blabla API** para ...
   - **blabla API** para ...
   - **blabla API** para ...
 
-🔹 **Despliegue:**  
+🔹🚀 **Despliegue:**  
   - **GitHub Pages** para el despliegue del frontend.  
   - **GitHub Actions** para la automatización de despliegues y flujos de trabajo continuos.  
   - **SonarCloud** para análisis de calidad del código.
@@ -89,9 +89,10 @@ Este proyecto ha sido desarrollado por un grupo de estudiantes de desarrollo web
 
 ## 🔗 Enlaces de Interés
 
-- [Pagina oficial](https://finanzapp.es/)  
-- [Demo en GitHub Pages](https://ballwictb.github.io/FinanzApp/)  
-- [SonarCloud - Análisis del código](https://sonarcloud.io/dashboard?id=Ballwictb_FinanzApp)
+- 🌐 [Sitio oficial](https://finanzapp.es/)  
+- 🚀 [Demo en GitHub Pages](https://ballwictb.github.io/FinanzApp/)
+- 📚 [Documentación técnica](https://github.com/Ballwictb/FinanzApp/wiki)
+- ❇️ [SonarCloud - Análisis del código](https://sonarcloud.io/dashboard?id=Ballwictb_FinanzApp)
 
 ---
 
