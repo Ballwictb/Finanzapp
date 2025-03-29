@@ -62,7 +62,7 @@ Realizamos análisis de calidad del código con **SonarCloud** para garantizar u
 - **Recomendaciones para mejorar el código**
 <div align="center">
   
-### Badges de Calidad
+## Badges de Calidad
   
 [![Quality Gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Ballwictb_FinanzApp)](https://sonarcloud.io/summary/new_code?id=Ballwictb_FinanzApp)
 
@@ -76,7 +76,7 @@ Realizamos análisis de calidad del código con **SonarCloud** para garantizar u
 
 <div align="center">
 
-### 🧑‍💻 Contribuidores
+## 🧑‍💻 Contribuidores
 
 Este proyecto ha sido desarrollado por un grupo de estudiantes de desarrollo web que buscan mejorar la manera en que las personas gestionan su dinero.
 <br>
