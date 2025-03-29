@@ -87,12 +87,12 @@ Este proyecto ha sido desarrollado por un grupo de estudiantes de desarrollo web
 
 </div>
 
+<div align="center">
+  
 ## 🔗 Enlaces de Interés
 
-- 🌐 [Sitio oficial](https://finanzapp.es/)  
-- 🚀 [Demo en GitHub Pages](https://ballwictb.github.io/FinanzApp/)
-- 📚 [Documentación técnica](https://github.com/Ballwictb/FinanzApp/wiki)
-- ❇️ [SonarCloud - Análisis del código](https://sonarcloud.io/dashboard?id=Ballwictb_FinanzApp)
+| 🌐 [Sitio oficial](https://finanzapp.es/) | 🚀 [Demo en GitHub Pages](https://ballwictb.github.io/FinanzApp/) | 📚 [Documentación técnica](https://github.com/Ballwictb/FinanzApp/wiki) | ❇️ [SonarCloud - Análisis del código](https://sonarcloud.io/dashboard?id=Ballwictb_FinanzApp) |
+
+</div>
 
 ---
-
