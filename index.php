@@ -397,9 +397,9 @@
                 </svg>
             </div>
         </section>
-
         <!-- Footer -->
-        <?php include 'footer.php'; ?>
+        <?php include './includes/footer.php'; ?>
+
 
     </section>
     <!-- Cookie Consent -->
