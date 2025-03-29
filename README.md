@@ -24,8 +24,10 @@ Gestiona tus finanzas personales con una plataforma intuitiva que te ayuda a vis
 - Notificaciones y alertas personalizadas sobre tu estado financiero. 🗞️
 
 ---
-
+<div align="center">
+  
 ## 🛠️ Tecnologías Utilizadas
+</div>
 
 🔹🔧 **Backend:**  
   - **PHP** para la creación de la lógica del servidor y la gestión de peticiones de los usuarios.
@@ -47,8 +49,10 @@ Gestiona tus finanzas personales con una plataforma intuitiva que te ayuda a vis
   - **SonarCloud** para análisis de calidad del código.
 
 ---
+<div align="center">
 
 ## 📊 Análisis de Calidad del Código
+</div>
 
 Realizamos análisis de calidad del código con **SonarCloud** para garantizar un desarrollo limpio y eficiente.
 
