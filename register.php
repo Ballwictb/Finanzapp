@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE php>
+<php lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
   <!-- Header -->
   <header class="header">
     <div class="container">
-      <a href="./index.html" class="logo">
+      <a href="./index.php" class="logo">
         <div class="logo-icon">
           <i class="fas fa-dollar-sign"></i>
         </div>
@@ -33,7 +33,7 @@
             aria-label="Cómo funciona">Cómo funciona</a></li>
           <li><a href="#about" class="nav-link" data-elem="nav.testimonials" 
             aria-label="Testimonios">Sobre Nosotros</a></li>
-          <li><a href="./contact.html" class="nav-link" data-elem="nav.contact"
+          <li><a href="./contact.php" class="nav-link" data-elem="nav.contact"
             aria-label="Contacto">Contacto</a></li>
         </ul>
       </nav>
@@ -62,7 +62,7 @@
   <!-- Mobile Menu -->
   <div class="mobile-menu">
     <div class="mobile-menu-header">
-      <a href="./index.html" class="logo">
+      <a href="./index.php" class="logo">
         <div class="logo-icon">
           <i class="fas fa-dollar-sign"></i>
         </div>
@@ -78,7 +78,7 @@
         <li><a href="#features" class="mobile-nav-link" data-elem="nav.features">Características</a></li>
         <li><a href="#how-it-works" class="mobile-nav-link" data-elem="nav.howItWorks">Cómo funciona</a></li>
         <li><a href="#testimonials" class="mobile-nav-link" data-elem="nav.testimonials">Testimonios</a></li>
-        <li><a href="contact.html" class="mobile-nav-link" data-elem="nav.contact">Contacto</a></li>
+        <li><a href="contact.php" class="mobile-nav-link" data-elem="nav.contact">Contacto</a></li>
       </ul>
 
       <!-- Mobile language  -->
@@ -143,7 +143,7 @@
           </div>
         </form>
         <p class="form-note" data-elem="register.note">
-          ¿Ya tiene una cuenta? <a href="./login.html">Iniciar Sesión</a>
+          ¿Ya tiene una cuenta? <a href="./login.php">Iniciar Sesión</a>
         </p>
       </div>
     </div>
@@ -154,7 +154,7 @@
     <div class="container">
         <div class="footer-content">
             <div class="footer-brand">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <div class="logo-icon">
                         <i class="fas fa-dollar-sign"></i>
                     </div>
@@ -180,15 +180,15 @@
                     <h4 class="footer-title" data-elem="footer.company">Empresa</h4>
                     <ul class="footer-menu">
                         <li><a href="#" data-elem="footer.links.about">Sobre nosotros</a></li>
-                        <li><a href="contact.html" data-elem="footer.links.contact">Contacto</a></li>
+                        <li><a href="contact.php" data-elem="footer.links.contact">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4 class="footer-title" data-elem="footer.legal">Legal</h4>
                     <ul class="footer-menu">
-                        <li><a href="terms.html" data-elem="footer.links.terms">Términos de servicio</a></li>
-                        <li><a href="privacy.html" data-elem="footer.links.privacy">Política de privacidad</a></li>
-                        <li><a href="cookies.html" data-elem="footer.links.cookies">Cookies</a></li>
+                        <li><a href="terms.php" data-elem="footer.links.terms">Términos de servicio</a></li>
+                        <li><a href="privacy.php" data-elem="footer.links.privacy">Política de privacidad</a></li>
+                        <li><a href="cookies.php" data-elem="footer.links.cookies">Cookies</a></li>
                     </ul>
                 </div>
             </div>
@@ -218,4 +218,4 @@
     });
   </script>
 </body>
-</html>
+</php>

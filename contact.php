@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE php>
+<php lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -40,7 +40,7 @@
     <!-- Mobile Menu -->
     <div class="mobile-menu">
         <div class="mobile-menu-header">
-            <a href="./index.html" class="logo">
+            <a href="./index.php" class="logo">
                 <div class="logo-icon">
                     <i class="fas fa-dollar-sign"></i>
                 </div>
@@ -56,8 +56,8 @@
             <ul class="mobile-nav-list">
                 <li><a href="#features" class="mobile-nav-link" data-elem="nav.features">Características</a></li>
                 <li><a href="#how-it-works" class="mobile-nav-link" data-elem="nav.howItWorks">Cómo funciona</a></li>
-                <li><a href="./about.html" class="mobile-nav-link" data-elem="nav.testimonials">Sobre Nosotros</a></li>
-                <li><a href="./contact.html" class="mobile-nav-link" data-elem="nav.contact">Contacto</a></li>
+                <li><a href="./about.php" class="mobile-nav-link" data-elem="nav.testimonials">Sobre Nosotros</a></li>
+                <li><a href="./contact.php" class="mobile-nav-link" data-elem="nav.contact">Contacto</a></li>
             </ul>
 
             <!-- Mobile language  -->
@@ -71,8 +71,8 @@
             </div>
 
             <div class="mobile-nav-buttons">
-                <a href="./login.html" class="btn btn-outline" data-elem="buttons.login">Iniciar sesión</a>
-                <a href="./register.html" class="btn btn-primary" data-elem="buttons.register">Registrarse</a>
+                <a href="./login.php" class="btn btn-outline" data-elem="buttons.login">Iniciar sesión</a>
+                <a href="./register.php" class="btn btn-primary" data-elem="buttons.register">Registrarse</a>
             </div>
         </nav>
     </div>
@@ -85,7 +85,7 @@
         <!-- Header -->
         <header class="header scrolled">
             <div class="container">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <div class="logo-icon">
                         <i class="fas fa-dollar-sign"></i>
                     </div>
@@ -95,15 +95,15 @@
                 <!-- nav -->
                 <nav class="main-nav" aria-label="menu">
                     <ul class="nav-list">
-                        <li><a href="./index.html#features" class="nav-link" data-elem="nav.features"
+                        <li><a href="./index.php#features" class="nav-link" data-elem="nav.features"
                                 aria-label="Características">Características</a></li>
-                        <li><a href="./index.html#how-it-works" class="nav-link" data-elem="nav.howItWorks"
+                        <li><a href="./index.php#how-it-works" class="nav-link" data-elem="nav.howItWorks"
                                 aria-label="Cómo funciona">Cómo
                                 funciona</a></li>
-                        <li><a href="./about.html" class="nav-link" data-elem="nav.testimonials"
+                        <li><a href="./about.php" class="nav-link" data-elem="nav.testimonials"
                                 aria-label="sobre nosotros">Sobre
                                 Nosotros</a></li>
-                        <li><a href="./contact.html" class="nav-link" data-elem="nav.contact"
+                        <li><a href="./contact.php" class="nav-link" data-elem="nav.contact"
                                 aria-label="Contacto">Contacto</a></li>
                     </ul>
                 </nav>
@@ -122,8 +122,8 @@
                         </div>
                     </div>
 
-                    <a href="./login.html" class="btn btn-outline" data-elem="buttons.login">Iniciar sesión</a>
-                    <a href="./register.html" class="btn btn-primary" data-elem="buttons.register">Registrarse</a>
+                    <a href="./login.php" class="btn btn-outline" data-elem="buttons.login">Iniciar sesión</a>
+                    <a href="./register.php" class="btn btn-primary" data-elem="buttons.register">Registrarse</a>
                 </div>
 
                 <button class="menu-toggle" aria-label="Menú">
@@ -205,7 +205,7 @@
                             <div class="form-group checkbox-group">
                                 <input type="checkbox" id="privacy" name="privacy" required>
                                 <label for="privacy" data-elem="contact.form.privacy">He leído y acepto la <a
-                                        href="./privacy.html">política de privacidad</a>.</label>
+                                        href="./privacy.php">política de privacidad</a>.</label>
                             </div>
 
                             <button type="submit" class="btn btn-primary btn-block"
@@ -232,7 +232,7 @@
             <div class="container">
                 <div class="footer-content">
                     <div class="footer-brand">
-                        <a href="index.html" class="logo">
+                        <a href="index.php" class="logo">
                             <div class="logo-icon">
                                 <i class="fas fa-dollar-sign"></i>
                             </div>
@@ -260,16 +260,16 @@
                             <h4 class="footer-title" data-elem="footer.company">Empresa</h4>
                             <ul class="footer-menu">
                                 <li><a href="#" data-elem="footer.links.about">Sobre nosotros</a></li>
-                                <li><a href="./contact.html" data-elem="footer.links.contact">Contacto</a></li>
+                                <li><a href="./contact.php" data-elem="footer.links.contact">Contacto</a></li>
                             </ul>
                         </div>
                         <div class="footer-column">
                             <h4 class="footer-title" data-elem="footer.legal">Legal</h4>
                             <ul class="footer-menu">
-                                <li><a href="./terms.html" data-elem="footer.links.terms">Términos de servicio</a></li>
-                                <li><a href="./privacy.html" data-elem="footer.links.privacy">Política de privacidad</a>
+                                <li><a href="./terms.php" data-elem="footer.links.terms">Términos de servicio</a></li>
+                                <li><a href="./privacy.php" data-elem="footer.links.privacy">Política de privacidad</a>
                                 </li>
-                                <li><a href="./cookies.html" data-elem="footer.links.cookies">Cookies</a></li>
+                                <li><a href="./cookies.php" data-elem="footer.links.cookies">Cookies</a></li>
                             </ul>
                         </div>
                     </div>
@@ -286,7 +286,7 @@
         <div class="cookie-content">
             <h3 data-elem="cookies.title">Uso de cookies</h3>
             <p data-elem="cookies.description">Este sitio web utiliza cookies para mejorar su experiencia. Al continuar
-                navegando, acepta nuestra <a href="cookies.html" data-elem="cookies.link">política de cookies</a>.</p>
+                navegando, acepta nuestra <a href="cookies.php" data-elem="cookies.link">política de cookies</a>.</p>
             <div class="cookie-buttons">
                 <button id="cookieAccept" class="btn btn-primary" data-elem="cookies.accept">Aceptar</button>
                 <button id="cookieReject" class="btn btn-outline" data-elem="cookies.reject">Rechazar</button>
@@ -307,4 +307,4 @@
     <script src="./js/landing_page.js"></script>
 </body>
 
-</html>
+</php>
