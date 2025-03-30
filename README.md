@@ -7,6 +7,8 @@
 
 Gestiona tus finanzas personales con una plataforma intuitiva que te ayuda a visualizar, planificar y optimizar tu dinero.
 
+[JIRA](https://finanzapp-team.atlassian.net/jira/software/projects/MFLP/boards/1)
+
 ---
 
 ## 🌟 Características
