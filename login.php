@@ -27,11 +27,14 @@
 	</head>
 
 	<body>
+		<!-- Mobile Menu -->
+		<?php include "./includes/mobileMenu.php"; ?>
+
+		<section class="blurM">
+
 		<!-- Header -->
 		<?php include "./includes/header.php"; ?>
 
-		<!-- Mobile Menu -->
-		<?php include "./includes/mobileMenu.php"; ?>
 
 		<main class="auth login">
 			<div class="container">
@@ -59,6 +62,8 @@
 
 		<!-- Footer -->
 		<?php include './includes/footer.php'; ?>
+		
+	</section>
 
 		<!-- Scripts -->
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

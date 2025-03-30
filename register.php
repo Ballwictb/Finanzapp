@@ -24,11 +24,14 @@
 	</head>
 
 	<body>
+		<!-- Mobile Menu -->
+		<?php include "./includes/mobileMenu.php"; ?>
+		
+		<section class="blurM">
+
 		<!-- Header -->
 		<?php include "./includes/header.php"; ?>
 
-		<!-- Mobile Menu -->
-		<?php include "./includes/mobileMenu.php"; ?>
 
 		<!-- Main register section with additional top margin for spacing -->
 		<main class="auth">
@@ -85,6 +88,8 @@
 		<!-- Footer -->
 		<?php include './includes/footer.php'; ?>
 		
+		</section>
+
 		<!-- Scripts -->
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 		<script src="./js/landing_page.js"></script>
