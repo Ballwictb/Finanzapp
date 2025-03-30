@@ -1,5 +1,5 @@
-<!DOCTYPE php>
-<php lang="es">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -345,4 +345,4 @@
     </script>
 </body>
 
-</php>
+</html>

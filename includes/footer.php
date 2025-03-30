@@ -12,8 +12,8 @@
                     financiera inteligente y efectiva. Proyecto desarrollado como Trabajo Fin de Grado en la
                     Arboleda.</p>
                 <div class="social-links">
-                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social-link"><i class="fa-light fa-globe-pointer"></i></a>
+                    <a href="https://github.com/Ballwictb/FinanzApp" target="_blank" class="social-link" aria-label="github"><i class="fab fa-github"></i></a>
+                    <a href="https://finanzapp.es" class="social-link" target="_blank" aria-label="pagina web"><i class="fa-light fa-globe-pointer"></i></a>
                 </div>
             </div>
             <div class="footer-links">
