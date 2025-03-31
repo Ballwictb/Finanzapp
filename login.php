@@ -67,8 +67,8 @@
 
 		<!-- Scripts -->
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-		<script src="./js/landing_page.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"></script>
+		<script src="./js/landing_page.js"></script>
 		<script src="./js/validation.js"></script>
 
 	</body>
