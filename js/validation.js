@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Get the forms (only one will be available)
     const loginForm = document.getElementById("loginForm");
     const registerForm = document.getElementById("registerForm");
+    const contactForm = document.getElementById("contactForm");
 
     // Initialize Notyf if it's available
     let notyf;
@@ -98,8 +99,40 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             if (valid) {
-                notyf.success("Inicio de sesión exitoso.");
+                notyf.success("Registro exitoso.");
                 registerForm.submit();
+            }
+        });
+    }
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+            let valid = true;
+
+            const emailElem = document.getElementById("email");
+            const emailValue = emailElem.value.trim();
+            
+            const privacyCheckbox = document.getElementById('privacy');
+
+            // Remove error classes in each previous validation
+            emailElem.classList.remove('error-input');
+
+            // Validate email
+            if (!validateEmail(emailValue)) {
+                notyf.error("Introduce un email válido.");
+                emailElem.classList.add('error-input');
+                valid = false;
+            }
+
+            if (!privacyCheckbox.checked) {
+                notyf.error("Debe aceptar la política de privacidad.");
+                valid = false;
+            }
+
+            if (valid) {
+                notyf.success("Mensaje enviado correctamente.");
+                contactForm.submit();
             }
         });
     }
