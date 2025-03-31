@@ -57,4 +57,4 @@
     </div>
 </header>
 
-<script src="./script.js"></script>
+<script src="./js/translations.js"></script>
