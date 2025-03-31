@@ -1,34 +1,31 @@
+<?php include "./config.php"; ?>
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="<?php echo $lang; ?>">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinanzApp</title>
+    <title><?php echo $translations['meta']['title']; ?></title>
 
     <!-- meta -->
-    <meta name="description"
-        content="Gestiona tus finanzas personales con una plataforma que te ayuda a visualizar, planificar y optimizar tu dinero de forma intuitiva." />
+    <meta name="description" content="<?php echo $translations['meta']['description']; ?>" />
 
     <!-- og -->
-    <meta name="og:title" content="FinanzApp" />
-    <meta name="og:description"
-        content="Gestiona tus finanzas personales con una plataforma que te ayuda a visualizar, planificar y optimizar tu dinero de forma intuitiva." />
+    <meta name="og:title" content="<?php echo $translations['meta']['title']; ?>" />
+    <meta name="og:description" content="<?php echo $translations['meta']['description']; ?>" />
     <meta name="og:image" content="http://tny.im/goh" />
     <meta name="og:email" content="me@example.com" />
 
     <!-- twitter -->
-    <meta property="twitter:title" content="FinanzApp">
-    <meta property="twitter:description"
-        content="Gestiona tus finanzas personales con una plataforma que te ayuda a visualizar, planificar y optimizar tu dinero de forma intuitiva.">
+    <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
+    <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
     <meta property="twitter:image" content="#">
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Icons -->
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
     <!-- Logo -->
     <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
     <!-- Custom CSS -->
@@ -36,16 +33,13 @@
     <link rel="stylesheet" href="./css/scrollbar.css">
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
 </head>
 
 <body>
     <!-- Mobile Menu -->
     <?php include "./includes/mobileMenu.php"; ?>
 
-    <!-- Styles cursor add -->
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
+
     <!-- Loader -->
     <div class="loader">
         <div class="loader-content">
@@ -59,18 +53,11 @@
                 </svg>
             </div>
             <div class="loader-text">
-                <span>F</span>
-                <span>i</span>
-                <span>n</span>
-                <span>a</span>
-                <span>n</span>
-                <span>z</span>
-                <span>A</span>
-                <span>p</span>
-                <span>p</span>
+                <?php echo $translations['loader']['text']; ?>
             </div>
         </div>
     </div>
+
     <section class="blurM">
         <!-- Header -->
         <?php include "./includes/header.php"; ?>
@@ -80,20 +67,16 @@
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-text">
-                        <div class="badge" data-elem="hero.badge">TFG La Arboleda</div>
-                        <h1 class="hero-title" data-elem="hero.title">Control financiero <span class="text-gradient"
-                                data-elem="hero.titleHighlight">inteligente</span></h1>
-                        <p class="hero-description" data-elem="hero.description">Gestiona tus finanzas personales con
-                            una
-                            plataforma que te ayuda a visualizar, planificar y optimizar tu dinero de forma intuitiva.
-                        </p>
+                        <div class="badge" data-elem="hero.badge"><?php echo $translations['hero']['badge']; ?></div>
+                        <h1 class="hero-title" data-elem="hero.title"><?php echo $translations['hero']['title']; ?> <span class="text-gradient" data-elem="hero.titleHighlight"><?php echo $translations['hero']['titleHighlight']; ?></span></h1>
+                        <p class="hero-description" data-elem="hero.description"><?php echo $translations['hero']['description']; ?></p>
                         <div class="hero-cta">
-                            <a href="#" class="btn btn-primary btn-large" data-elem="hero.cta.primary">Comenzar</a>
+                            <a href="#" class="btn btn-primary btn-large" data-elem="hero.cta.primary"><?php echo $translations['hero']['cta']['primary']; ?></a>
                             <a href="#demo" class="btn btn-play">
                                 <div class="play-icon">
                                     <i class="fas fa-play"></i>
                                 </div>
-                                <span data-elem="hero.cta.secondary">Ver video</span>
+                                <span data-elem="hero.cta.secondary"><?php echo $translations['hero']['cta']['secondary']; ?></span>
                             </a>
                         </div>
                         <!-- Posible hero stats -->
@@ -117,7 +100,7 @@
                                             <i class="fas fa-arrow-up"></i>
                                         </div>
                                         <div class="stat-card-info">
-                                            <div class="stat-card-label" data-elem="dashboard.income">Ingresos</div>
+                                            <div class="stat-card-label" data-elem="dashboard.income"><?php echo $translations['dashboard']['income']; ?></div>
                                             <div class="stat-card-value">2.540€</div>
                                         </div>
                                     </div>
@@ -126,7 +109,7 @@
                                             <i class="fas fa-arrow-down"></i>
                                         </div>
                                         <div class="stat-card-info">
-                                            <div class="stat-card-label" data-elem="dashboard.expenses">Gastos</div>
+                                            <div class="stat-card-label" data-elem="dashboard.expenses"><?php echo $translations['dashboard']['expenses']; ?></div>
                                             <div class="stat-card-value">1.825€</div>
                                         </div>
                                     </div>
@@ -155,70 +138,57 @@
                     </path>
                 </svg>
             </div>
-
         </section>
-
-
 
         <!-- Features Section -->
         <section id="features" class="features">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title" data-elem="features.title">Características <span class="text-gradient"
-                            data-elem="features.titleHighlight">principales</span></h2>
-                    <p class="section-description" data-elem="features.description">Descubre cómo FinanzApp puede
-                        transformar tu gestión financiera</p>
+                    <h2 class="section-title" data-elem="features.title"><?php echo $translations['features']['title']; ?> <span class="text-gradient" data-elem="features.titleHighlight"><?php echo $translations['features']['titleHighlight']; ?></span></h2>
+                    <p class="section-description" data-elem="features.description"><?php echo $translations['features']['description']; ?></p>
                 </div>
                 <div class="features-grid">
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
                         <div class="feature-icon blue">
                             <i class="fas fa-chart-pie"></i>
                         </div>
-                        <h3 class="feature-title" data-elem="features.cards.analysis.title">Análisis inteligente</h3>
-                        <p class="feature-description" data-elem="features.cards.analysis.description">Visualiza tus
-                            patrones de gasto con gráficos interactivos y descubre oportunidades de ahorro.</p>
+                        <h3 class="feature-title" data-elem="features.cards.analysis.title"><?php echo $translations['features']['cards']['analysis']['title']; ?></h3>
+                        <p class="feature-description" data-elem="features.cards.analysis.description"><?php echo $translations['features']['cards']['analysis']['description']; ?></p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
                         <div class="feature-icon red">
                             <i class="fas fa-wallet"></i>
                         </div>
-                        <h3 class="feature-title" data-elem="features.cards.budgets.title">Presupuestos dinámicos</h3>
-                        <p class="feature-description" data-elem="features.cards.budgets.description">Crea presupuestos
-                            personalizados que se adaptan a tus hábitos y te alertan cuando te desvías.</p>
+                        <h3 class="feature-title" data-elem="features.cards.budgets.title"><?php echo $translations['features']['cards']['budgets']['title']; ?></h3>
+                        <p class="feature-description" data-elem="features.cards.budgets.description"><?php echo $translations['features']['cards']['budgets']['description']; ?></p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
                         <div class="feature-icon blue">
                             <i class="fas fa-bullseye"></i>
                         </div>
-                        <h3 class="feature-title" data-elem="features.cards.goals.title">Objetivos financieros</h3>
-                        <p class="feature-description" data-elem="features.cards.goals.description">Establece metas de
-                            ahorro y visualiza tu progreso con indicadores claros y motivadores.</p>
+                        <h3 class="feature-title" data-elem="features.cards.goals.title"><?php echo $translations['features']['cards']['goals']['title']; ?></h3>
+                        <p class="feature-description" data-elem="features.cards.goals.description"><?php echo $translations['features']['cards']['goals']['description']; ?></p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
                         <div class="feature-icon red">
                             <i class="fas fa-bell"></i>
                         </div>
-                        <h3 class="feature-title" data-elem="features.cards.alerts.title">Noticias personalizadas</h3>
-                        <p class="feature-description" data-elem="features.cards.alerts.description">Recibe
-                            notificaciones
-                            sobre actualizaciones de la app.</p>
+                        <h3 class="feature-title" data-elem="features.cards.alerts.title"><?php echo $translations['features']['cards']['alerts']['title']; ?></h3>
+                        <p class="feature-description" data-elem="features.cards.alerts.description"><?php echo $translations['features']['cards']['alerts']['description']; ?></p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
                         <div class="feature-icon blue">
                             <i class="fas fa-lock"></i>
                         </div>
-                        <h3 class="feature-title" data-elem="features.cards.security.title">Seguridad avanzada</h3>
-                        <p class="feature-description" data-elem="features.cards.security.description">Tus datos están
-                            protegidos con encriptación.</p>
+                        <h3 class="feature-title" data-elem="features.cards.security.title"><?php echo $translations['features']['cards']['security']['title']; ?></h3>
+                        <p class="feature-description" data-elem="features.cards.security.description"><?php echo $translations['features']['cards']['security']['description']; ?></p>
                     </div>
                     <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
                         <div class="feature-icon red">
                             <i class="fas fa-mobile-alt"></i>
                         </div>
-                        <h3 class="feature-title" data-elem="features.cards.access.title">Acceso multiplataforma</h3>
-                        <p class="feature-description" data-elem="features.cards.access.description">Gestiona tus
-                            finanzas
-                            desde cualquier dispositivo.</p>
+                        <h3 class="feature-title" data-elem="features.cards.access.title"><?php echo $translations['features']['cards']['access']['title']; ?></h3>
+                        <p class="feature-description" data-elem="features.cards.access.description"><?php echo $translations['features']['cards']['access']['description']; ?></p>
                     </div>
                 </div>
             </div>
@@ -228,21 +198,15 @@
         <section id="how-it-works" class="how-it-works">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title" data-elem="howItWorks.title">Cómo <span class="text-gradient"
-                            data-elem="howItWorks.titleHighlight">funciona</span></h2>
-                    <p class="section-description" data-elem="howItWorks.description">Comienza a gestionar tus finanzas
-                        en
-                        tres simples pasos</p>
+                    <h2 class="section-title" data-elem="howItWorks.title"><?php echo $translations['howItWorks']['title']; ?> <span class="text-gradient" data-elem="howItWorks.titleHighlight"><?php echo $translations['howItWorks']['titleHighlight']; ?></span></h2>
+                    <p class="section-description" data-elem="howItWorks.description"><?php echo $translations['howItWorks']['description']; ?></p>
                 </div>
                 <div class="steps">
                     <div class="step" data-aos="fade-right">
                         <div class="step-number">01</div>
                         <div class="step-content">
-                            <h3 class="step-title" data-elem="howItWorks.steps.connect.title">Registrate</h3>
-                            <p class="step-description" data-elem="howItWorks.steps.connect.description">Create una
-                                cuenta
-                                para poder disfrutar de la app.
-                            </p>
+                            <h3 class="step-title" data-elem="howItWorks.steps.connect.title"><?php echo $translations['howItWorks']['steps']['connect']['title']; ?></h3>
+                            <p class="step-description" data-elem="howItWorks.steps.connect.description"><?php echo $translations['howItWorks']['steps']['connect']['description']; ?></p>
                         </div>
                         <div class="step-image">
                             <img src="https://via.placeholder.com/400x300" alt="Registrate" class="step-img">
@@ -251,27 +215,18 @@
                     <div class="step reverse" data-aos="fade-left">
                         <div class="step-number">02</div>
                         <div class="step-content">
-                            <h3 class="step-title" data-elem="howItWorks.steps.customize.title">Personaliza tu
-                                experiencia
-                            </h3>
-                            <p class="step-description" data-elem="howItWorks.steps.customize.description">Configura
-                                categorías, presupuestos y objetivos adaptados a tus necesidades financieras
-                                específicas.
-                            </p>
+                            <h3 class="step-title" data-elem="howItWorks.steps.customize.title"><?php echo $translations['howItWorks']['steps']['customize']['title']; ?></h3>
+                            <p class="step-description" data-elem="howItWorks.steps.customize.description"><?php echo $translations['howItWorks']['steps']['customize']['description']; ?></p>
                         </div>
                         <div class="step-image">
-                            <img src="https://via.placeholder.com/400x300" alt="Personaliza tu experiencia"
-                                class="step-img">
+                            <img src="https://via.placeholder.com/400x300" alt="Personaliza tu experiencia" class="step-img">
                         </div>
                     </div>
                     <div class="step" data-aos="fade-right">
                         <div class="step-number">03</div>
                         <div class="step-content">
-                            <h3 class="step-title" data-elem="howItWorks.steps.optimize.title">Optimiza tus finanzas
-                            </h3>
-                            <p class="step-description" data-elem="howItWorks.steps.optimize.description">Analiza
-                                resumenes
-                                y graficas para mejorar tu salud financiera.</p>
+                            <h3 class="step-title" data-elem="howItWorks.steps.optimize.title"><?php echo $translations['howItWorks']['steps']['optimize']['title']; ?></h3>
+                            <p class="step-description" data-elem="howItWorks.steps.optimize.description"><?php echo $translations['howItWorks']['steps']['optimize']['description']; ?></p>
                         </div>
                         <div class="step-image">
                             <img src="https://via.placeholder.com/400x300" alt="Optimiza tus finanzas" class="step-img">
@@ -285,19 +240,13 @@
         <section class="cta">
             <div class="container">
                 <div class="cta-content">
-                    <h2 class="cta-title" data-elem="cta.title">¿Listo para transformar tus <span class="text-gradient"
-                            data-elem="cta.titleHighlight">finanzas</span>?</h2>
-                    <p class="cta-description" data-elem="cta.description">Únete a miles de personas que ya están
-                        mejorando
-                        su salud financiera con FinanzApp.</p>
+                    <h2 class="cta-title" data-elem="cta.title"><?php echo $translations['cta']['title']; ?> <span class="text-gradient" data-elem="cta.titleHighlight"><?php echo $translations['cta']['titleHighlight']; ?></span></h2>
+                    <p class="cta-description" data-elem="cta.description"><?php echo $translations['cta']['description']; ?></p>
                     <div class="cta-buttons">
-                        <a href="./register.php" class="btn btn-primary btn-large"
-                            data-elem="cta.buttons.primary">Comenzar
-                            gratis</a>
-                        <a href="#" class="btn btn-outline btn-large" data-elem="cta.buttons.secondary">Ver video</a>
+                        <a href="./register.php" class="btn btn-primary btn-large" data-elem="cta.buttons.primary"><?php echo $translations['cta']['buttons']['primary']; ?></a>
+                        <a href="#" class="btn btn-outline btn-large" data-elem="cta.buttons.secondary"><?php echo $translations['cta']['buttons']['secondary']; ?></a>
                     </div>
-                    <p class="cta-note" data-elem="cta.note">App totalmente gratuita.
-                    </p>
+                    <p class="cta-note" data-elem="cta.note"><?php echo $translations['cta']['note']; ?></p>
                 </div>
             </div>
             <div class="cta-shape">
@@ -308,6 +257,7 @@
                 </svg>
             </div>
         </section>
+
         <!-- Footer -->
         <?php include './includes/footer.php'; ?>
 
@@ -316,16 +266,16 @@
     <!-- Cookie Consent -->
     <div class="cookie-consent" id="cookieConsent">
         <div class="cookie-content">
-            <h3 data-elem="cookies.title">Uso de cookies</h3>
-            <p data-elem="cookies.description">Este sitio web utiliza cookies para mejorar su experiencia. Al continuar
-                navegando, acepta nuestra <a href="./cookies.php" data-elem="cookies.link">política de cookies</a>.</p>
+            <h3 data-elem="cookies.title"><?php echo $translations['cookies']['title']; ?></h3>
+            <p data-elem="cookies.description"><?php echo $translations['cookies']['description']; ?> <a href="./cookies.php" data-elem="cookies.link"><?php echo $translations['cookies']['link']; ?></a>.</p>
             <div class="cookie-buttons">
-                <button id="cookieAccept" class="btn btn-primary" data-elem="cookies.accept">Aceptar</button>
-                <button id="cookieReject" class="btn btn-outline" data-elem="cookies.reject">Rechazar</button>
-                <button id="cookieSettings" class="btn btn-link" data-elem="cookies.settings">Configurar</button>
+                <button id="cookieAccept" class="btn btn-primary" data-elem="cookies.accept"><?php echo $translations['cookies']['accept']; ?></button>
+                <button id="cookieReject" class="btn btn-outline" data-elem="cookies.reject"><?php echo $translations['cookies']['reject']; ?></button>
+                <button id="cookieSettings" class="btn btn-link" data-elem="cookies.settings"><?php echo $translations['cookies']['settings']; ?></button>
             </div>
         </div>
     </div>
+
 
     <!-- Back to Top Button -->
     <button id="backToTop" class="back-to-top">

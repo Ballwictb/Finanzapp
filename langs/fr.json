@@ -1,0 +1,234 @@
+{
+    "meta": {
+        "title": "FinanzApp",
+        "description": "Gérez vos finances personnelles avec une plateforme qui vous aide à visualiser, planifier et optimiser votre argent de manière intuitive.",
+        "keywords": "finances, gestion financière, FinanzApp, argent, économie",
+        "author": "Équipe FinanzApp"
+    },
+    "selector": {
+        "es": "Espagnol",
+        "en": "Anglais",
+        "fr": "Français"
+    },
+    "loader": {
+        "text": "Chargement de FinanzApp..."
+    },
+    "hero": {
+        "badge": "TFG La Arboleda",
+        "title": "Contrôle financier",
+        "titleHighlight": "intelligent",
+        "description": "Gérez vos finances personnelles avec une plateforme qui vous aide à visualiser, planifier et optimiser votre argent de manière intuitive.",
+        "cta": {
+            "primary": "Commencer",
+            "secondary": "Voir la vidéo"
+        }
+    },
+    "dashboard": {
+        "income": "Revenus",
+        "expenses": "Dépenses"
+    },
+    "features": {
+        "title": "Nos",
+        "titleHighlight": "fonctionnalités",
+        "description": "Découvrez tout ce que FinanzApp peut faire pour vos finances personnelles",
+        "cards": {
+            "analysis": {
+                "title": "Analyse détaillée",
+                "description": "Visualisez vos revenus et dépenses avec des graphiques interactifs et des catégories personnalisables."
+            },
+            "budgets": {
+                "title": "Budgets",
+                "description": "Créez et gérez des budgets pour garder le contrôle de vos finances."
+            },
+            "goals": {
+                "title": "Objectifs",
+                "description": "Définissez des objectifs financiers et suivez votre progression."
+            },
+            "alerts": {
+                "title": "Alertes",
+                "description": "Recevez des notifications lorsque vous approchez vos limites de dépenses."
+            },
+            "security": {
+                "title": "Sécurité",
+                "description": "Vos données sont protégées par un chiffrement de pointe."
+            },
+            "access": {
+                "title": "Accès multiplateforme",
+                "description": "Disponible sur web et mobile pour gérer vos finances partout."
+            }
+        }
+    },
+    "howItWorks": {
+        "title": "Comment",
+        "titleHighlight": "ça marche",
+        "description": "Commencez à gérer vos finances en trois étapes simples",
+        "steps": {
+            "connect": {
+                "title": "Inscrivez-vous",
+                "description": "Créez un compte pour profiter de l'application."
+            },
+            "customize": {
+                "title": "Personnalisez votre expérience",
+                "description": "Configurez des catégories, budgets et objectifs adaptés à vos besoins financiers."
+            },
+            "optimize": {
+                "title": "Optimisez vos finances",
+                "description": "Analysez des résumés et graphiques pour améliorer votre santé financière."
+            }
+        }
+    },
+    "cta": {
+        "title": "Prêt à transformer vos",
+        "titleHighlight": "finances",
+        "description": "Rejoignez des milliers de personnes qui améliorent déjà leur santé financière avec FinanzApp.",
+        "buttons": {
+            "primary": "Commencer gratuitement",
+            "secondary": "Voir la vidéo"
+        },
+        "note": "Application entièrement gratuite."
+    },
+    "cookies": {
+        "title": "Utilisation des cookies",
+        "description": "Ce site utilise des cookies pour améliorer votre expérience. En continuant, vous acceptez notre",
+        "link": "politique des cookies",
+        "accept": "Accepter",
+        "reject": "Refuser",
+        "settings": "Paramètres"
+    },
+    "auth": {
+        "login": {
+            "title": "Connexion",
+            "email_label": "Email",
+            "email_placeholder": "finanzapp@gmail.com",
+            "password_label": "Mot de passe",
+            "password_placeholder": "1J#4_6*8",
+            "submit": "Se connecter",
+            "no_account": "Pas de compte ?",
+            "register": "S'inscrire"
+        },
+        "register": {
+            "title": "Créer un compte",
+            "fullname": "Nom complet",
+            "fullname_placeholder": "Warren Buffett",
+            "email": "Email",
+            "email_placeholder": "finanzapp@gmail.fr",
+            "password": "Mot de passe",
+            "confirmPassword": "Confirmez le mot de passe",
+            "terms": "J'accepte les <a href='#'>conditions générales</a>",
+            "notifications": "Je confirme recevoir des notifications par email",
+            "submit": "S'inscrire",
+            "note": "Vous avez déjà un compte ?",
+            "login": "Se connecter"
+        },
+        "meta": {
+            "register_description": "Inscrivez-vous à FinanzApp, votre outil pour gérer vos finances personnelles efficacement."
+        }
+    },
+    "brand": "FinanzApp",
+    "nav": {
+        "features": "Fonctionnalités",
+        "howItWorks": "Fonctionnement",
+        "about": "À propos",
+        "contact": "Contact"
+    },
+    "buttons": {
+        "login": "Connexion",
+        "register": "S'inscrire"
+    },
+    "footer": {
+        "description": "Votre outil pour une gestion financière intelligente et efficace. Projet développé comme Travail de Fin d'Études à La Arboleda.",
+        "product": "Produit",
+        "company": "Entreprise",
+        "legal": "Légal",
+        "links": {
+            "features": "Fonctionnalités",
+            "howItWorks": "Fonctionnement",
+            "about": "À propos",
+            "contact": "Contact",
+            "terms": "Conditions d'utilisation",
+            "privacy": "Politique de confidentialité",
+            "cookies": "Cookies"
+        },
+        "copyright": "© 2025 FinanzApp"
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "Nous sommes là pour vous aider. Contactez-nous.",
+        "infoTitle": "Informations de contact",
+        "infoText": "Si vous avez des questions ou besoin d'aide, n'hésitez pas à nous contacter.",
+        "email": "Email",
+        "social": "Suivez-nous sur les réseaux sociaux",
+        "formTitle": "Envoyez-nous un message",
+        "form": {
+            "name": "Nom",
+            "email": "Email",
+            "subject": "Sujet",
+            "message": "Message",
+            "privacy": "J'ai lu et j'accepte la <a href='./privacy.php'>politique de confidentialité</a>.",
+            "submit": "Envoyer le message",
+            "successTitle": "Message envoyé!",
+            "successMessage": "Merci de nous avoir contactés. Nous vous répondrons dès que possible."
+        },
+        "meta": {
+            "title": "Contact | FinanzApp",
+            "description": "Contactez-nous pour toute question sur FinanzApp, votre outil de gestion financière personnelle."
+        }
+    },
+    "about": {
+        "title": "À propos",
+        "description": "Découvrez l'équipe derrière <strong>FinanzApp</strong>",
+        "intro": {
+            "title": "Notre <span class='highlight'>mission</span>",
+            "description": "Chez FinanzApp, nous croyons que tout le monde mérite de contrôler ses finances personnelles. Notre mission est de fournir des outils intuitifs et accessibles qui aident les gens à prendre des décisions financières éclairées et à atteindre leurs objectifs économiques.",
+            "vision": "Développé comme Projet de Fin d'Études au centre IES La Arboleda 🌳, FinanzApp naît de la passion pour combiner technologie et finances afin de créer des solutions qui impactent positivement la vie quotidienne des gens."
+        },
+        "team": {
+            "title": "Notre <span class='highlight'>équipe</span>",
+            "description": "Nous sommes une équipe d'étudiants en <strong>développement web</strong> passionnés par la technologie.",
+            "roles": {
+                "developer": "Développeur web",
+                "student": "Étudiant en 2ème année de DAW"
+            },
+            "bios": {
+                "israel": "Spécialisé en développement web et administrateur systèmes. Actuellement en stage chez NTT DATA.",
+                "roberto": "Étudiant en 2ème année de DAW. Actuellement en stage chez NTT DATA.",
+                "jamal": "Développeur d'Applications Web, avec une expérience autodidacte. J'ai également de l'expérience et des connaissances en administration de systèmes et réseaux, ainsi qu'en support informatique hardware et software."
+            }
+        },
+        "values": {
+            "title": "Nos <span class='highlight'>valeurs</span>",
+            "privacy": {
+                "title": "Confidentialité",
+                "description": "Vos informations financières vous appartiennent. Nous mettons en place des mesures de sécurité et ne partageons jamais vos données avec des tiers."
+            },
+            "accessibility": {
+                "title": "Accessibilité",
+                "description": "Nous croyons que les outils financiers doivent être accessibles à tous, quels que soient leurs connaissances techniques."
+            },
+            "innovation": {
+                "title": "Innovation",
+                "description": "Nous cherchons constamment de nouvelles façons d'améliorer nos outils et d'offrir des solutions innovantes aux problèmes financiers du quotidien."
+            },
+            "transparency": {
+                "title": "Transparence",
+                "description": "Nous sommes clairs sur le fonctionnement de nos outils et sur la façon dont nous utilisons les informations. Pas de surprises ni de petits caractères."
+            }
+        },
+        "cta": {
+            "title": "Vous avez des questions ?",
+            "description": "Nous sommes toujours prêts à vous aider, n'hésitez pas à nous contacter, nous serions ravis de vous aider !",
+            "button": "Contactez-nous"
+        },
+        "meta": {
+            "title": "À propos | FinanzApp",
+            "description": "Découvrez l'équipe et les valeurs derrière FinanzApp, votre outil de gestion financière personnelle."
+        }
+    },
+    "aria": {
+        "closeMenu": "Fermer le menu",
+        "mobileMenu": "menu mobile"
+    },
+    "language": {
+        "select": "Choisir la langue"
+    }
+}

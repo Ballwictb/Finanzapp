@@ -1,75 +1,78 @@
+<?php include "./config.php"; ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Inicia sesión en FinanzApp, tu herramienta para gestionar tus finanzas personales de forma eficiente.">
-		<meta name="keywords" content="finanzas, gestión financiera, FinanzApp, dinero, ahorro">
-		<meta name="author" content="FinanzApp Team">
-		<title>Inicio Sesión - FinanzApp</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<?= $translations['meta']['description'] ?>">
+    <meta name="keywords" content="<?= $translations['meta']['keywords'] ?>">
+    <meta name="author" content="<?= $translations['meta']['author'] ?>">
+    <title><?= $translations['auth']['login']['title'] ?> - <?= $translations['brand'] ?></title>
 
-		<!-- Fonts and icons -->
-		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
+    <!-- Fonts and icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
 
-		<!-- General styles -->
-		<link rel="stylesheet" href="./css/landing_page.css">
-		
-		<!-- Specific styles for the register page -->
-		<link rel="stylesheet" href="./css/auth.css">
+    <!-- General styles -->
+    <link rel="stylesheet" href="./css/landing_page.css">
+    
+    <!-- Specific styles for the register page -->
+    <link rel="stylesheet" href="./css/auth.css">
 
-		<!-- Notyf  -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css">
+    <!-- Notyf  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css">
 
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
-	</head>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+</head>
 
-	<body>
-		<!-- Mobile Menu -->
-		<?php include "./includes/mobileMenu.php"; ?>
+<body>
+    <!-- Mobile Menu -->
+    <?php include "./includes/mobileMenu.php"; ?>
 
-		<section class="blurM">
+    <section class="blurM">
 
-		<!-- Header -->
-		<?php include "./includes/header.php"; ?>
+        <!-- Header -->
+        <?php include "./includes/header.php"; ?>
 
+        <main class="auth login">
+            <div class="container">
+                <div class="auth-form">
+                    <h2><?= $translations['auth']['login']['title'] ?></h2>
+                    <form id="loginForm" action="#" method="post">
+                        <div class="form-group">
+                            <label for="email"><?= $translations['auth']['login']['email_label'] ?></label>
+                            <input type="email" id="email" name="email" placeholder="<?= $translations['auth']['login']['email_placeholder'] ?>" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password"><?= $translations['auth']['login']['password_label'] ?></label>
+                            <input type="password" id="password" name="password" placeholder="<?= $translations['auth']['login']['password_placeholder'] ?>" required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-large" data-elem="login.submit" aria-label="<?= $translations['auth']['login']['submit'] ?>">
+                                <?= $translations['auth']['login']['submit'] ?>
+                            </button>
+                        </div>
+                    </form>
+                    <p class="form-note">
+                        <?= $translations['auth']['login']['no_account'] ?> <a href="./register.php"><?= $translations['auth']['login']['register'] ?></a>
+                    </p>
+                </div>
+            </div>
+        </main>
 
-		<main class="auth login">
-			<div class="container">
-				<div class="auth-form">
-					<h2>Iniciar Sesión</h2>
-					<form id="loginForm" action="#" method="post">
-						<div class="form-group">
-							<label for="email">Email</label>
-							<input type="email" id="email" name="email" placeholder="finanzapp@gmail.com" required>
-						</div>
-						<div class="form-group">
-							<label for="password">Contraseña</label>
-							<input type="password" id="password" name="password" placeholder="1J#4_6*8" required>
-						</div>
-						<div class="form-group">
-							<button type="submit" class="btn btn-primary btn-large" data-elem="login.submit" aria-label="Iniciar sesión">Iniciar Sesion</button>
-						</div>
-					</form>
-					<p class="form-note">
-						¿No tienes una cuenta? <a href="./register.php">Regístrate</a>
-					</p>
-				</div>
-			</div>
-		</main>
+        <!-- Footer -->
+        <?php include './includes/footer.php'; ?>
+        
+    </section>
 
-		<!-- Footer -->
-		<?php include './includes/footer.php'; ?>
-		
-	</section>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"></script>
+    <script src="./js/landing_page.js"></script>
+    <script src="./js/validation.js"></script>
 
-		<!-- Scripts -->
-		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"></script>
-		<script src="./js/landing_page.js"></script>
-		<script src="./js/validation.js"></script>
-
-	</body>
+</body>
 </html>
