@@ -98,3 +98,9 @@
     box-shadow: 0 0 8px rgba(231, 76, 60, 0.7) !important;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
+
+.contact-form input.error-input {
+    border: 2px solid #e74c3c !important;
+    box-shadow: 0 0 8px rgba(231, 76, 60, 0.7) !important;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
