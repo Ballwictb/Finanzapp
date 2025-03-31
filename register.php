@@ -19,6 +19,9 @@
 		<!-- Specific styles for the register page -->
 		<link rel="stylesheet" href="./css/auth.css">
 
+		<!-- Notyf  -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css">
+
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
 	</head>
@@ -49,10 +52,7 @@
 						</div>
 						<div class="form-group">
 							<label for="password" data-elem="register.password">Contraseña</label>
-							<input type="password" id="password" name="password" placeholder="1J#4_6*8"
-								pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$"
-								title="Password must be at least 8 characters long and include at least one lowercase letter, one uppercase letter, and one number."
-								required>
+							<input type="password" id="password" name="password" placeholder="1J#4_6*8" required>
 						</div>
 						<div class="form-group">
 							<label for="confirm-password" data-elem="register.confirmPassword">Confirme la Contraseña</label>
@@ -60,7 +60,7 @@
 						</div>
 						<div class="form-group checkbox-container">
 							<label class="checkbox-label">
-								<input type="checkbox" name="terms" required>
+								<input type="checkbox" name="terms" id=terms>
 							</label>
 							<label for="terms" data-elem="register.terms">
 								Acepto los <a href="#">términos y condiciones</a>
@@ -92,6 +92,7 @@
 
 		<!-- Scripts -->
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"></script>
 		<script src="./js/landing_page.js"></script>
 		<script src="./js/validation.js"></script>
 	</body>

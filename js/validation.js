@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Obtener los formularios (solo estará presente uno según la página)
+    // Get the forms (only one will be available)
     const loginForm = document.getElementById("loginForm");
     const registerForm = document.getElementById("registerForm");
 
-    // Inicializar Notyf si está disponible
+    // Initialize Notyf if it's available
     let notyf;
     if (typeof Notyf !== "undefined") {
         notyf = new Notyf({
@@ -12,68 +12,99 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // Validaciones para el formulario de login
+    // Validations for the login form
     if (loginForm) {
-        const emailInput = document.getElementById("email");
-        const passwordInput = document.getElementById("password");
-
         loginForm.addEventListener("submit", function (event) {
             event.preventDefault();
             let valid = true;
 
-            const emailValue = emailInput.value.trim();
-            const passwordValue = passwordInput.value.trim();
+            const emailElem = document.getElementById("email");
+            const passwordElem = document.getElementById("password");
 
-            // Validar email
+            const emailValue = emailElem.value.trim();
+            const passwordValue = passwordElem.value.trim();
+
+            // Remove error classes in each previous validation
+            emailElem.classList.remove('error-input');
+            passwordElem.classList.remove('error-input');
+
+            // Validate email
             if (!validateEmail(emailValue)) {
-                if (notyf) notyf.error("Introduce un email válido.");
+                notyf.error("Introduce un email válido.");
+                emailElem.classList.add('error-input');
                 valid = false;
             }
 
-            // Validar contraseña (mínimo 8 caracteres, una mayúscula y un número)
+            // Validate password (minimum 8 characters, one capital letter and one number)
             if (!validatePassword(passwordValue)) {
-                if (notyf) notyf.error("La contraseña debe tener al menos 8 caracteres, una mayúscula y un número.");
+                notyf.error("La contraseña debe tener al menos 8 caracteres, una mayúscula y un número.");
+                passwordElem.classList.add('error-input');
                 valid = false;
             }
 
             if (valid) {
-                if (notyf) notyf.success("Inicio de sesión exitoso.");
+                notyf.success("Inicio de sesión exitoso.");
                 loginForm.submit();
             }
         });
     }
 
-    // Validaciones para el formulario de registro
+    // Validations for the register form
     if (registerForm) {
         registerForm.addEventListener('submit', function (event) {
-            const passwordElem = document.getElementById('password');
+            event.preventDefault();
+            let valid = true;
+
+            const emailElem = document.getElementById("email");
+            const passwordElem = document.getElementById("password");
             const confirmPasswordElem = document.getElementById('confirm-password');
+            const termsCheckbox = document.getElementById('terms');
 
-            // Validar email
+            const emailValue = emailElem.value.trim();
+            const passwordValue = passwordElem.value.trim();
+            const confirmPasswordValue = confirmPasswordElem.value.trim();
+
+            // Remove error classes in each previous validation
+            emailElem.classList.remove('error-input');
+            passwordElem.classList.remove('error-input');
+            confirmPasswordElem.classList.remove('error-input');
+
+            if (!termsCheckbox.checked) {
+                notyf.error("Debe aceptar los términos y condiciones.");
+                valid = false;
+            }
+
+            // Validate email
             if (!validateEmail(emailValue)) {
-                if (notyf) notyf.error("Introduce un email válido.");
+                notyf.error("Introduce un email válido.");
+                emailElem.classList.add('error-input');
                 valid = false;
             }
 
-            // Validar contraseña (mínimo 8 caracteres, una mayúscula y un número)
+            // Validate password (minimum 8 characters, one capital letter and one number)
             if (!validatePassword(passwordValue)) {
-                if (notyf) notyf.error("La contraseña debe tener al menos 8 caracteres, una mayúscula y un número.");
+                notyf.error("La contraseña debe tener al menos 8 caracteres, una mayúscula y un número.");
+                passwordElem.classList.add('error-input');
+                confirmPasswordElem.classList.add('error-input');
                 valid = false;
             }
 
-            if (passwordElem && confirmPasswordElem) {
-                const password = passwordElem.value;
-                const confirmPassword = confirmPasswordElem.value;
-                // Verificar que las contraseñas coincidan
-                if (password !== confirmPassword) {
-                    event.preventDefault(); // Evitar el envío del formulario
-                    alert('Passwords do not match.');
-                }
+            // Check passwords are the same
+            if (passwordValue !== confirmPasswordValue) {
+                notyf.error("Las contraseñas no coinciden.");
+                passwordElem.classList.add('error-input');
+                confirmPasswordElem.classList.add('error-input');
+                valid = false;
+            }
+
+            if (valid) {
+                notyf.success("Inicio de sesión exitoso.");
+                registerForm.submit();
             }
         });
     }
 
-    // Funciones de validación
+    // Validations
     function validateEmail(email) {
         const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return re.test(email);
