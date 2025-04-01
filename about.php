@@ -7,7 +7,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $translations['about']['meta']['title']; ?></title>
+
+    <!-- meta -->
     <meta name="description" content="<?php echo $translations['about']['meta']['description']; ?>" />
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.finanzapp.es/about">
 
     <!-- og -->
     <meta name="og:title" content="<?php echo $translations['brand']; ?>" />
@@ -90,10 +94,10 @@
                                     <?php echo $translations['about']['team']['bios']['israel']; ?>
                                 </p>
                                 <div class="team-social">
-                                    <a href="https://www.linkedin.com/in/israel-soriano/" target="_blank" class="social-link linkedin">
+                                    <a href="https://www.linkedin.com/in/israel-soriano/" rel="noopener" target="_blank" class="social-link linkedin">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
-                                    <a href="https://github.com/IsraC0d33" target="_blank" class="social-link github">
+                                    <a href="https://github.com/IsraC0d33" rel="noopener" target="_blank" class="social-link github">
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </div>
@@ -114,10 +118,10 @@
                                     <?php echo $translations['about']['team']['bios']['roberto']; ?>
                                 </p>
                                 <div class="team-social">
-                                    <a href="https://www.linkedin.com/in/roberto-ortiz-p%C3%A9rez-371b4b328/" target="_blank" class="social-link linkedin">
+                                    <a href="https://www.linkedin.com/in/roberto-ortiz-p%C3%A9rez-371b4b328/" rel="noopener" target="_blank" class="social-link linkedin">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
-                                    <a href="https://github.com/Robertort1z" target="_blank" class="social-link github">
+                                    <a href="https://github.com/Robertort1z" rel="noopener" target="_blank" class="social-link github">
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </div>
@@ -138,10 +142,10 @@
                                     <?php echo $translations['about']['team']['bios']['jamal']; ?>
                                 </p>
                                 <div class="team-social">
-                                    <a href="https://www.linkedin.com/in/jamalrabah/" target="_blank" class="social-link linkedin">
+                                    <a href="https://www.linkedin.com/in/jamalrabah/" rel="noopener" target="_blank" class="social-link linkedin">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
-                                    <a href="https://github.com/Ballwictb" target="_blank" class="social-link github">
+                                    <a href="https://github.com/Ballwictb" rel="noopener" target="_blank" class="social-link github">
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </div>

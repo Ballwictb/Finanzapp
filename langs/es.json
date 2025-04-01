@@ -1,9 +1,10 @@
 {
     "meta": {
         "title": "FinanzApp",
-        "description": "Gestiona tus finanzas personales con una plataforma que te ayuda a visualizar, planificar y optimizar tu dinero de forma intuitiva.",
+        "description": "Gestiona tus finanzas personales con una plataforma que te ayuda a visualizar, planificar y optimizar tu dinero de forma intuitiva. ¡Comienza ahora gratis!",
         "keywords": "finanzas, gestión financiera, FinanzApp, dinero, ahorro",
-        "author": "FinanzApp Team"
+        "author": "FinanzApp Team",
+        "ogDescription": "Regístrate en FinanzApp en 30 segundos. La solución completa para gestionar tu dinero fácilmente y de forma gratuita."
     },
     "selector": {
         "es": "Español",

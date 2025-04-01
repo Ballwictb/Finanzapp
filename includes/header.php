@@ -2,7 +2,7 @@
 
 <header class="header">
     <div class="container">
-        <a href="./index.php?lang=<?php echo $lang; ?>" class="logo">
+        <a href="./index.php?lang=<?php echo $lang; ?>" rel="noopener" class="logo">
             <div class="logo-icon">
                 <i class="fas fa-dollar-sign"></i>
             </div>
@@ -11,16 +11,16 @@
         <!-- nav -->
         <nav class="main-nav" aria-label="menu">
             <ul class="nav-list">
-                <li><a href="#features" class="nav-link" data-elem="nav.features"
+                <li><a href="#features" rel="noopener" class="nav-link" data-elem="nav.features"
                         aria-label="<?php echo $translations['nav']['features']; ?>">
                         <?php echo $translations['nav']['features']; ?></a></li>
-                <li><a href="#how-it-works" class="nav-link" data-elem="nav.howItWorks"
+                <li><a href="#how-it-works" rel="noopener" class="nav-link" data-elem="nav.howItWorks"
                         aria-label="<?php echo $translations['nav']['howItWorks']; ?>">
                         <?php echo $translations['nav']['howItWorks']; ?></a></li>
-                <li><a href="./about.php?lang=<?php echo $lang; ?>" class="nav-link" data-elem="nav.about"
+                <li><a href="./about.php?lang=<?php echo $lang; ?>" rel="noopener" class="nav-link" data-elem="nav.about"
                         aria-label="<?php echo $translations['nav']['about']; ?>">
                         <?php echo $translations['nav']['about']; ?></a></li>
-                <li><a href="./contact.php?lang=<?php echo $lang; ?>" class="nav-link" data-elem="nav.contact"
+                <li><a href="./contact.php?lang=<?php echo $lang; ?>" rel="noopener" class="nav-link" data-elem="nav.contact"
                         aria-label="<?php echo $translations['nav']['contact']; ?>">
                         <?php echo $translations['nav']['contact']; ?></a></li>
             </ul>
@@ -35,18 +35,18 @@
                 </button>
                 <div class="language-dropdown">
                     <!-- Aquí se conserva la página actual con el parámetro 'page' -->
-                    <a href="?lang=es<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" 
+                    <a href="?lang=es<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener" 
                        data-lang="es" class="<?php echo ($lang == 'es') ? 'active' : ''; ?>">Español</a>
-                    <a href="?lang=en<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" 
+                    <a href="?lang=en<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener" 
                        data-lang="en" class="<?php echo ($lang == 'en') ? 'active' : ''; ?>">English</a>
-                    <a href="?lang=fr<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" 
+                    <a href="?lang=fr<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener"
                        data-lang="fr" class="<?php echo ($lang == 'fr') ? 'active' : ''; ?>">Français</a>
                 </div>
             </div>
-            <a href="./login.php?lang=<?php echo $lang; ?>" class="btn btn-outline" data-elem="buttons.login"
+            <a href="./login.php?lang=<?php echo $lang; ?>" rel="noopener" class="btn btn-outline" data-elem="buttons.login"
                 aria-label="<?php echo $translations['buttons']['login']; ?>">
                 <?php echo $translations['buttons']['login']; ?></a>
-            <a href="./register.php?lang=<?php echo $lang; ?>" class="btn btn-primary" data-elem="buttons.register"
+            <a href="./register.php?lang=<?php echo $lang; ?>" rel="noopener" class="btn btn-primary" data-elem="buttons.register"
                 aria-label="<?php echo $translations['buttons']['register']; ?>">
                 <?php echo $translations['buttons']['register']; ?></a>
         </div>
