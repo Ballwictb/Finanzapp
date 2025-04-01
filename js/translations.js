@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     const languageToggle = document.querySelector('.language-toggle');
     const languageDropdown = document.querySelector('.language-dropdown');
-    
-    // Abre y cierra el dropdown al hacer clic
+
+    // Open and close the dropdown when clicking
     languageToggle.addEventListener('click', () => {
         languageDropdown.classList.toggle('show');
     });
 
-    // Cierra el dropdown si se hace clic fuera de él
+    // Close the dropdown if you click outside it
     document.addEventListener('click', (event) => {
         if (!languageToggle.contains(event.target) && !languageDropdown.contains(event.target)) {
             languageDropdown.classList.remove('show');
