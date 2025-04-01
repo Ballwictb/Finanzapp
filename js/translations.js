@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const languageToggle = document.querySelector('.language-toggle');
     const languageDropdown = document.querySelector('.language-dropdown');
@@ -14,3 +15,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
