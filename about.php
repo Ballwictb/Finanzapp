@@ -1,4 +1,4 @@
-<?php include "config.php"; ?>
+<?php include_once "config.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -37,14 +37,14 @@
 
 <body>
     <!-- Mobile Menu -->
-    <?php include "./includes/mobileMenu.php"; ?>
+    <?php include_once "./includes/mobileMenu.php"; ?>
 
     <div class="cursor"></div>
     <div class="cursor-follower"></div>
     <section class="blurM">
 
         <!-- Header -->
-        <?php include "./includes/header.php"; ?>
+        <?php include_once "./includes/header.php"; ?>
 
         <!-- Page Header -->
         <section class="page-header">
@@ -225,7 +225,7 @@
         </section>
 
         <!-- Footer -->
-        <?php include './includes/footer.php'; ?>
+        <?php include_once './includes/footer.php'; ?>
     </section>
 
     <!-- Back to Top Button -->

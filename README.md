@@ -86,8 +86,8 @@ Este proyecto ha sido desarrollado por un grupo de estudiantes de desarrollo web
 <br>
 
 | [![Robertort1z](https://media.licdn.com/dms/image/v2/D4E03AQF1Mi1JaTHkAA/profile-displayphoto-shrink_100_100/B4EZOYNpGWGYAU-/0/1733425533958?e=1748476800&v=beta&t=V1g6DfqTh1_TL1Wjz2h9l-ZVcIQG5vnmBO824seLqmU&s=100)](https://github.com/Robertort1z) | [![Ballwictb](https://avatars.githubusercontent.com/u/104717038?v=4&s=100)](https://github.com/Ballwictb) | [![IsraC0d33](https://avatars.githubusercontent.com/u/150441668?v=4&s=100)](https://github.com/IsraC0d33) |
-|:-------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|
-| [Roberto Ortiz](https://github.com/Robertort1z)                                                                 | [Jamal Rabah](https://github.com/Ballwictb)                                                                 | [Israel Soriano](https://github.com/IsraC0d33)                                                               |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+|                                                                                                    [Roberto Ortiz](https://github.com/Robertort1z)                                                                                                     |                                [Jamal Rabah](https://github.com/Ballwictb)                                |                              [Israel Soriano](https://github.com/IsraC0d33)                               |
 
 </div>
 

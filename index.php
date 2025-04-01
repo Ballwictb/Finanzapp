@@ -1,4 +1,4 @@
-<?php include "./config.php"; ?>
+<?php include_once "./config.php"; ?>
 
 <!DOCTYPE html>
 <html lang="<?php echo $lang; ?>" itemscope itemtype="http://schema.org/WebPage">
@@ -84,7 +84,7 @@
 
 <body>
     <!-- Mobile Menu -->
-    <?php include "./includes/mobileMenu.php"; ?>
+    <?php include_once "./includes/mobileMenu.php"; ?>
 
 
     <!-- Loader -->
@@ -107,7 +107,7 @@
 
     <section class="blurM">
         <!-- Header -->
-        <?php include "./includes/header.php"; ?>
+        <?php include_once "./includes/header.php"; ?>
 
         <!-- Hero Section -->
         <section class="hero">
@@ -306,7 +306,7 @@
         </section>
 
         <!-- Footer -->
-        <?php include './includes/footer.php'; ?>
+        <?php include_once './includes/footer.php'; ?>
 
 
     </section>
