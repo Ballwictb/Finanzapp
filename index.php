@@ -50,7 +50,7 @@
         "@type": "WebApplication",
         "name": "FinanzApp",
         "url": "https://www.finanzapp.es",
-        "description": "<?php echo $meta['description']; ?>",
+        "description": "<?php echo $translations['meta']['description']; ?>",
         "applicationCategory": "FinanceApplication",
         "operatingSystem": "Web"
     }

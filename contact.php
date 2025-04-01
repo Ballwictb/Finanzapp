@@ -142,9 +142,6 @@
         <?php include './includes/footer.php'; ?>
     </section>
 
-    <!-- Cookie Consent -->
-    <?php include './includes/cookieConsent.php'; ?>
-
     <!-- Back to Top Button -->
     <button id="backToTop" class="back-to-top">
         <i class="fas fa-arrow-up"></i>
