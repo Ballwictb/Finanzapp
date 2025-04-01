@@ -1,7 +1,7 @@
 <?php include "./config.php"; ?>
 
 <!DOCTYPE html>
-<html lang="<?php echo $lang; ?>">
+<html lang="<?php echo $lang; ?>" itemscope itemtype="http://schema.org/WebPage">
 
 <head>
 <meta charset="UTF-8">
@@ -46,16 +46,24 @@
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "FinanzApp",
-        "url": "https://www.finanzapp.es",
-        "description": "<?php echo $meta['description']; ?>",
-        "applicationCategory": "FinanceApplication",
-        "operatingSystem": "Web"
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "FinanzApp",
+      "description": "<?php echo $translations['meta']['description']; ?>",
+      "url": "https://www.finanzapp.es/",
+      "potentialAction": {
+        "@type": "HomeAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.finanzapp.es/",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      }
     }
     </script>
-
     <!-- Accessibility -->
     <!-- Aria-labelledby is used to associate elements with their titles -->
     <meta name="aria-labelledby" content="main-title">
