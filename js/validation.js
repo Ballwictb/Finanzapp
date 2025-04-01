@@ -4,20 +4,29 @@ document.addEventListener("DOMContentLoaded", function () {
     const registerForm = document.getElementById("registerForm");
     const contactForm = document.getElementById("contactForm");
 
-    // Initialize Notyf if it's available
-    let notyf;
-    if (typeof Notyf !== "undefined") {
-        notyf = new Notyf({
-            duration: 3000,
-            position: { x: 'right', y: 'top' }
-        });
-    }
+    // Initialize Notyf
+    const notyf = new Notyf({
+        duration: 3000,
+        position: { x: 'right', y: 'top' },
+        types: [
+            {
+                type: 'error',
+                background: '#ff4444',
+                dismissible: true
+            },
+            {
+                type: 'success',
+                background: '#00C851',
+                dismissible: true
+            }
+        ]
+    });
 
     // Validations for the login form
     if (loginForm) {
         loginForm.addEventListener("submit", function (event) {
             event.preventDefault();
-            let valid = true;
+            let isValid = true;
 
             const emailElem = document.getElementById("email");
             const passwordElem = document.getElementById("password");
@@ -30,22 +39,28 @@ document.addEventListener("DOMContentLoaded", function () {
             passwordElem.classList.remove('error-input');
 
             // Validate email
-            if (!validateEmail(emailValue)) {
-                notyf.error("Introduce un email válido.");
-                emailElem.classList.add('error-input');
-                valid = false;
+            if (!emailValue) {
+                showError("El campo email es obligatorio", emailElem);
+                isValid = false;
+            } else if (!validateEmail(emailValue)) {
+                showError("Introduce un email válido", emailElem);
+                isValid = false;
             }
 
-            // Validate password (minimum 8 characters, one capital letter and one number)
-            if (!validatePassword(passwordValue)) {
-                notyf.error("La contraseña debe tener al menos 8 caracteres, una mayúscula y un número.");
-                passwordElem.classList.add('error-input');
-                valid = false;
+            // Validate password
+            if (!passwordValue) {
+                showError("El campo contraseña es obligatorio", passwordElem);
+                isValid = false;
+            } else if (!validatePassword(passwordValue)) {
+                showError("La contraseña debe tener al menos 8 caracteres, una mayúscula y un número", passwordElem);
+                isValid = false;
             }
 
-            if (valid) {
-                notyf.success("Inicio de sesión exitoso.");
-                loginForm.submit();
+            if (isValid) {
+                // Aquí iría la lógica de autenticación real
+                // Por ahora solo simulamos éxito
+                notyf.success("Inicio de sesión exitoso");
+                // loginForm.submit(); // Descomentar cuando tengas el backend
             }
         });
     }
@@ -54,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (registerForm) {
         registerForm.addEventListener('submit', function (event) {
             event.preventDefault();
-            let valid = true;
+            let isValid = true;
 
             const emailElem = document.getElementById("email");
             const passwordElem = document.getElementById("password");
@@ -70,37 +85,39 @@ document.addEventListener("DOMContentLoaded", function () {
             passwordElem.classList.remove('error-input');
             confirmPasswordElem.classList.remove('error-input');
 
+            // Validate terms
             if (!termsCheckbox.checked) {
-                notyf.error("Debe aceptar los términos y condiciones.");
-                valid = false;
+                showError("Debe aceptar los términos y condiciones");
+                isValid = false;
             }
 
             // Validate email
-            if (!validateEmail(emailValue)) {
-                notyf.error("Introduce un email válido.");
-                emailElem.classList.add('error-input');
-                valid = false;
+            if (!emailValue) {
+                showError("El campo email es obligatorio", emailElem);
+                isValid = false;
+            } else if (!validateEmail(emailValue)) {
+                showError("Introduce un email válido", emailElem);
+                isValid = false;
             }
 
-            // Validate password (minimum 8 characters, one capital letter and one number)
-            if (!validatePassword(passwordValue)) {
-                notyf.error("La contraseña debe tener al menos 8 caracteres, una mayúscula y un número.");
-                passwordElem.classList.add('error-input');
-                confirmPasswordElem.classList.add('error-input');
-                valid = false;
+            // Validate password
+            if (!passwordValue) {
+                showError("El campo contraseña es obligatorio", passwordElem);
+                isValid = false;
+            } else if (!validatePassword(passwordValue)) {
+                showError("La contraseña debe tener al menos 8 caracteres, una mayúscula y un número", passwordElem);
+                isValid = false;
             }
 
-            // Check passwords are the same
+            // Check passwords match
             if (passwordValue !== confirmPasswordValue) {
-                notyf.error("Las contraseñas no coinciden.");
-                passwordElem.classList.add('error-input');
-                confirmPasswordElem.classList.add('error-input');
-                valid = false;
+                showError("Las contraseñas no coinciden", passwordElem, confirmPasswordElem);
+                isValid = false;
             }
 
-            if (valid) {
-                notyf.success("Registro exitoso.");
-                registerForm.submit();
+            if (isValid) {
+                notyf.success("Registro exitoso");
+                // registerForm.submit(); // Descomentar cuando tengas el backend
             }
         });
     }
@@ -108,36 +125,46 @@ document.addEventListener("DOMContentLoaded", function () {
     if (contactForm) {
         contactForm.addEventListener('submit', function (event) {
             event.preventDefault();
-            let valid = true;
+            let isValid = true;
 
             const emailElem = document.getElementById("email");
             const emailValue = emailElem.value.trim();
-            
             const privacyCheckbox = document.getElementById('privacy');
 
             // Remove error classes in each previous validation
             emailElem.classList.remove('error-input');
 
             // Validate email
-            if (!validateEmail(emailValue)) {
-                notyf.error("Introduce un email válido.");
-                emailElem.classList.add('error-input');
-                valid = false;
+            if (!emailValue) {
+                showError("El campo email es obligatorio", emailElem);
+                isValid = false;
+            } else if (!validateEmail(emailValue)) {
+                showError("Introduce un email válido", emailElem);
+                isValid = false;
             }
 
+            // Validate privacy policy
             if (!privacyCheckbox.checked) {
-                notyf.error("Debe aceptar la política de privacidad.");
-                valid = false;
+                showError("Debe aceptar la política de privacidad");
+                isValid = false;
             }
 
-            if (valid) {
-                notyf.success("Mensaje enviado correctamente.");
-                contactForm.submit();
+            if (isValid) {
+                notyf.success("Mensaje enviado correctamente");
+                // contactForm.submit(); // Descomentar cuando tengas el backend
             }
         });
     }
 
-    // Validations
+    // Helper function to show errors
+    function showError(message, ...elements) {
+        notyf.error(message);
+        if (elements) {
+            elements.forEach(el => el?.classList.add('error-input'));
+        }
+    }
+
+    // Validation functions
     function validateEmail(email) {
         const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return re.test(email);
