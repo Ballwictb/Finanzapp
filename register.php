@@ -6,10 +6,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><?php echo $translations['auth']['register']['title']; ?> - <?php echo $translations['brand']; ?></title>
         <meta name="description" content="<?php echo $translations['auth']['meta']['register_description']; ?>">
         <meta name="keywords" content="<?php echo $translations['meta']['keywords']; ?>">
         <meta name="author" content="<?php echo $translations['meta']['author']; ?>">
-        <title><?php echo $translations['auth']['register']['title']; ?> - <?php echo $translations['brand']; ?></title>
+        <meta name="robots" content="noindex, nofollow">
+	    <link rel="canonical" href="https://www.finanzapp.es/register">
 
         <!-- Fonts and icons -->
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -84,7 +86,7 @@
                     </form>
                     <p class="form-note" data-elem="register.note">
                         <?php echo $translations['auth']['register']['note']; ?> 
-                        <a href="./login.php"><?php echo $translations['auth']['register']['login']; ?></a>
+                        <a href="./login.php" rel="noopener"><?php echo $translations['auth']['register']['login']; ?></a>
                     </p>
                 </div>
             </div>

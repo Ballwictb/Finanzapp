@@ -4,35 +4,74 @@
 <html lang="<?php echo $lang; ?>">
 
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title and basic meta -->
     <title><?php echo $translations['meta']['title']; ?></title>
-
-    <!-- meta -->
     <meta name="description" content="<?php echo $translations['meta']['description']; ?>" />
+    <meta name="keywords" content="<?php echo $translations['meta']['keywords']; ?>" />
 
-    <!-- og -->
-    <meta name="og:title" content="<?php echo $translations['meta']['title']; ?>" />
-    <meta name="og:description" content="<?php echo $translations['meta']['description']; ?>" />
-    <meta name="og:image" content="http://tny.im/goh" />
-    <meta name="og:email" content="me@example.com" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.finanzapp.es/" />
+    <meta property="og:title" content="<?php $translations['meta']['title']; ?>" />
+    <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
+    <meta property="og:image" content="http://tny.im/goh" />
+    <!-- If required, we can add an email -->
+    <meta property="og:email" content="me@example.com" />
 
-    <!-- twitter -->
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
     <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
-    <meta property="twitter:image" content="#">
+    <meta property="twitter:image" content="https://www.finanzapp.com/assets/twitter-image.jpg">
 
-    <!-- Font -->
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.finanzapp.es/">
+
+    <!-- Preconnect para Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Icons -->
+
+    <!-- External icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
-    <!-- Logo -->
+
+    <!-- Favicon and other icons -->
     <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
-    <!-- Custom CSS -->
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "FinanzApp",
+        "url": "https://www.finanzapp.es",
+        "description": "<?php echo $meta['description']; ?>",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Web"
+    }
+    </script>
+
+    <!-- Accessibility -->
+    <!-- Aria-labelledby is used to associate elements with their titles -->
+    <meta name="aria-labelledby" content="main-title">
+
+    <!-- Security: noopener for external links (it will be used on the attribute target="_blank") -->
+    <!-- Note: noopener is used on links, not as meta o link -->
+
+    <!-- Custom stylesheets -->
     <link rel="stylesheet" href="./css/landing_page.css">
     <link rel="stylesheet" href="./css/scrollbar.css">
-    <!-- AOS -->
+
+    <!-- AOS (Animate On Scroll) -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom scripts with defer to set settings -->
+    <script src="./config.php" defer></script>
 </head>
 
 <body>
@@ -71,8 +110,8 @@
                         <h1 class="hero-title" data-elem="hero.title"><?php echo $translations['hero']['title']; ?> <span class="text-gradient" data-elem="hero.titleHighlight"><?php echo $translations['hero']['titleHighlight']; ?></span></h1>
                         <p class="hero-description" data-elem="hero.description"><?php echo $translations['hero']['description']; ?></p>
                         <div class="hero-cta">
-                            <a href="#" class="btn btn-primary btn-large" data-elem="hero.cta.primary"><?php echo $translations['hero']['cta']['primary']; ?></a>
-                            <a href="#demo" class="btn btn-play">
+                            <a href="#" rel="noopener" class="btn btn-primary btn-large" data-elem="hero.cta.primary"><?php echo $translations['hero']['cta']['primary']; ?></a>
+                            <a href="#demo" rel="noopener" class="btn btn-play">
                                 <div class="play-icon">
                                     <i class="fas fa-play"></i>
                                 </div>
@@ -243,8 +282,8 @@
                     <h2 class="cta-title" data-elem="cta.title"><?php echo $translations['cta']['title']; ?> <span class="text-gradient" data-elem="cta.titleHighlight"><?php echo $translations['cta']['titleHighlight']; ?></span></h2>
                     <p class="cta-description" data-elem="cta.description"><?php echo $translations['cta']['description']; ?></p>
                     <div class="cta-buttons">
-                        <a href="./register.php" class="btn btn-primary btn-large" data-elem="cta.buttons.primary"><?php echo $translations['cta']['buttons']['primary']; ?></a>
-                        <a href="#" class="btn btn-outline btn-large" data-elem="cta.buttons.secondary"><?php echo $translations['cta']['buttons']['secondary']; ?></a>
+                        <a href="./register.php" rel="noopener" class="btn btn-primary btn-large" data-elem="cta.buttons.primary"><?php echo $translations['cta']['buttons']['primary']; ?></a>
+                        <a href="#" rel="noopener" class="btn btn-outline btn-large" data-elem="cta.buttons.secondary"><?php echo $translations['cta']['buttons']['secondary']; ?></a>
                     </div>
                     <p class="cta-note" data-elem="cta.note"><?php echo $translations['cta']['note']; ?></p>
                 </div>

@@ -10,6 +10,8 @@
 
     <!-- meta -->
     <meta name="description" content="<?php echo $translations['contact']['meta']['description']; ?>" />
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.finanzapp.es/contact">
 
     <!-- og -->
     <meta name="og:title" content="<?php echo $translations['brand']; ?>" />
@@ -81,8 +83,8 @@
                         <div class="social-contact">
                             <h3 data-elem="contact.social"><?php echo $translations['contact']['social']; ?></h3>
                             <div class="social-links">
-                                <a href="https://github.com/Ballwictb/FinanzApp/tree/main" class="social-link-contact"><i class="fab fa-github"></i></a>
-                                <a href="https://finanzapp.es" class="social-link-contact"><i class="fa-light fa-globe-pointer"></i></a>
+                                <a href="https://github.com/Ballwictb/FinanzApp/tree/main" rel="noopener" class="social-link-contact"><i class="fab fa-github"></i></a>
+                                <a href="https://finanzapp.es" rel="noopener" class="social-link-contact"><i class="fa-light fa-globe-pointer"></i></a>
                             </div>
                         </div>
                     </div>

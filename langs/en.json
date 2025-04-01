@@ -1,9 +1,10 @@
 {
     "meta": {
         "title": "FinanzApp",
-        "description": "Manage your personal finances with a platform that helps you visualize, plan and optimize your money intuitively.",
+        "description": "Manage your personal finances with a platform that helps you visualize, plan, and optimize your money intuitively. Start now for free!",
         "keywords": "finance, financial management, FinanzApp, money, savings",
-        "author": "FinanzApp Team"
+        "author": "FinanzApp Team",
+        "ogDescription": "Sign up for FinanzApp in 30 seconds. The complete solution to manage your money easily and for free."
     },
     "selector": {
         "es": "Spanish",
