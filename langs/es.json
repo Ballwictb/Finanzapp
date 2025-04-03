@@ -197,6 +197,10 @@
                 "israel": "Especializado en desarrollo web y administrador de sistemas. Actualmente estoy como Estudiante en practicas en NTT DATA.",
                 "roberto": "Estudiante de 2º de DAW. Actualmente estoy como Estudiante en practicas en NTT DATA.",
                 "jamal": "Desarrollador de Aplicaciones Web, con experiencia autodidacta. También tengo experiencia y conocimientos en administración de sistemas y redes, así como soporte informático tanto hardware como software."
+            },
+            "linkDescription": {
+                "linkedIn": "Lleva a la página de LinkedIn de uno de los desarrolladores del proyecto.",
+                "github": "Lleva a la página de GitHub de uno de los desarrolladores del proyecto."
             }
         },
         "values": {

@@ -194,6 +194,10 @@
                 "israel": "Specialized in web development and systems administrator. Currently as an Intern at NTT DATA.",
                 "roberto": "2nd Year DAW Student. Currently as an Intern at NTT DATA.",
                 "jamal": "Web Applications Developer, with self-taught experience. I also have experience and knowledge in systems and network administration, as well as hardware and software IT support."
+            },
+            "linkDescription": {
+                "linkedIn": "Link that leads to the LinkedIn page of one of the project's developers.",
+                "github": "Link that leads to the GitHub page of one of the project's developers."
             }
         },
         "values": {

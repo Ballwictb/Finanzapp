@@ -94,10 +94,10 @@
                                     <?php echo $translations['about']['team']['bios']['israel']; ?>
                                 </p>
                                 <div class="team-social">
-                                    <a href="https://www.linkedin.com/in/israel-soriano/" rel="noopener" target="_blank" class="social-link linkedin">
+                                    <a href="https://www.linkedin.com/in/israel-soriano/" rel="noopener" target="_blank" class="social-link linkedin" aria-label="<?php echo $translations['about']['team']['linkDescription']['linkedIn']; ?>">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
-                                    <a href="https://github.com/IsraC0d33" rel="noopener" target="_blank" class="social-link github">
+                                    <a href="https://github.com/IsraC0d33" rel="noopener" target="_blank" class="social-link github" aria-label="<?php echo $translations['about']['team']['linkDescription']['github']; ?>">
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </div>
@@ -118,10 +118,10 @@
                                     <?php echo $translations['about']['team']['bios']['roberto']; ?>
                                 </p>
                                 <div class="team-social">
-                                    <a href="https://www.linkedin.com/in/roberto-ortiz-p%C3%A9rez-371b4b328/" rel="noopener" target="_blank" class="social-link linkedin">
+                                    <a href="https://www.linkedin.com/in/roberto-ortiz-p%C3%A9rez-371b4b328/" rel="noopener" target="_blank" class="social-link linkedin" aria-label="<?php echo $translations['about']['team']['linkDescription']['linkedIn']; ?>">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
-                                    <a href="https://github.com/Robertort1z" rel="noopener" target="_blank" class="social-link github">
+                                    <a href="https://github.com/Robertort1z" rel="noopener" target="_blank" class="social-link github" aria-label="<?php echo $translations['about']['team']['linkDescription']['github']; ?>">
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </div>
@@ -142,10 +142,10 @@
                                     <?php echo $translations['about']['team']['bios']['jamal']; ?>
                                 </p>
                                 <div class="team-social">
-                                    <a href="https://www.linkedin.com/in/jamalrabah/" rel="noopener" target="_blank" class="social-link linkedin">
+                                    <a href="https://www.linkedin.com/in/jamalrabah/" rel="noopener" target="_blank" class="social-link linkedin" aria-label="<?php echo $translations['about']['team']['linkDescription']['linkedIn']; ?>">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
-                                    <a href="https://github.com/Ballwictb" rel="noopener" target="_blank" class="social-link github">
+                                    <a href="https://github.com/Ballwictb" rel="noopener" target="_blank" class="social-link github" aria-label="<?php echo $translations['about']['team']['linkDescription']['github']; ?>">
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </div>
@@ -217,7 +217,7 @@
                     <p class="cta-description" data-elem="about.cta.description">
                         <?php echo $translations['about']['cta']['description']; ?>
                     </p>
-                    <a href="./contact.php" class="btn btn-primary" data-elem="about.cta.button">
+                    <a href="./contact.php" class="btn btn-primary" data-elem="about.cta.button" aria-label="<?php echo $translations['about']['cta']['button']; ?>">
                         <?php echo $translations['about']['cta']['button']; ?>
                     </a>
                 </div>

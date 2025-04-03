@@ -86,7 +86,7 @@
                     </form>
                     <p class="form-note" data-elem="register.note">
                         <?php echo $translations['auth']['register']['note']; ?> 
-                        <a href="./login.php" rel="noopener"><?php echo $translations['auth']['register']['login']; ?></a>
+                        <a href="./login.php" rel="noopener" aria-label="<?php echo $translations['auth']['register']['login']; ?>"><?php echo $translations['auth']['register']['login']; ?></a>
                     </p>
                 </div>
             </div>

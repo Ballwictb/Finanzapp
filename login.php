@@ -59,7 +59,7 @@
                         </div>
                     </form>
                     <p class="form-note">
-                        <?= $translations['auth']['login']['no_account'] ?> <a href="./register.php" rel="noopener"><?= $translations['auth']['login']['register'] ?></a>
+                        <?= $translations['auth']['login']['no_account'] ?> <a href="./register.php" rel="noopener" aria-label="<?= $translations['auth']['login']['register'] ?>"><?= $translations['auth']['login']['register'] ?></a>
                     </p>
                 </div>
             </div>

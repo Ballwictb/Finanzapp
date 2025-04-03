@@ -194,6 +194,10 @@
                 "israel": "Spécialisé en développement web et administrateur systèmes. Actuellement en stage chez NTT DATA.",
                 "roberto": "Étudiant en 2ème année de DAW. Actuellement en stage chez NTT DATA.",
                 "jamal": "Développeur d'Applications Web, avec une expérience autodidacte. J'ai également de l'expérience et des connaissances en administration de systèmes et réseaux, ainsi qu'en support informatique hardware et software."
+            },
+            "linkDescription": {
+                "linkedIn": "Lien qui mène à la page LinkedIn de l'un des développeurs du projet.",
+                "github": "Lien qui mène à la page GitHub de l'un des développeurs du projet."
             }
         },
         "values": {
