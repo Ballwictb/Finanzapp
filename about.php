@@ -83,7 +83,7 @@
                         <!-- Team Member 1 -->
                         <div class="team-card">
                             <div class="team-image">
-                                <img src="./assets/team/israel.jpg" alt="Israel Soriano Buendí" class="team-photo">
+                                <img src="./assets/team/israel.jpg" loading="lazy" alt="Israel Soriano Buendí" class="team-photo">
                             </div>
                             <div class="team-info">
                                 <h3 class="team-name">Israel Soriano Buendía</h3>
@@ -107,7 +107,7 @@
                         <!-- Team Member 2 -->
                         <div class="team-card">
                             <div class="team-image">
-                                <img src="./assets/team/roberto.jpg" alt="Roberto Ortiz Pérez" class="team-photo">
+                                <img src="./assets/team/roberto.jpg" loading="lazy" alt="Roberto Ortiz Pérez" class="team-photo">
                             </div>
                             <div class="team-info">
                                 <h3 class="team-name">Roberto Ortiz Pérez</h3>
@@ -131,7 +131,7 @@
                         <!-- Team Member 3 -->
                         <div class="team-card">
                             <div class="team-image">
-                                <img src="./assets/team/jamal.jpg" alt="Jamal Rabah" class="team-photo">
+                                <img src="./assets/team/jamal.jpg" loading="lazy" alt="Jamal Rabah" class="team-photo">
                             </div>
                             <div class="team-info">
                                 <h3 class="team-name">Jamal Rabah</h3>
