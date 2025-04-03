@@ -83,8 +83,8 @@
                         <div class="social-contact">
                             <h3 data-elem="contact.social"><?php echo $translations['contact']['social']; ?></h3>
                             <div class="social-links">
-                                <a href="https://github.com/Ballwictb/FinanzApp/tree/main" rel="noopener" class="social-link-contact"><i class="fab fa-github"></i></a>
-                                <a href="https://finanzapp.es" rel="noopener" class="social-link-contact"><i class="fa-light fa-globe-pointer"></i></a>
+                                <a href="https://github.com/Ballwictb/FinanzApp/tree/main" aria-label="<?php echo $translations['contact']['social']; ?>" rel="noopener" class="social-link-contact"><i class="fab fa-github"></i></a>
+                                <a href="https://finanzapp.es" aria-label="<?php echo $translations['contact']['social']; ?>" rel="noopener" class="social-link-contact"><i class="fa-light fa-globe-pointer"></i></a>
                             </div>
                         </div>
                     </div>

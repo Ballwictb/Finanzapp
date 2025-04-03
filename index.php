@@ -118,7 +118,7 @@
                         <h1 class="hero-title" data-elem="hero.title"><?php echo $translations['hero']['title']; ?> <span class="text-gradient" data-elem="hero.titleHighlight"><?php echo $translations['hero']['titleHighlight']; ?></span></h1>
                         <p class="hero-description" data-elem="hero.description"><?php echo $translations['hero']['description']; ?></p>
                         <div class="hero-cta">
-                            <a href="#" rel="noopener" class="btn btn-primary btn-large" data-elem="hero.cta.primary"><?php echo $translations['hero']['cta']['primary']; ?></a>
+                            <a href="#" rel="noopener" aria-label="<?php echo $translations['hero']['cta']['primary']; ?>" class="btn btn-primary btn-large" data-elem="hero.cta.primary"><?php echo $translations['hero']['cta']['primary']; ?></a>
                             <a href="#demo" rel="noopener" class="btn btn-play">
                                 <div class="play-icon">
                                     <i class="fas fa-play"></i>
@@ -290,8 +290,8 @@
                     <h2 class="cta-title" data-elem="cta.title"><?php echo $translations['cta']['title']; ?> <span class="text-gradient" data-elem="cta.titleHighlight"><?php echo $translations['cta']['titleHighlight']; ?></span></h2>
                     <p class="cta-description" data-elem="cta.description"><?php echo $translations['cta']['description']; ?></p>
                     <div class="cta-buttons">
-                        <a href="./register.php" rel="noopener" class="btn btn-primary btn-large" data-elem="cta.buttons.primary"><?php echo $translations['cta']['buttons']['primary']; ?></a>
-                        <a href="#" rel="noopener" class="btn btn-outline btn-large" data-elem="cta.buttons.secondary"><?php echo $translations['cta']['buttons']['secondary']; ?></a>
+                        <a href="./register.php" aria-label="<?php echo $translations['cta']['buttons']['primary']; ?>" rel="noopener" class="btn btn-primary btn-large" data-elem="cta.buttons.primary"><?php echo $translations['cta']['buttons']['primary']; ?></a>
+                        <a href="#" aria-label="<?php echo $translations['cta']['buttons']['secondary']; ?>" rel="noopener" class="btn btn-outline btn-large" data-elem="cta.buttons.secondary"><?php echo $translations['cta']['buttons']['secondary']; ?></a>
                     </div>
                     <p class="cta-note" data-elem="cta.note"><?php echo $translations['cta']['note']; ?></p>
                 </div>
