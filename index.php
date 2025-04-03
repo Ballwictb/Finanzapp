@@ -117,7 +117,7 @@
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-text">
-                        <a href="https://site.educa.madrid.org/ies.laarboleda.alcorcon/"><div class="badge" data-elem="hero.badge"><?php echo $translations['hero']['badge']; ?></div></a>
+                        <a href="https://site.educa.madrid.org/ies.laarboleda.alcorcon/" target="_blank"><div class="badge" data-elem="hero.badge"><?php echo $translations['hero']['badge']; ?></div></a>
                         <h1 class="hero-title" data-elem="hero.title"><?php echo $translations['hero']['title']; ?> <span class="text-gradient" data-elem="hero.titleHighlight"><?php echo $translations['hero']['titleHighlight']; ?></span></h1>
                         <p class="hero-description" data-elem="hero.description"><?php echo $translations['hero']['description']; ?></p>
                         <div class="hero-cta">
