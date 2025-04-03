@@ -13,7 +13,6 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
     background-color: var(--thumb-color);
-    border-radius: var(--scrollbar-radius);
 }
 
 body::-webkit-scrollbar-track {
