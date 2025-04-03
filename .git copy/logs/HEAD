@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 da364fa3a04fdfe5a20570fea042ea64d277f7f6 Ballwictb <ballwitcb@gmail.com> 1743364232 +0200	clone: from github.com:Ballwictb/FinanzApp.git
+da364fa3a04fdfe5a20570fea042ea64d277f7f6 52f1e8d787eee8116bc3610d30b798e1761b506f name <ballwictb@gmail.com> 1743364450 +0200	commit: add enable fiveserver visual php
+52f1e8d787eee8116bc3610d30b798e1761b506f 765d71ff8235ac8e36edb4f39a2d318bf64712a8 name <ballwictb@gmail.com> 1743365432 +0200	commit: add blur nav mobile
+765d71ff8235ac8e36edb4f39a2d318bf64712a8 f1cb97b3e5d525919f1f30dcee3e52fc3806e2a4 name <ballwictb@gmail.com> 1743371752 +0200	commit: fix document for Accessibility
+f1cb97b3e5d525919f1f30dcee3e52fc3806e2a4 277e8bdc33c8c985c7cc6388aa1d5b0da3bbe6df name <ballwictb@gmail.com> 1743414139 +0200	pull --tags: Fast-forward
+277e8bdc33c8c985c7cc6388aa1d5b0da3bbe6df 1e2a4fc080fbabaebdc8e186cba3c82fc8539d76 name <ballwictb@gmail.com> 1743711187 +0200	pull: Fast-forward
+1e2a4fc080fbabaebdc8e186cba3c82fc8539d76 1e2a4fc080fbabaebdc8e186cba3c82fc8539d76 name <ballwictb@gmail.com> 1743711370 +0200	checkout: moving from toPhp to toPhp

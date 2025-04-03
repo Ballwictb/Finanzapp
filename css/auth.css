@@ -1,0 +1,106 @@
+/* Sección principal para ambas páginas */
+.auth {
+    padding: var(--space-3xl) 0;
+    background: var(--color-white);
+    margin-top: var(--space-3xl);
+}
+
+/* Contenedor del formulario */
+.auth-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: var(--space-xl);
+    background: var(--color-white);
+    border: 1px solid var(--color-gray-light);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+}
+
+/* Título del formulario */
+.auth-form h2 {
+    text-align: center;
+    margin-bottom: var(--space-lg);
+    color: var(--color-dark);
+}
+
+/* Cada grupo del formulario */
+.auth-form .form-group {
+    margin-bottom: var(--space-md);
+}
+
+/* Etiquetas (labels) */
+.auth-form label {
+    display: block;
+    margin-bottom: var(--space-xs);
+    font-weight: 600;
+    color: var(--color-dark);
+}
+
+/* Inputs */
+.auth-form input {
+    width: 100%;
+    padding: var(--space-sm);
+    border: 1px solid var(--color-gray-light);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-md);
+}
+
+/* Efecto al enfocar un input */
+.auth-form input:focus {
+    border-color: var(--color-primary);
+    outline: none;
+    box-shadow: 0 0 5px var(--color-primary);
+}
+
+/* Nota inferior del formulario */
+.auth-form .form-note {
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray);
+    margin-top: var(--space-md);
+}
+
+.auth-form .form-note a {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+/* Checkbox: la etiqueta (se usa en ambas páginas) */
+.checkbox-label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Contenedor de checkbox (por defecto, sin separación extra para registro) */
+.auth-form .checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Para la página de login se requiere un gap extra (se aprovecha la clase “login” en el body) */
+.auth.login .auth-form .checkbox-container {
+    gap: 10px;
+}
+
+/* Botón grande */
+.btn-large {
+    padding: var(--space-sm) var(--space-2xl) !important;
+    font-size: var(--font-size-lg);
+}
+
+/* Hover en botón primario */
+.auth-form .btn-primary:hover {
+    background: var(--color-primary-dark);
+}
+
+.auth-form input.error-input {
+    border: 2px solid #e74c3c !important;
+    box-shadow: 0 0 8px rgba(231, 76, 60, 0.7) !important;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input.error-input {
+    border: 2px solid #e74c3c !important;
+    box-shadow: 0 0 8px rgba(231, 76, 60, 0.7) !important;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
