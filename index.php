@@ -80,6 +80,9 @@
 
     <!-- Custom scripts with defer to set settings -->
     <script src="./config.php" defer></script>
+
+    <!-- Custom script for the loader animation -->
+    <script src="./js/loader.js"></script>
 </head>
 
 <body>
@@ -114,7 +117,7 @@
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-text">
-                        <div class="badge" data-elem="hero.badge"><?php echo $translations['hero']['badge']; ?></div>
+                        <a href="https://site.educa.madrid.org/ies.laarboleda.alcorcon/"><div class="badge" data-elem="hero.badge"><?php echo $translations['hero']['badge']; ?></div></a>
                         <h1 class="hero-title" data-elem="hero.title"><?php echo $translations['hero']['title']; ?> <span class="text-gradient" data-elem="hero.titleHighlight"><?php echo $translations['hero']['titleHighlight']; ?></span></h1>
                         <p class="hero-description" data-elem="hero.description"><?php echo $translations['hero']['description']; ?></p>
                         <div class="hero-cta">
@@ -256,7 +259,7 @@
                             <p class="step-description" data-elem="howItWorks.steps.connect.description"><?php echo $translations['howItWorks']['steps']['connect']['description']; ?></p>
                         </div>
                         <div class="step-image">
-                            <img src="https://via.placeholder.com/400x300" loading="lazy" alt="Registrate" class="step-img">
+                            <img src="./assets/HowItWorks/register.png" loading="lazy" alt="Registrate" class="step-img">
                         </div>
                     </div>
                     <div class="step reverse" data-aos="fade-left">
@@ -266,7 +269,7 @@
                             <p class="step-description" data-elem="howItWorks.steps.customize.description"><?php echo $translations['howItWorks']['steps']['customize']['description']; ?></p>
                         </div>
                         <div class="step-image">
-                            <img src="https://via.placeholder.com/400x300" loading="lazy" alt="Personaliza tu experiencia" class="step-img">
+                            <img src="./assets/HowItWorks/personalization.png" loading="lazy" alt="Personaliza tu experiencia" class="step-img">
                         </div>
                     </div>
                     <div class="step" data-aos="fade-right">
@@ -276,7 +279,7 @@
                             <p class="step-description" data-elem="howItWorks.steps.optimize.description"><?php echo $translations['howItWorks']['steps']['optimize']['description']; ?></p>
                         </div>
                         <div class="step-image">
-                            <img src="https://via.placeholder.com/400x300" loading="lazy" alt="Optimiza tus finanzas" class="step-img">
+                            <img src="./assets/HowItWorks/personalization.png" loading="lazy" alt="Optimiza tus finanzas" class="step-img">
                         </div>
                     </div>
                 </div>

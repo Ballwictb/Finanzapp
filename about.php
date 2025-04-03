@@ -39,8 +39,6 @@
     <!-- Mobile Menu -->
     <?php include_once "./includes/mobileMenu.php"; ?>
 
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
     <section class="blurM">
 
         <!-- Header -->

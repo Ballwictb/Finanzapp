@@ -91,7 +91,7 @@ function initMobileMenu() {
         link.addEventListener('click', closeMenu);
     });
 
-    // Cerrar menú al hacer clic fuera
+    // Close menu by clicking out
     document.addEventListener('click', (event) => {
         const isClickInsideMenu = mobileMenu.contains(event.target);
         const isClickOnToggle = menuToggle.contains(event.target);

@@ -43,9 +43,6 @@
     <!-- Mobile Menu -->
     <?php include "./includes/mobileMenu.php"; ?>
 
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
-
     <section class="blurM">
         <!-- Header -->
         <?php include "./includes/header.php"; ?>
@@ -70,12 +67,16 @@
 
                         <div class="contact-methods">
                             <div class="contact-method">
-                                <div class="method-icon">
-                                    <i class="fas fa-envelope"></i>
-                                </div>
+                                <a href="mailto:info@finanzapp.es">
+                                    <div class="method-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </a>
                                 <div class="method-details">
                                     <h3 data-elem="contact.email"><?php echo $translations['contact']['email']; ?></h3>
-                                    <p>info@finanzapp.es</p>
+                                    <a href="mailto:info@finanzapp.es">
+                                        info@finanzapp.es
+                                    </a>
                                 </div>
                             </div>
                         </div>

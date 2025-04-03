@@ -7,8 +7,6 @@
 
 Gestiona tus finanzas personales con una plataforma intuitiva que te ayuda a visualizar, planificar y optimizar tu dinero.
 
-[JIRA](https://finanzapp-team.atlassian.net/jira/software/projects/MFLP/boards/1)
-
 ---
 
 ## 🌟 Características
@@ -83,14 +81,13 @@ Realizamos análisis de calidad del código con **SonarCloud** para garantizar u
 <div align="center">
 
 ## 🧑‍💻 Contribuidores
-### 🚀 Landing_Page
 
 Este proyecto ha sido desarrollado por un grupo de estudiantes de desarrollo web que buscan mejorar la manera en que las personas gestionan su dinero.
 <br>
 
 | [![Robertort1z](https://media.licdn.com/dms/image/v2/D4E03AQF1Mi1JaTHkAA/profile-displayphoto-shrink_100_100/B4EZOYNpGWGYAU-/0/1733425533958?e=1748476800&v=beta&t=V1g6DfqTh1_TL1Wjz2h9l-ZVcIQG5vnmBO824seLqmU&s=100)](https://github.com/Robertort1z) | [![Ballwictb](https://avatars.githubusercontent.com/u/104717038?v=4&s=100)](https://github.com/Ballwictb) | [![IsraC0d33](https://avatars.githubusercontent.com/u/150441668?v=4&s=100)](https://github.com/IsraC0d33) |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|
-| [Roberto Ortiz](https://github.com/Robertort1z) | [Jamal Rabah](https://github.com/Ballwictb) | [Israel Soriano](https://github.com/IsraC0d33) |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+|                                                                                                    [Roberto Ortiz](https://github.com/Robertort1z)                                                                                                     |                                [Jamal Rabah](https://github.com/Ballwictb)                                |                              [Israel Soriano](https://github.com/IsraC0d33)                               |
 
 </div>
 
@@ -99,8 +96,6 @@ Este proyecto ha sido desarrollado por un grupo de estudiantes de desarrollo web
 ## 🔗 Enlaces de Interés
 
 | 🌐 [Sitio oficial](https://finanzapp.es/) | 🚀 [Demo en GitHub Pages](https://ballwictb.github.io/FinanzApp/) | 📚 [Documentación técnica](https://github.com/Ballwictb/FinanzApp/wiki) | ❇️ [SonarCloud - Análisis del código](https://sonarcloud.io/dashboard?id=Ballwictb_FinanzApp) |
-
-</div>
 
 </div>
 
