@@ -3,6 +3,8 @@
 <!-- <a href="https://github.com/IsraC0d33/Proyecto1Marcas"><img src="https://github.com/IsraC0d33/Proyecto1Marcas/blob/main/assets/marca.gif" alt="Marca del Repositorio" width="300"></a>
 </div> -->
 
+
+
 # 💱 **FinanzApp** 🏦
 
 Gestiona tus finanzas personales con una plataforma intuitiva que te ayuda a visualizar, planificar y optimizar tu dinero.
