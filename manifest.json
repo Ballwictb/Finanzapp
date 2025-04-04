@@ -2,7 +2,7 @@
     "name": "FinanzApp - Control financiero inteligente",
     "short_name": "FinanzApp",
     "description": "Gestiona tus finanzas personales con una plataforma que te ayuda a visualizar, planificar y optimizar tu dinero.",
-    "start_url": "/index.html",
+    "start_url": "/index.php",
     "scope": "/",
     "display": "standalone",
     "orientation": "portrait",
