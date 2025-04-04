@@ -102,7 +102,6 @@
 ### 📊 Métricas del Proyecto
 
 
-[![Jira Board](https://img.shields.io/badge/Jira-Ver%20Tablero-blue?logo=jira)](https://your-jira-link.com)
 [![Code Coverage](https://img.shields.io/badge/Cobertura-85%25-green)]()
 [![Build Status](https://img.shields.io/badge/Build-Passing-success)]()
 
@@ -194,7 +193,6 @@
 
 ### 📊 Project Metrics
 
-[![Jira Board](https://img.shields.io/badge/Jira-View%20Board-blue?logo=jira)](https://your-jira-link.com)
 [![Code Coverage](https://img.shields.io/badge/Coverage-85%25-green)]()
 [![Build Status](https://img.shields.io/badge/Build-Passing-success)]()
 
@@ -285,7 +283,6 @@
 
 ### 📊 Métriques du Projet
 
-[![Jira Board](https://img.shields.io/badge/Jira-Voir%20Tableau-blue?logo=jira)](https://your-jira-link.com)
 [![Couverture de Code](https://img.shields.io/badge/Couverture-85%25-green)]()
 [![Statut de Build](https://img.shields.io/badge/Build-Réussi-success)]()
 
