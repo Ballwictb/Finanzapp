@@ -15,7 +15,7 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.finanzapp.es/" />
-    <meta property="og:title" content="<?php $translations['meta']['title']; ?>" />
+    <meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
     <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
     <meta property="og:image" content="http://tny.im/goh" />
     <!-- If required, we can add an email -->
@@ -42,6 +42,10 @@
 
     <!-- Favicon and other icons -->
     <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest.json">
+
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
