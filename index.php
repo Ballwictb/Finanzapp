@@ -259,7 +259,7 @@
                             <p class="step-description" data-elem="howItWorks.steps.connect.description"><?php echo $translations['howItWorks']['steps']['connect']['description']; ?></p>
                         </div>
                         <div class="step-image">
-                            <img src="./assets/HowItWorks/register.png" loading="lazy" alt="Registrate" class="step-img">
+                            <img src="./assets/HowItWorks/register.jpg" loading="lazy" alt="Registrate" class="step-img">
                         </div>
                     </div>
                     <div class="step reverse" data-aos="fade-left">
@@ -269,7 +269,7 @@
                             <p class="step-description" data-elem="howItWorks.steps.customize.description"><?php echo $translations['howItWorks']['steps']['customize']['description']; ?></p>
                         </div>
                         <div class="step-image">
-                            <img src="./assets/HowItWorks/personalization.png" loading="lazy" alt="Personaliza tu experiencia" class="step-img">
+                            <img src="./assets/HowItWorks/personalization.jpg" loading="lazy" alt="Personaliza tu experiencia" class="step-img">
                         </div>
                     </div>
                     <div class="step" data-aos="fade-right">
@@ -279,7 +279,7 @@
                             <p class="step-description" data-elem="howItWorks.steps.optimize.description"><?php echo $translations['howItWorks']['steps']['optimize']['description']; ?></p>
                         </div>
                         <div class="step-image">
-                            <img src="./assets/HowItWorks/personalization.png" loading="lazy" alt="Optimiza tus finanzas" class="step-img">
+                            <img src="./assets/HowItWorks/optimization.jpg" loading="lazy" alt="Optimiza tus finanzas" class="step-img">
                         </div>
                     </div>
                 </div>
