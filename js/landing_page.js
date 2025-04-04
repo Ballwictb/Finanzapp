@@ -1,7 +1,7 @@
 // wait DOM to be loaded
 document.addEventListener("DOMContentLoaded", () => {
     initLoader();
-    initCursor();
+    //initCursor();
     initHeaderScroll();
     initMobileMenu();
     initHeroChart();
