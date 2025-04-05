@@ -11,10 +11,10 @@
         <!-- nav -->
         <nav class="main-nav" aria-label="menu">
             <ul class="nav-list">
-                <li><a href="#features" rel="noopener" class="nav-link" data-elem="nav.features"
+                <li><a href="./index.php#features" rel="noopener" class="nav-link" data-elem="nav.features"
                         aria-label="<?php echo $translations['nav']['features']; ?>">
                         <?php echo $translations['nav']['features']; ?></a></li>
-                <li><a href="#how-it-works" rel="noopener" class="nav-link" data-elem="nav.howItWorks"
+                <li><a href="./index.php#how-it-works" rel="noopener" class="nav-link" data-elem="nav.howItWorks"
                         aria-label="<?php echo $translations['nav']['howItWorks']; ?>">
                         <?php echo $translations['nav']['howItWorks']; ?></a></li>
                 <li><a href="./about.php?lang=<?php echo $lang; ?>" rel="noopener" class="nav-link" data-elem="nav.about"
@@ -35,9 +35,9 @@
                 </button>
                 <div class="language-dropdown">
                     <!-- Aquí se conserva la página actual con el parámetro 'page' -->
-                    <a href="?lang=es<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener" 
+                    <a href="?lang=es<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener"
                        data-lang="es" class="<?php echo ($lang == 'es') ? 'active' : ''; ?>">Español</a>
-                    <a href="?lang=en<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener" 
+                    <a href="?lang=en<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener"
                        data-lang="en" class="<?php echo ($lang == 'en') ? 'active' : ''; ?>">English</a>
                     <a href="?lang=fr<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener"
                        data-lang="fr" class="<?php echo ($lang == 'fr') ? 'active' : ''; ?>">Français</a>
