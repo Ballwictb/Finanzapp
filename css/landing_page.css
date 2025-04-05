@@ -1689,6 +1689,7 @@ body:hover .cursor-follower {
 	padding: var(--space-3xl) 0;
 }
 
+
 .legal-container {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
