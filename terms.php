@@ -113,8 +113,8 @@
                     </section>
 
                     <section id="definitions">
-                        <h2 data-elem="terms.sections.definitions.title"><?php echo $translations['terms']['sections']['introduction']['p2']?></h2>
-                        <p data-elem="terms.sections.definitions.p1"><?php echo $translations['terms']['sections']['introduction']['p2']?></p>
+                        <h2 data-elem="terms.sections.definitions.title"><?php echo $translations['terms']['sections']['definitions']['p2']?></h2>
+                        <p data-elem="terms.sections.definitions.p1"><?php echo $translations['terms']['sections']['definitions']['p2']?></p>
                         <ul>
                             <li data-elem="terms.sections.definitions.li1"><?php echo $translations['terms']['sections']['definitions']['li1']?></li>
                             <li data-elem="terms.sections.definitions.li2"><?php echo $translations['terms']['sections']['definitions']['li2']?></li>
