@@ -185,7 +185,7 @@
                         <p data-elem="cookies.contact.p1">Si tiene alguna pregunta sobre nuestro uso de cookies o esta política, póngase en contacto con nosotros en:</p>
                         <ul>
                             <li>Email: <a href="mailto:privacy@finanzapp.com">privacy@finanzapp.com</a></li>
-                            <li data-elem="cookies.contact.address">Dirección: Universidad de Sevilla, Av. Reina Mercedes s/n, 41012 Sevilla, España</li>
+                            <li data-elem="cookies.contact.address">Dirección del centro: Av. del Oeste, s/n, 28922 Alcorcón, Madrid</li>
                         </ul>
                     </section>
                 </div>
