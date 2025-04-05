@@ -197,6 +197,19 @@
 <?php include_once "./includes/footer.php"?>
 
 </section>
+
+ <!-- Cookie Consent -->
+ <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <h3 data-elem="cookies.title"><?php echo $translations['cookies']['title']; ?></h3>
+            <p data-elem="cookies.description"><?php echo $translations['cookies']['description']; ?> <a href="./cookies.php" data-elem="cookies.link"><?php echo $translations['cookies']['link']; ?></a>.</p>
+            <div class="cookie-buttons">
+                <button id="cookieAccept" class="btn btn-primary" data-elem="cookies.accept"><?php echo $translations['cookies']['accept']; ?></button>
+                <button id="cookieReject" class="btn btn-outline" data-elem="cookies.reject"><?php echo $translations['cookies']['reject']; ?></button>
+                <button id="cookieSettings" class="btn btn-link" data-elem="cookies.settings"><?php echo $translations['cookies']['settings']; ?></button>
+            </div>
+        </div>
+    </div>
 <!-- Back to Top Button -->
 <button id="backToTop" class="back-to-top">
         <i class="fas fa-arrow-up"></i>
