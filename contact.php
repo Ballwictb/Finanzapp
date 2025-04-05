@@ -1,4 +1,4 @@
-<?php include "config.php"; ?>
+<?php include_once "config.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -41,11 +41,11 @@
 
 <body>
     <!-- Mobile Menu -->
-    <?php include "./includes/mobileMenu.php"; ?>
+    <?php include_once "./includes/mobileMenu.php"; ?>
 
     <section class="blurM">
         <!-- Header -->
-        <?php include "./includes/header.php"; ?>
+        <?php include_once "./includes/header.php"; ?>
 
         <!-- Page Header -->
         <section class="page-header">
@@ -140,7 +140,7 @@
         </section>
 
         <!-- Footer -->
-        <?php include './includes/footer.php'; ?>
+        <?php include_once './includes/footer.php'; ?>
     </section>
 
     <!-- Back to Top Button -->
@@ -150,7 +150,7 @@
 
     <!-- Translation JS -->
     <script src="./js/translations.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js" integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT" crossorigin="anonymous"></script>
 
     <!-- Custom JS -->
     <script src="./js/landing_page.js"></script>

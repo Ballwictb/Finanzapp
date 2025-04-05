@@ -3,7 +3,7 @@ http_response_code(404);
 header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 header("Pragma: no-cache");
 
-include $_SERVER['DOCUMENT_ROOT'] . '/FinanzApp/config.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/FinanzApp/config.php';
 ?>
 
 <!DOCTYPE html>
