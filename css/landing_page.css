@@ -76,6 +76,13 @@
 	box-sizing: border-box;
 }
 
+/* selection */
+body::selection {
+	/* background-color: #fa3469;  Option second*/
+	background-color: #ff5164;
+	color: #ffffff;
+}
+
 html {
 	font-size: 16px;
 	scroll-behavior: smooth;

@@ -33,12 +33,12 @@
                     <h4 class="footer-title" data-elem="footer.legal"><?php echo $translations['footer']['legal']; ?></h4>
                     <ul class="footer-menu">
                         <li><a href="terms.php" rel="noopener" data-elem="footer.links.terms"><?php echo $translations['footer']['links']['terms']; ?></a></li>
-                        <li><a href="privacy.php" rel="noopener" data-elem="footer.links.privacy"><?php echo $translations['footer']['links']['privacy']; ?></a></li>
+                        <!-- <li><a href="privacy.php" rel="noopener" data-elem="footer.links.privacy"><?php echo $translations['footer']['links']['privacy']; ?></a></li> -->
                         <li><a href="cookies.php" rel="noopener" data-elem="footer.links.cookies"><?php echo $translations['footer']['links']['cookies']; ?></a></li>
                     </ul>
                 </div>
             </div>
-        </div> 
+        </div>
         <div class="footer-bottom">
             <p class="copyright" data-elem="footer.copyright"><?php echo $translations['footer']['copyright']; ?></p>
         </div>
