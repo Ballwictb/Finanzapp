@@ -120,7 +120,15 @@
 <!-- English Section -->
 <div id="english-section" align="center">
 
+
 ## <img src="https://flagcdn.com/w20/gb.png" width="20" alt="English"> FinanzApp - Smart Financial Manager
+
+<!-- Selector de idioma con banderas centradas -->
+  <div>
+    <a href="#english-section"><img src="https://flagcdn.com/w20/gb.png" alt="English" width="20"></a> |
+    <a href="#french-section"><img src="https://flagcdn.com/w20/fr.png" alt="Français" width="20"></a> |
+    <a href="#spanish-section"><img src="https://flagcdn.com/w20/es.png" alt="Español" width="20"></a>
+  </div>
 
 ### 🌟 Key Features
 </div>
@@ -211,6 +219,13 @@
 <div id="french-section" align="center">
 
 ## <img src="https://flagcdn.com/w20/fr.png" width="20" alt="Français"> FinanzApp - Gestionnaire Financier Intelligent
+
+<!-- Selector de idioma con banderas centradas -->
+  <div>
+    <a href="#english-section"><img src="https://flagcdn.com/w20/gb.png" alt="English" width="20"></a> |
+    <a href="#french-section"><img src="https://flagcdn.com/w20/fr.png" alt="Français" width="20"></a> |
+    <a href="#spanish-section"><img src="https://flagcdn.com/w20/es.png" alt="Español" width="20"></a>
+  </div>
 
 ### 🌟 Fonctionnalités Principales
 </div>
