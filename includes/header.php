@@ -9,22 +9,23 @@
             <span data-elem="brand"><?php echo $translations['brand']; ?></span>
         </a>
         <!-- nav -->
-        <nav class="main-nav" aria-label="menu">
-            <ul class="nav-list">
-                <li><a href="./index.php#features" rel="noopener" class="nav-link" data-elem="nav.features"
-                        aria-label="<?php echo $translations['nav']['features']; ?>">
-                        <?php echo $translations['nav']['features']; ?></a></li>
-                <li><a href="./index.php#how-it-works" rel="noopener" class="nav-link" data-elem="nav.howItWorks"
-                        aria-label="<?php echo $translations['nav']['howItWorks']; ?>">
-                        <?php echo $translations['nav']['howItWorks']; ?></a></li>
-                <li><a href="./about.php?lang=<?php echo $lang; ?>" rel="noopener" class="nav-link" data-elem="nav.about"
-                        aria-label="<?php echo $translations['nav']['about']; ?>">
-                        <?php echo $translations['nav']['about']; ?></a></li>
-                <li><a href="./contact.php?lang=<?php echo $lang; ?>" rel="noopener" class="nav-link" data-elem="nav.contact"
-                        aria-label="<?php echo $translations['nav']['contact']; ?>">
-                        <?php echo $translations['nav']['contact']; ?></a></li>
-            </ul>
-        </nav>
+				<nav class="main-nav" aria-label="menu">
+    <ul class="nav-list">
+        <li><a href="./index.php#features" rel="noopener" class="nav-link" data-elem="nav.features"
+                aria-label="<?php echo htmlspecialchars($translations['nav']['features'], ENT_QUOTES, 'UTF-8'); ?>">
+                <?php echo htmlspecialchars($translations['nav']['features'], ENT_QUOTES, 'UTF-8'); ?></a></li>
+        <li><a href="./index.php#how-it-works" rel="noopener" class="nav-link" data-elem="nav.howItWorks"
+                aria-label="<?php echo htmlspecialchars($translations['nav']['howItWorks'], ENT_QUOTES, 'UTF-8'); ?>">
+                <?php echo htmlspecialchars($translations['nav']['howItWorks'], ENT_QUOTES, 'UTF-8'); ?></a></li>
+        <li><a href="./about.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="nav-link" data-elem="nav.about"
+                aria-label="<?php echo htmlspecialchars($translations['nav']['about'], ENT_QUOTES, 'UTF-8'); ?>">
+                <?php echo htmlspecialchars($translations['nav']['about'], ENT_QUOTES, 'UTF-8'); ?></a></li>
+        <li><a href="./contact.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="nav-link" data-elem="nav.contact"
+                aria-label="<?php echo htmlspecialchars($translations['nav']['contact'], ENT_QUOTES, 'UTF-8'); ?>">
+                <?php echo htmlspecialchars($translations['nav']['contact'], ENT_QUOTES, 'UTF-8'); ?></a></li>
+    </ul>
+</nav>
+
 
         <!-- Languages (es-fr-en) -->
         <div class="nav-buttons">
