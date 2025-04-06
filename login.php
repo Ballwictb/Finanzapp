@@ -32,7 +32,7 @@
 	<link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
 
 	<!-- ReCaptcha -->
-	<script src="./js/api.js" async defer></script>
+	<script src="https://launch.finanzapp.es/js/api.js" integrity="sha384-CdhidNt+STVg/jxRNtQC1nw7l1Ys8/TxZI2ZVTypU9tDQ6goYcuMYbd8VR23C6/x" crossorigin="anonymous"></script>
 </head>
 
 <body>
