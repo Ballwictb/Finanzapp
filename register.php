@@ -3,38 +3,61 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title><?php echo $translations['auth']['register']['title']; ?> - <?php echo $translations['brand']; ?></title>
-        <meta name="description" content="<?php echo $translations['auth']['meta']['register_description']; ?>">
-        <meta name="keywords" content="<?php echo $translations['meta']['keywords']; ?>">
-        <meta name="author" content="<?php echo $translations['meta']['author']; ?>">
-        <meta name="robots" content="noindex, nofollow">
-	    <link rel="canonical" href="https://www.finanzapp.es/register">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Fonts and icons -->
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
+    <!-- Title and basic meta -->
+    <title><?php echo $translations['auth']['register']['title']; ?> - <?php echo $translations['brand']; ?></title>
+    <meta name="description" content="<?php echo $translations['auth']['meta']['register_description']; ?>">
+    <meta name="keywords" content="<?php echo $translations['meta']['keywords']; ?>">
+    <meta name="author" content="<?php echo $translations['meta']['author']; ?>">
+    <meta name="robots" content="noindex, nofollow">
 
-        <!-- General styles -->
-        <link rel="stylesheet" href="./css/landing_page.css">
-        
-        <!-- Specific styles for the register page -->
-        <link rel="stylesheet" href="./css/auth.css">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.finanzapp.es/" />
+    <meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
+    <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
+    <meta property="og:image" content="http://tny.im/goh" />
+    <!-- If required, we can add an email -->
+    <meta property="og:email" content="me@example.com" />
 
-        <!-- Notyf  -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.finanzapp.es/register">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
-    </head>
+    <!-- Preconnect para Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <body>
-        <!-- Mobile Menu -->
-        <?php include_once "./includes/mobileMenu.php"; ?>
-        
-        <section class="blurM">
+    <!-- Fonts and icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
+
+    <!-- Favicon and other icons -->
+	<link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+
+    <!-- Aria-labelledby is used to associate elements with their titles -->
+	<meta name="aria-labelledby" content="main-title">
+
+    <!-- General styles -->
+    <link rel="stylesheet" href="./css/landing_page.css">
+
+    <!-- Specific styles for the register page -->
+    <link rel="stylesheet" href="./css/auth.css">
+
+    <!-- Notyf  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Mobile Menu -->
+    <?php include_once "./includes/mobileMenu.php"; ?>
+
+    <section class="blurM">
 
         <!-- Header -->
         <?php include_once "./includes/header.php"; ?>
@@ -85,7 +108,7 @@
                         </div>
                     </form>
                     <p class="form-note" data-elem="register.note">
-                        <?php echo $translations['auth']['register']['note']; ?> 
+                        <?php echo $translations['auth']['register']['note']; ?>
                         <a href="./login.php" rel="noopener" aria-label="<?php echo $translations['auth']['register']['login']; ?>"><?php echo $translations['auth']['register']['login']; ?></a>
                     </p>
                 </div>
@@ -94,13 +117,14 @@
 
         <!-- Footer -->
         <?php include_once './includes/footer.php'; ?>
-        
-        </section>
 
-        <!-- Scripts -->
-        <script src="https://cdn.jsdelivr.net/npm/chart.js" integrity="sha384-T/4KgSWuZEPozpPz7rnnp/5lDSnpY1VPJCojf1S81uTHS1E38qgLfMgVsAeRCWc4" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js" integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT" crossorigin="anonymous"></script>
-        <script src="./js/landing_page.js"></script>
-        <script src="./js/validation.js"></script>
-    </body>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" integrity="sha384-T/4KgSWuZEPozpPz7rnnp/5lDSnpY1VPJCojf1S81uTHS1E38qgLfMgVsAeRCWc4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js" integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT" crossorigin="anonymous"></script>
+    <script src="./js/landing_page.js"></script>
+    <script src="./js/validation.js"></script>
+</body>
+
 </html>

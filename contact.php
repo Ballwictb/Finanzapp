@@ -6,30 +6,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $translations['contact']['meta']['title']; ?></title>
 
-    <!-- meta -->
+    <!-- Title and basic meta -->
+    <title><?php echo $translations['contact']['meta']['title']; ?></title>
     <meta name="description" content="<?php echo $translations['contact']['meta']['description']; ?>" />
+    <meta name="keywords" content="<?php echo $translations['meta']['keywords']; ?>" />
+    <meta name="author" content="<?= $translations['meta']['author'] ?>">
     <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.finanzapp.es/" />
+    <meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
+    <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
+    <meta property="og:image" content="http://tny.im/goh" />
+    <!-- If required, we can add an email -->
+    <meta property="og:email" content="me@example.com" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
+    <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
+    <meta property="twitter:image" content="https://www.finanzapp.com/assets/twitter-image.jpg">
+
+    <!-- Canonical -->
     <link rel="canonical" href="https://www.finanzapp.es/contact">
 
-    <!-- og -->
-    <meta name="og:title" content="<?php echo $translations['brand']; ?>" />
-    <meta name="og:description" content="<?php echo $translations['meta']['description']; ?>" />
-    <meta name="og:image" content="http://tny.im/goh" />
-    <meta name="og:email" content="me@example.com" />
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- twitter -->
-    <meta property="twitter:title" content="<?php echo $translations['brand']; ?>">
-    <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
-    <meta property="twitter:image" content="#">
-
-    <!-- Font -->
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Icons -->
+
+    <!-- External Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
-    <!-- Logo -->
+
+    <!-- Favicon and other icons -->
     <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest.json">
+
+    <!-- Aria-labelledby is used to associate elements with their titles -->
+    <meta name="aria-labelledby" content="main-title">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/landing_page.css">
     <link rel="stylesheet" href="./css/scrollbar.css">
@@ -156,4 +177,5 @@
     <script src="./js/landing_page.js"></script>
     <script src="./js/validation.js"></script>
 </body>
+
 </html>

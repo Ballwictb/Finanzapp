@@ -11,6 +11,7 @@
 	<title><?php echo $translations['meta']['title']; ?></title>
 	<meta name="description" content="<?php echo $translations['meta']['description']; ?>" />
 	<meta name="keywords" content="<?php echo $translations['meta']['keywords']; ?>" />
+    <meta name="author" content="<?= $translations['meta']['author'] ?>">
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
@@ -35,16 +36,15 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 	<!-- External icons -->
-	<link rel="stylesheet"
-		href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
 
 	<!-- Favicon and other icons -->
 	<link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
 
+    <!-- Aria-labelledby is used to associate elements with their titles -->
 	<meta name="aria-labelledby" content="main-title">
 
 	<!-- Security: noopener for external links (it will be used on the attribute target="_blank") -->

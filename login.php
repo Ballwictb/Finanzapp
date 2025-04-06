@@ -6,18 +6,39 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Title and basic meta -->
 	<title><?= $translations['auth']['login']['title'] ?> - <?= $translations['brand'] ?></title>
 	<meta name="description" content="<?= $translations['meta']['description'] ?>">
 	<meta name="keywords" content="<?= $translations['meta']['keywords'] ?>">
 	<meta name="author" content="<?= $translations['meta']['author'] ?>">
 	<meta name="robots" content="noindex, nofollow">
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.finanzapp.es/" />
+	<meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
+	<meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
+	<meta property="og:image" content="http://tny.im/goh" />
+	<!-- If required, we can add an email -->
+	<meta property="og:email" content="me@example.com" />
+
+	<!-- Canonical -->
 	<link rel="canonical" href="https://www.finanzapp.es/login">
 
+	<!-- Preconnect para Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 	<!-- Fonts and icons -->
-	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet"
-		href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
+
+	<!-- Favicon and other icons -->
+	<link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+
+	<!-- Aria-labelledby is used to associate elements with their titles -->
+	<meta name="aria-labelledby" content="main-title">
 
 	<!-- General styles -->
 	<link rel="stylesheet" href="./css/landing_page.css">

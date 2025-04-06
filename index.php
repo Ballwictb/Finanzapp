@@ -4,13 +4,14 @@
 <html lang="<?php echo $lang; ?>" itemscope itemtype="http://schema.org/WebPage">
 
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Title and basic meta -->
     <title><?php echo $translations['meta']['title']; ?></title>
     <meta name="description" content="<?php echo $translations['meta']['description']; ?>" />
     <meta name="keywords" content="<?php echo $translations['meta']['keywords']; ?>" />
+    <meta name="author" content="<?= $translations['meta']['author'] ?>">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -30,7 +31,7 @@
     <!-- Canonical -->
     <link rel="canonical" href="https://www.finanzapp.es/">
 
-    <!-- Preconnect para Google Fonts -->
+    <!-- Preconnect for Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -49,24 +50,24 @@
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "FinanzApp",
-      "description": "<?php echo $translations['meta']['description']; ?>",
-      "url": "https://www.finanzapp.es/",
-      "potentialAction": {
-        "@type": "HomeAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.finanzapp.es/",
-          "actionPlatform": [
-            "http://schema.org/DesktopWebPlatform",
-            "http://schema.org/MobileWebPlatform"
-          ]
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "FinanzApp",
+            "description": "<?php echo $translations['meta']['description']; ?>",
+            "url": "https://www.finanzapp.es/",
+            "potentialAction": {
+                "@type": "HomeAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.finanzapp.es/",
+                    "actionPlatform": [
+                        "http://schema.org/DesktopWebPlatform",
+                        "http://schema.org/MobileWebPlatform"
+                    ]
+                }
+            }
         }
-      }
-    }
     </script>
     <!-- Accessibility -->
     <!-- Aria-labelledby is used to associate elements with their titles -->
@@ -121,7 +122,9 @@
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-text">
-                        <a href="https://site.educa.madrid.org/ies.laarboleda.alcorcon/" target="_blank"><div class="badge" data-elem="hero.badge"><?php echo $translations['hero']['badge']; ?></div></a>
+                        <a href="https://site.educa.madrid.org/ies.laarboleda.alcorcon/" target="_blank">
+                            <div class="badge" data-elem="hero.badge"><?php echo $translations['hero']['badge']; ?></div>
+                        </a>
                         <h1 class="hero-title" data-elem="hero.title"><?php echo $translations['hero']['title']; ?> <span class="text-gradient" data-elem="hero.titleHighlight"><?php echo $translations['hero']['titleHighlight']; ?></span></h1>
                         <p class="hero-description" data-elem="hero.description"><?php echo $translations['hero']['description']; ?></p>
                         <div class="hero-cta">

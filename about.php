@@ -6,30 +6,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title and basic meta -->
     <title><?php echo $translations['about']['meta']['title']; ?></title>
-
-    <!-- meta -->
     <meta name="description" content="<?php echo $translations['about']['meta']['description']; ?>" />
+    <meta name="keywords" content="<?php echo $translations['meta']['keywords']; ?>" />
+    <meta name="author" content="<?= $translations['meta']['author'] ?>">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.finanzapp.es/about">
 
-    <!-- og -->
-    <meta name="og:title" content="<?php echo $translations['brand']; ?>" />
-    <meta name="og:description" content="<?php echo $translations['meta']['description']; ?>" />
-    <meta name="og:image" content="http://tny.im/goh" />
-    <meta name="og:email" content="me@example.com" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.finanzapp.es/" />
+    <meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
+    <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
+    <meta property="og:image" content="http://tny.im/goh" />
+    <!-- If required, we can add an email -->
+    <meta property="og:email" content="me@example.com" />
 
-    <!-- twitter -->
-    <meta property="twitter:title" content="<?php echo $translations['brand']; ?>">
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
     <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
-    <meta property="twitter:image" content="#">
+    <meta property="twitter:image" content="https://www.finanzapp.com/assets/twitter-image.jpg">
 
-    <!-- Font -->
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.finanzapp.es/">
+
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Icons -->
+
+    <!-- External Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
-    <!-- Logo -->
+    
+    <!-- Favicon and other icons -->
     <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest.json">
+
+    <!-- Accessibility -->
+    <!-- Aria-labelledby is used to associate elements with their titles -->
+    <meta name="aria-labelledby" content="main-title">
+    
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/landing_page.css">
     <link rel="stylesheet" href="./css/scrollbar.css">
