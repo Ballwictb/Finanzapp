@@ -25,7 +25,7 @@
                 <div class="footer-column">
                     <h4 class="footer-title" data-elem="footer.company"><?php echo $translations['footer']['company']; ?></h4>
                     <ul class="footer-menu">
-                        <li><a href="#" rel="noopener" data-elem="footer.links.about"><?php echo $translations['footer']['links']['about']; ?></a></li>
+                        <li><a href="about.php" rel="noopener" data-elem="footer.links.about"><?php echo $translations['footer']['links']['about']; ?></a></li>
                         <li><a href="contact.php" rel="noopener" data-elem="footer.links.contact"><?php echo $translations['footer']['links']['contact']; ?></a></li>
                     </ul>
                 </div>
