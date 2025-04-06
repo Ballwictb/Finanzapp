@@ -32,7 +32,7 @@
 	<link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
 
 	<!-- ReCaptcha -->
-	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script src="./js/api.js" async defer></script>
 </head>
 
 <body>
