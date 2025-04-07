@@ -494,12 +494,17 @@ body:hover .cursor-follower {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background: var(--gradient-primary);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: var(--color-white);
 	margin-right: var(--space-sm);
+}
+
+.logo-icon img {
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
 }
 
 .main-nav {
@@ -2041,6 +2046,12 @@ body:hover .cursor-follower {
 		height: 32px;
 	}
 
+	.logo-icon img {
+		width: 32px;
+    	height: 32px;
+    	object-fit: cover;
+	}
+
 	.hero {
 		padding: 100px 0 50px;
 	}
@@ -2164,6 +2175,12 @@ body:hover .cursor-follower {
 	.logo-icon {
 		width: 28px;
 		height: 28px;
+	}
+
+	.logo-icon img {
+		width: 28px;
+    	height: 28px;
+    	object-fit: cover;
 	}
 
 	.hero-cta {

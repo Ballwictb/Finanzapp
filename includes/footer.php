@@ -4,7 +4,7 @@
             <div class="footer-brand">
                 <a href="index.php" rel="noopener" class="logo">
                     <div class="logo-icon">
-                        <i class="fas fa-dollar-sign"></i>
+                        <img src="./manifest_icons/android-chrome-192x192.png" loading="lazy" alt="Icon">
                     </div>
                     <span data-elem="brand"><?php echo $translations['brand']; ?></span>
                 </a>
