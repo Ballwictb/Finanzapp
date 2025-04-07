@@ -11,10 +11,10 @@
         <!-- nav -->
 				<nav class="main-nav" aria-label="menu">
     <ul class="nav-list">
-        <li><a href="./index.php#features" rel="noopener" class="nav-link" data-elem="nav.features"
+        <li><a href="./index.php?lang=<?php echo $lang; ?>#features" rel="noopener" class="nav-link" data-elem="nav.features"
                 aria-label="<?php echo htmlspecialchars($translations['nav']['features'], ENT_QUOTES, 'UTF-8'); ?>">
                 <?php echo htmlspecialchars($translations['nav']['features'], ENT_QUOTES, 'UTF-8'); ?></a></li>
-        <li><a href="./index.php#how-it-works" rel="noopener" class="nav-link" data-elem="nav.howItWorks"
+        <li><a href="./index.php?lang=<?php echo $lang; ?>#how-it-works" rel="noopener" class="nav-link" data-elem="nav.howItWorks"
                 aria-label="<?php echo htmlspecialchars($translations['nav']['howItWorks'], ENT_QUOTES, 'UTF-8'); ?>">
                 <?php echo htmlspecialchars($translations['nav']['howItWorks'], ENT_QUOTES, 'UTF-8'); ?></a></li>
         <li><a href="./about.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="nav-link" data-elem="nav.about"

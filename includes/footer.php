@@ -18,8 +18,8 @@
                 <div class="footer-column">
                     <h4 class="footer-title" data-elem="footer.product"><?php echo $translations['footer']['product']; ?></h4>
                     <ul class="footer-menu">
-                        <li><a href="#features" rel="noopener" data-elem="footer.links.features"><?php echo $translations['footer']['links']['features']; ?></a></li>
-                        <li><a href="#how-it-works" rel="noopener" data-elem="footer.links.howItWorks"><?php echo $translations['footer']['links']['howItWorks']; ?></a></li>
+                        <li><a href="./index.php?lang=<?php echo $lang; ?>#features" rel="noopener" data-elem="footer.links.features"><?php echo $translations['footer']['links']['features']; ?></a></li>
+                        <li><a href="./index.php?lang=<?php echo $lang; ?>#how-it-works" rel="noopener" data-elem="footer.links.howItWorks"><?php echo $translations['footer']['links']['howItWorks']; ?></a></li>
                     </ul>
                 </div>
                 <div class="footer-column">

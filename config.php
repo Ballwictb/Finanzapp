@@ -1,4 +1,8 @@
 <?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 
 //Detect the language (by URL, session or default)
 $lang = $_GET['lang'] ?? $_SESSION['lang'] ?? 'es'; // Predetermined to Spanish
@@ -14,4 +18,3 @@ if (file_exists($langFile)) {
 } else {
     $translations = json_decode(file_get_contents(__DIR__ . "/langs/es.json"), true); // Spanish by default
 }
-?>
