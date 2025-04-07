@@ -141,9 +141,7 @@
                                 </label>
                             </div>
 
-                            <button type="submit" class="btn btn-primary btn-block" data-elem="contact.form.submit">
-                                <?php echo $translations['contact']['form']['submit']; ?>
-                            </button>
+                            <input type="submit" id="sendContact"  class="btn btn-primary btn-block" data-elem="contact.form.submit" value="<?php echo $translations['contact']['form']['submit']; ?>"/>
                         </form>
 
                         <div class="form-success" id="formSuccess">
@@ -173,7 +171,14 @@
     <script src="./js/translations.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js" integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT" crossorigin="anonymous"></script>
 
-    <!-- Custom JS -->
+		<!-- Email js -->
+		<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+		<script src="./js/initEmail.js"></script>
+		<script src="./js/email.js"></script>
+
+	  <!-- Custom JS -->
     <script src="./js/landing_page.js"></script>
     <script src="./js/validation.js"></script>
 </body>
