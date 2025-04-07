@@ -1,10 +1,10 @@
-<?php include_once "./config.php"; ?>
+<?php include_once "./config/config.php" ?>
 
 <header class="header">
     <div class="container">
         <a href="./index.php?lang=<?php echo $lang; ?>" rel="noopener" class="logo">
             <div class="logo-icon">
-                <img src="./manifest_icons/android-chrome-192x192.png" loading="lazy" alt="Icon">
+                <img src="./manifest/manifest_icons/android-chrome-192x192.png" loading="lazy" alt="Icon">
             </div>
             <span data-elem="brand"><?php echo $translations['brand']; ?></span>
         </a>

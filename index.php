@@ -1,4 +1,5 @@
-<?php include_once "./config.php"; ?>
+<?php include_once "./config/config.php" ?>
+
 <!DOCTYPE html>
 <html lang="<?php echo $lang; ?>" itemscope itemtype="http://schema.org/WebPage">
 
@@ -47,7 +48,7 @@
     <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
 
     <!-- Manifest -->
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="./manifest/manifest.json">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
