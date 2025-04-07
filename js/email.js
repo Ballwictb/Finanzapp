@@ -28,7 +28,7 @@ document.getElementById('contactForm')
 		const subject = document.getElementById("subject").value.trim();
 		const message = document.getElementById("message").value.trim();
 
-		emailjs.sendForm(serviceID, templateID, {
+		emailjs.send(serviceID, templateID, {
 			title: subject,
 			name: name,
 			time: formattedTime,
