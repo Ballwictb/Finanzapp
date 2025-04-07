@@ -978,14 +978,15 @@ body:hover .cursor-follower {
 
 /* Badge  */
 .badge {
-	display: inline-block;
-	padding: var(--space-xs) var(--space-lg);
-	background: rgba(0, 102, 255, 0.1);
-	color: var(--color-primary);
-	border-radius: var(--radius-full);
-	font-size: var(--font-size-sm);
-	font-weight: 600;
-	margin-bottom: var(--space-md);
+    display: inline-block;
+    padding: var(--space-xs) var(--space-lg);
+    color: rgba(0, 102, 255, 0.9); 
+    background: #f3f7ffe6; ; 
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+	border: 1px solid rgba(0, 102, 255, 0.2);
+    margin-bottom: var(--space-md);
 }
 
 /* Features */
@@ -1256,7 +1257,7 @@ body:hover .cursor-follower {
 }
 
 .footer-description {
-	color: var(--color-gray);
+	color: var(--color-gray-light);
 	margin-bottom: var(--space-lg);
 }
 

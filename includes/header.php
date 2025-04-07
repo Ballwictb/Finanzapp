@@ -58,4 +58,4 @@
     </div>
 </header>
 
-<script src="./js/translations.js"></script>
+<script src="./js/translations.js" defer></script>
