@@ -14,7 +14,7 @@
     <a href="./README.fr.md"><img src="https://flagcdn.com/w40/fr.png" alt="Français" height="25" width="40"></a>
   </p>
 
-  <p><em>⚠️ Proyecto de Trabajo Fin de Grado (TFG) - IES La Arboleda 🌲</em></p>
+  <p><em>⚠️ Projet de fin d'études (TFG) - IES La Arboleda 🌲</em></p>
 
   <!-- Badges -->
   <p>
@@ -29,60 +29,60 @@
 
 ---
 
-## 📑 Índice 
+## 📑 Table de matières
 
-- [Introducción](#introducción)
-- [Características](#características)
-- [Galería](#galería)
-- [Stack Tecnológico](#stack-tecnológico)
-- [Métricas del Proyecto](#métricas-del-proyecto)
-- [Documentación](#documentación)
-- [Demo en Vivo](#demo-en-vivo)
-- [Equipo](#equipo)
-- [Licencia](#licencia)
-
----
-
-## 🧠 Introducción
-
-FinanzApp es una plataforma web inteligente de gestión financiera desarrollada como proyecto de fin de grado en el IES La Arboleda. La aplicación ofrece herramientas completas para el manejo de ahorros, inversiones y criptomonedas, combinando seguridad avanzada con análisis detallados en una interfaz intuitiva y responsive.
+- [Introduction](#introduction)
+- [Caractéristiques](#caractéristiques)
+- [Galerie](#galerie)
+- [Pile technologique](#pile-technologique)
+- [Métriques du projet](#métriques-du-projet)
+- [Documentation](#documentation)
+- [Démonstration en direct](#démonstration-en-direct)
+- [Équipe](#équipe)
+- [Licence](#license)
 
 ---
 
-## 🌟 Características
+## 🧠 Introduction
 
-🔐 **Autenticación Segura**
-- Registro e inicio de sesión con reCAPTCHA v3
-- Protección contra ataques bruteforce
+FinanzApp est une plateforme web de gestion financière intelligente développée en tant que projet de fin d'études à l'IES La Arboleda. L'application offre des outils complets pour gérer l'épargne, les investissements et les crypto-monnaies, combinant une sécurité avancée avec des analyses détaillées dans une interface intuitive et réactive.
 
-💼 **Gestión Financiera Integral**
-- 💰 Ahorros inteligentes con seguimiento de objetivos
-  - Visualización de progreso con gráficos
-  - Alertas de metas alcanzadas
-- 📈 Inversiones con análisis detallado
-  - Rendimiento histórico (ROI, ganancias/pérdidas)
-  - Comparativa con índices de referencia
-- ₿ Criptomonedas en tiempo real
-  - Cotizaciones actualizadas
-  - Calculadora de conversión integrada
+---
 
-🤖 **Automatización Avanzada**
-- Resumen automático de movimientos
-- Categorización inteligente de transacciones
-- Exportación de datos en CSV, PDF y Excel
+## 🌟 Caractéristiques
 
-📊 **Dashboard Interactivo**
-- Gráficos personalizables (Chart.js)
+🔐 **Authentification sécurisée**
+- Enregistrement et connexion avec reCAPTCHA v3
+- Protection contre les attaques par force brute
+
+💼 **Gestion financière complète**
+- 💰 Épargne intelligente avec suivi des objectifs
+ - Visualisation des progrès avec graphiques
+ - Alertes sur les objectifs atteints
+- 📈 Investissements avec analyse détaillée
+ - Performances historiques (ROI, profit/perte)
+ - Comparaison des indices de référence
+- ₿ Cryptocurrencies en temps réel
+ - Cotations actualisées
+ - Calculateur de conversion intégré
+
+🤖 **Automatisation avancée**
+- Résumé automatique des mouvements
+- Catégorisation intelligente des transactions
+- Exportation des données en CSV, PDF et Excel
+
+📊 **Tableau de bord interactif**
+- Tableaux de bord personnalisables (Chart. js)
 - Widgets configurables
-- Vista móvil responsive
+- Affichage mobile réactif
 
-✉️ **Sistema de Notificaciones**
-- Alertas por email (EmailJS)
-- Recordatorios personalizables
+✉️ **Système de notification**
+- Alertes par courriel (EmailJS)
+- Rappels personnalisables
 
 ---
 
-## 🖼️ Galería
+## 🖼️ Galerie
 
 <div align="center">
   <img src="./assets/Readme/inicio-desktop.jpeg" alt="Landing Desktop" width="600" style="margin: 10px;">
@@ -93,7 +93,7 @@ FinanzApp es una plataforma web inteligente de gestión financiera desarrollada 
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 🛠️ Pile technologique
 
 **Frontend:**
 - ⚛️ React 
@@ -103,40 +103,40 @@ FinanzApp es una plataforma web inteligente de gestión financiera desarrollada 
 - 🐘 PHP
 - 🗃️ MySQL
 
-**APIs Integradas:**
-- 📑 Resend (análisis financiero)
-- 🛡️ reCAPTCHA (seguridad)
-- ✉️ EmailJS (notificaciones)
+**Aplications intégrées:**
+- 📑 Resend (analyse financière)
+- 🛡️ reCAPTCHA (sécurité)
+- ✉️ EmailJS (notifications)
 
 **DevOps:**
 - 🛠️ GitHub Actions (CI/CD)
-- 🔍 SonarCloud (calidad de código)
-- 📋 Jira (gestión ágil)
+- 🔍 SonarCloud (qualité du code)
+- 📋 Jira (gestion agile)
 
 ---
 
-## 📊 Métricas del Proyecto
+## 📊 Métriques du projet
 
 - [![Code Coverage](https://img.shields.io/badge/Cobertura-85%25-green)]()
 - [![Build Status](https://img.shields.io/badge/Build-Passing-success)]()
 
 ---
 
-## 📚 Documentación
+## 📚 Documentation
 
 - 📘 [API Docs](https://github.com/Ballwictb/FinanzApp/wiki/API-Documentation)  
 - 🛠️ [Guía de instalación](https://github.com/Ballwictb/FinanzApp/wiki/Installation-Guide)
 
 ---
 
-## 🚀 Demo en Vivo
+## 🚀 Démonstration en direct
 
-Puedes probar la aplicación directamente en:  
+Vous pouvez tester l'application directement à l'adresse suivante:  
 🔗 [https://launch.finanzapp.es/](https://launch.finanzapp.es/)
 
 ---
 
-## 🧑‍💻 Equipo
+## 🧑‍💻 Équipe
 
 <div align="center">
 
@@ -148,10 +148,10 @@ Puedes probar la aplicación directamente en:
 
 ---
 
-## 📄 Licencia
+## 📄 Licence
 
-Este proyecto está licenciado bajo la [Licencia MIT](./docs/LICENSE).  
-Eres libre de usar, modificar y distribuir este software siempre que mantengas los créditos originales.
+Ce projet est sous licence [MIT License](./docs/LICENSE).  
+Vous êtes libre d'utiliser, de modifier et de distribuer ce logiciel à condition de conserver les crédits originaux.
 
 ---
 
