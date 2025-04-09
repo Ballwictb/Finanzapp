@@ -2,9 +2,9 @@
     <div class="container">
         <div class="footer-content">
             <div class="footer-brand">
-                <a href="index.php" rel="noopener" class="logo">
+                <a href="<?php echo BASE_URL; ?>/index.php" rel="noopener" class="logo">
                     <div class="logo-icon">
-										<img src="./manifest/manifest_icons/android-chrome-192x192.png" loading="lazy" alt="Icon">
+                        <img src="<?php echo BASE_URL; ?>/manifest/manifest_icons/android-chrome-192x192.png" loading="lazy" alt="Icon">
                     </div>
                     <span data-elem="brand"><?php echo $translations['brand']; ?></span>
                 </a>
@@ -18,23 +18,23 @@
                 <div class="footer-column">
                     <h4 class="footer-title" data-elem="footer.product"><?php echo $translations['footer']['product']; ?></h4>
                     <ul class="footer-menu">
-                        <li><a href="./index.php?lang=<?php echo $lang; ?>#features" rel="noopener" data-elem="footer.links.features"><?php echo $translations['footer']['links']['features']; ?></a></li>
-                        <li><a href="./index.php?lang=<?php echo $lang; ?>#how-it-works" rel="noopener" data-elem="footer.links.howItWorks"><?php echo $translations['footer']['links']['howItWorks']; ?></a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/index.php?lang=<?php echo $lang; ?>#features" rel="noopener" data-elem="footer.links.features"><?php echo $translations['footer']['links']['features']; ?></a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/index.php?lang=<?php echo $lang; ?>#how-it-works" rel="noopener" data-elem="footer.links.howItWorks"><?php echo $translations['footer']['links']['howItWorks']; ?></a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4 class="footer-title" data-elem="footer.company"><?php echo $translations['footer']['company']; ?></h4>
                     <ul class="footer-menu">
-                        <li><a href="about.php" rel="noopener" data-elem="footer.links.about"><?php echo $translations['footer']['links']['about']; ?></a></li>
-                        <li><a href="contact.php" rel="noopener" data-elem="footer.links.contact"><?php echo $translations['footer']['links']['contact']; ?></a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/app/about.php" rel="noopener" data-elem="footer.links.about"><?php echo $translations['footer']['links']['about']; ?></a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/app/contact.php" rel="noopener" data-elem="footer.links.contact"><?php echo $translations['footer']['links']['contact']; ?></a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h4 class="footer-title" data-elem="footer.legal"><?php echo $translations['footer']['legal']; ?></h4>
                     <ul class="footer-menu">
-                        <li><a href="terms.php" rel="noopener" data-elem="footer.links.terms"><?php echo $translations['footer']['links']['terms']; ?></a></li>
-                        <!-- <li><a href="privacy.php" rel="noopener" data-elem="footer.links.privacy"><?php echo $translations['footer']['links']['privacy']; ?></a></li> -->
-                        <li><a href="cookies.php" rel="noopener" data-elem="footer.links.cookies"><?php echo $translations['footer']['links']['cookies']; ?></a></li>
+                        <li><a href="<?php echo BASE_URL; ?>/app/terms.php" rel="noopener" data-elem="footer.links.terms"><?php echo $translations['footer']['links']['terms']; ?></a></li>
+                        <!-- <li><a href="<?php echo BASE_URL; ?>/app/privacy.php" rel="noopener" data-elem="footer.links.privacy"><?php echo $translations['footer']['links']['privacy']; ?></a></li> -->
+                        <li><a href="<?php echo BASE_URL; ?>/app/cookies.php" rel="noopener" data-elem="footer.links.cookies"><?php echo $translations['footer']['links']['cookies']; ?></a></li>
                     </ul>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-<?php include_once "./config/config.php" ?>
+<?php include_once "../config/config.php" ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -19,7 +19,7 @@
     <meta property="og:url" content="https://www.finanzapp.es/" />
     <meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
     <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
-    <meta property="og:image" content="http://tny.im/goh" />
+    <meta property="og:image" content="../assets/contacto_image_large.webp" />
     <!-- If required, we can add an email -->
     <meta property="og:email" content="me@example.com" />
 
@@ -27,8 +27,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
     <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
-    <meta property="twitter:image" content="https://www.finanzapp.com/assets/twitter-image.jpg">
+    <meta property="twitter:image" content="../assets/contacto_image_card.webp">
 
+    
     <!-- Canonical -->
     <link rel="canonical" href="https://www.finanzapp.es/contact">
 
@@ -43,18 +44,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
 
     <!-- Favicon and other icons -->
-    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon">
 
     <!-- Manifest -->
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="../manifest/manifest.json">
 
     <!-- Aria-labelledby is used to associate elements with their titles -->
     <meta name="aria-labelledby" content="main-title">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/landing_page.css">
-    <link rel="stylesheet" href="./css/scrollbar.css">
-    <link rel="stylesheet" href="./css/auth.css">
+    <link rel="stylesheet" href="../css/landing_page.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
+    <link rel="stylesheet" href="../css/auth.css">
 
     <!-- Notyf  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css">
@@ -62,11 +63,11 @@
 
 <body>
     <!-- Mobile Menu -->
-    <?php include_once "./includes/mobileMenu.php"; ?>
+    <?php include_once "../includes/mobileMenu.php"; ?>
 
     <section class="blurM">
         <!-- Header -->
-        <?php include_once "./includes/header.php"; ?>
+        <?php include_once "../includes/header.php"; ?>
 
         <!-- Page Header -->
         <section class="page-header">
@@ -159,7 +160,7 @@
         </section>
 
         <!-- Footer -->
-        <?php include_once './includes/footer.php'; ?>
+        <?php include_once '../includes/footer.php'; ?>
     </section>
 
     <!-- Back to Top Button -->
@@ -168,19 +169,19 @@
     </button>
 
     <!-- Translation JS -->
-    <script src="./js/translations.js"></script>
+    <script src="../js/translations.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js" integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT" crossorigin="anonymous"></script>
 
 		<!-- Email js -->
 		<script type="text/javascript"
   src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-		<script src="./js/initEmail.js"></script>
-		<script src="./js/email.js"></script>
+		<script src="../js/initEmail.js"></script>
+		<script src="../js/email.js"></script>
 
 	  <!-- Custom JS -->
-    <script src="./js/landing_page.js"></script>
-    <script src="./js/validation.js"></script>
+    <script src="../js/landing_page.js"></script>
+    <script src="../js/validation.js"></script>
 </body>
 
 </html>

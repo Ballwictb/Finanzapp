@@ -18,14 +18,14 @@
     <meta property="og:url" content="https://www.finanzapp.es/" />
     <meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
     <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
-    <meta property="og:image" content="https://www.finanzapp.com/assets/twitter-image.webp" />
+    <meta property="og:image" content="./assets/inicio_image_large.webp" />
     <meta property="og:email" content="me@example.com" />
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
     <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
-    <meta property="twitter:image" content="https://www.finanzapp.com/assets/twitter-image.webp">
+    <meta property="twitter:image" content="./assets/inicio_image_card.webp">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://www.finanzapp.es/">

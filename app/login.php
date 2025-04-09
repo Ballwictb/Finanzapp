@@ -1,4 +1,4 @@
-<?php include_once "./config/config.php" ?>
+<?php include_once "../config/config.php" ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -19,9 +19,16 @@
 	<meta property="og:url" content="https://www.finanzapp.es/" />
 	<meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
 	<meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
-	<meta property="og:image" content="http://tny.im/goh" />
+	<meta property="og:image" content="../assets/login_image_large.webp" />
 	<!-- If required, we can add an email -->
 	<meta property="og:email" content="me@example.com" />
+
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
+    <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
+    <meta property="twitter:image" content="../assets/login_image_card.webp">
+
 
 	<!-- Canonical -->
 	<link rel="canonical" href="https://www.finanzapp.es/login">
@@ -35,22 +42,22 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
 
 	<!-- Favicon and other icons -->
-	<link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon">
 
 	<!-- Aria-labelledby is used to associate elements with their titles -->
 	<meta name="aria-labelledby" content="main-title">
 
 	<!-- General styles -->
-	<link rel="stylesheet" href="./css/landing_page.css">
+	<link rel="stylesheet" href="../css/landing_page.css">
 
 	<!-- Specific styles for the register page -->
-	<link rel="stylesheet" href="./css/auth.css">
+	<link rel="stylesheet" href="../css/auth.css">
 
 	<!-- Notyf  -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon">
 
 	<!-- ReCaptcha -->
 	<script src="https://launch.finanzapp.es/js/api.js" integrity="sha384-CdhidNt+STVg/jxRNtQC1nw7l1Ys8/TxZI2ZVTypU9tDQ6goYcuMYbd8VR23C6/x" crossorigin="anonymous"></script>
@@ -58,12 +65,12 @@
 
 <body>
 	<!-- Mobile Menu -->
-	<?php include_once "./includes/mobileMenu.php"; ?>
+	<?php include_once "../includes/mobileMenu.php"; ?>
 
 	<section class="blurM">
 
 		<!-- Header -->
-		<?php include_once "./includes/header.php"; ?>
+		<?php include_once "../includes/header.php"; ?>
 
 		<main class="auth login">
 			<div class="container">
@@ -99,7 +106,7 @@
 		</main>
 
 		<!-- Footer -->
-		<?php include_once './includes/footer.php'; ?>
+		<?php include_once '../includes/footer.php'; ?>
 
 	</section>
 
@@ -110,8 +117,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"
 		integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT"
 		crossorigin="anonymous"></script>
-	<script src="./js/landing_page.js"></script>
-	<script src="./js/validation.js"></script>
+	<script src="../js/landing_page.js"></script>
+	<script src="../js/validation.js"></script>
 
 </body>
 

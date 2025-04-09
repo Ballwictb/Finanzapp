@@ -1,4 +1,4 @@
-<?php include_once "./config/config.php" ?>
+<?php include_once "../config/config.php" ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -19,7 +19,7 @@
     <meta property="og:url" content="https://www.finanzapp.es/" />
     <meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
     <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
-    <meta property="og:image" content="http://tny.im/goh" />
+    <meta property="og:image" content="../assets/about_image_large.webp" />
     <!-- If required, we can add an email -->
     <meta property="og:email" content="me@example.com" />
 
@@ -27,7 +27,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
     <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
-    <meta property="twitter:image" content="https://www.finanzapp.com/assets/twitter-image.jpg">
+    <meta property="twitter:image" content="../assets/about_image_card.webp">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://www.finanzapp.es/">
@@ -43,28 +43,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
     
     <!-- Favicon and other icons -->
-    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon">
 
     <!-- Manifest -->
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="../manifest/manifest.json">
 
     <!-- Accessibility -->
     <!-- Aria-labelledby is used to associate elements with their titles -->
     <meta name="aria-labelledby" content="main-title">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/landing_page.css">
-    <link rel="stylesheet" href="./css/scrollbar.css">
+    <link rel="stylesheet" href="../css/landing_page.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
 </head>
 
 <body>
     <!-- Mobile Menu -->
-    <?php include_once "./includes/mobileMenu.php"; ?>
+    <?php include_once "../includes/mobileMenu.php"; ?>
 
     <section class="blurM">
 
         <!-- Header -->
-        <?php include_once "./includes/header.php"; ?>
+        <?php include_once "../includes/header.php"; ?>
 
         <!-- Page Header -->
         <section class="page-header">
@@ -103,7 +103,7 @@
                         <!-- Team Member 1 -->
                         <div class="team-card">
                             <div class="team-image">
-                                <img src="./assets/team/israel.jpg" loading="lazy" alt="Israel Soriano Buendí" class="team-photo">
+                                <img src="../assets/team/israel.jpg" loading="lazy" alt="Israel Soriano Buendí" class="team-photo">
                             </div>
                             <div class="team-info">
                                 <h3 class="team-name">Israel Soriano Buendía</h3>
@@ -127,7 +127,7 @@
                         <!-- Team Member 2 -->
                         <div class="team-card">
                             <div class="team-image">
-                                <img src="./assets/team/roberto.jpg" loading="lazy" alt="Roberto Ortiz Pérez" class="team-photo">
+                                <img src="../assets/team/roberto.jpg" loading="lazy" alt="Roberto Ortiz Pérez" class="team-photo">
                             </div>
                             <div class="team-info">
                                 <h3 class="team-name">Roberto Ortiz Pérez</h3>
@@ -151,7 +151,7 @@
                         <!-- Team Member 3 -->
                         <div class="team-card">
                             <div class="team-image">
-                                <img src="./assets/team/jamal.jpg" loading="lazy" alt="Jamal Rabah" class="team-photo">
+                                <img src="../assets/team/jamal.jpg" loading="lazy" alt="Jamal Rabah" class="team-photo">
                             </div>
                             <div class="team-info">
                                 <h3 class="team-name">Jamal Rabah</h3>
@@ -245,7 +245,7 @@
         </section>
 
         <!-- Footer -->
-        <?php include_once './includes/footer.php'; ?>
+        <?php include_once '../includes/footer.php'; ?>
     </section>
 
     <!-- Back to Top Button -->
@@ -254,7 +254,7 @@
     </button>
 
     <!-- Custom JS -->
-    <script src="./js/landing_page.js"></script>
+    <script src="../js/landing_page.js"></script>
 </body>
 
 </html>

@@ -1584,6 +1584,8 @@ body:hover .cursor-follower {
 }
 
 .team-card {
+	display: flex;
+	flex-direction: column;
 	background: var(--color-white);
 	border-radius: var(--radius-lg);
 	overflow: hidden;
@@ -1621,6 +1623,9 @@ body:hover .cursor-follower {
 }
 
 .team-info {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
 	padding: var(--space-lg);
 }
 
@@ -1645,6 +1650,7 @@ body:hover .cursor-follower {
 .team-social {
 	display: flex;
 	gap: var(--space-sm);
+	margin-top: auto;
 }
 
 .social-link {
@@ -1822,7 +1828,21 @@ body:hover .cursor-follower {
 
 /* media */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1270px) {
+	.nav-list {
+		font-size: 0.8rem;
+	}
+	.nav-buttons {
+		.language-selector {
+			margin-right: var(--space-md);
+		}
+		.btn {
+			padding: var(--space-xs) var(--space-sm);
+		}
+	}
+}
+
+@media only screen and (max-width: 1050px) {
 
 	/* Tablet and smaller devices */
 	.nav-list,

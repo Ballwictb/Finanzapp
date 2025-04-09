@@ -1,4 +1,4 @@
-<?php include_once "./config/config.php" ?>
+<?php include_once "../config/config.php" ?>
 
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -42,7 +42,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
 
 	<!-- Favicon and other icons -->
-	<link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon">
 
     <!-- Aria-labelledby is used to associate elements with their titles -->
 	<meta name="aria-labelledby" content="main-title">
@@ -51,26 +51,26 @@
 	<!-- Note: noopener is used on links, not as meta o link -->
 
 	<!-- Custom stylesheets -->
-	<link rel="stylesheet" href="./css/landing_page.css">
-	<link rel="stylesheet" href="./css/scrollbar.css">
+	<link rel="stylesheet" href="../css/landing_page.css">
+	<link rel="stylesheet" href="../css/scrollbar.css">
 
 	<!-- AOS (Animate On Scroll) -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<!-- Custom scripts with defer to set settings -->
-	<script src="./config.php" defer></script>
+	<script src="../config/config.php" defer></script>
 
 	<!-- Custom script for the loader animation -->
-	<script src="./js/loader.js"></script>
+	<script src="../js/loader.js"></script>
 
 </head>
 
 <body>
-	<?php include_once "./includes/mobileMenu.php" ?>
+	<?php include_once "../includes/mobileMenu.php" ?>
 
 	<section class="blurM">
 
-	<?php include_once "./includes/header.php" ?>
+	<?php include_once "../includes/header.php" ?>
 
 
   <!-- Page Header -->
@@ -193,7 +193,7 @@
         </div>
     </section>
 
-<?php include_once "./includes/footer.php"?>
+<?php include_once "../includes/footer.php"?>
 
 </section>
  <!-- Cookie Consent -->
@@ -217,7 +217,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js" integrity="sha384-T/4KgSWuZEPozpPz7rnnp/5lDSnpY1VPJCojf1S81uTHS1E38qgLfMgVsAeRCWc4" crossorigin="anonymous"></script>
 
     <!-- Custom JS -->
-    <script src="./js/landing_page.js"></script>
+    <script src="../js/landing_page.js"></script>
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" integrity="sha384-wziAfh6b/qT+3LrqebF9WeK4+J5sehS6FA10J1t3a866kJ/fvU5UwofWnQyzLtwu" crossorigin="anonymous"></script>
