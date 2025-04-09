@@ -15,11 +15,23 @@ const formattedTime = now.toLocaleString('default', {
 const utcNow = new Date().toISOString().replace(/-|T|:|\.|Z/g, '').slice(2, 14); // AAMMDDHHmmss
 const ticketNumber = `${utcNow}-${Math.floor(1000 + Math.random() * 9000)}`;
 
+let countdownInterval;
+
 document.getElementById('contactForm')
 	.addEventListener('submit', function (event) {
 		event.preventDefault();
 
+		const now = Date.now();
+		const lastSent = localStorage.getItem('lastSentTime');
+
+		if (lastSent && now - parseInt(lastSent) < 5 * 60 * 1000) {
+			const remaining = Math.ceil((5 * 60 * 1000 - (now - parseInt(lastSent))) / 1000);
+			startCooldown(remaining);
+			return;
+		}
+
 		btn.value = 'Enviando...';
+		btn.disabled = true;
 
 		const serviceID = 'default_service';
 		const templateID = 'template_er0sh5w';
@@ -39,8 +51,29 @@ document.getElementById('contactForm')
 		})
 			.then(() => {
 				btn.value = 'Enviar mensaje';
+				btn.disabled = false;
+				localStorage.setItem('lastSentTime', Date.now().toString());
+				startCooldown(5 * 60);
 			}, (err) => {
 				btn.value = 'Enviar mensaje';
-				// alert(JSON.stringify(err));
+				btn.disabled = false;
 			});
 	});
+
+function startCooldown(seconds) {
+	clearInterval(countdownInterval);
+
+	btn.disabled = true;
+	let remaining = seconds;
+
+	countdownInterval = setInterval(() => {
+		if (remaining <= 0) {
+			clearInterval(countdownInterval);
+			btn.disabled = false;
+			btn.value = 'Enviar mensaje';
+		} else {
+			btn.value = `Espera ${remaining}s`;
+			remaining--;
+		}
+	}, 1000);
+}
