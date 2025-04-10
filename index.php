@@ -87,11 +87,12 @@
     <!-- AOS (Animate On Scroll) -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
 
+    <!-- Lite YouTube CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css" />
 
-
-
+    <!-- Lite YouTube JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js" defer></script>
 </head>
-
 
 <body>
     <!-- Mobile Menu -->
@@ -132,7 +133,7 @@
                         <p class="hero-description" data-elem="hero.description"><?php echo $translations['hero']['description']; ?></p>
                         <div class="hero-cta">
                             <a href="#" rel="noopener" aria-label="<?php echo $translations['hero']['cta']['primary']; ?>" class="btn btn-primary btn-large" data-elem="hero.cta.primary"><?php echo $translations['hero']['cta']['primary']; ?></a>
-                            <a href="#demo" rel="noopener" class="btn btn-play" aria-label="Ver demo">
+                            <a href="#" rel="noopener" class="btn btn-play" aria-label="Ver demo" id="openVideo">
                                 <div class="play-icon">
                                     <i class="fas fa-play" aria-hidden="true"></i>
                                 </div>
@@ -316,39 +317,58 @@
         </div>
     </section>
 
-<!-- Footer -->
-<?php include_once './includes/footer.php'; ?>
+    <!-- Footer -->
+    <?php include_once './includes/footer.php'; ?>
 
-<!-- Cookie Consent -->
-<div class="cookie-consent" id="cookieConsent">
-    <div class="cookie-content">
-        <h3 data-elem="cookies.title"><?php echo $translations['cookies']['title']; ?></h3>
-        <p data-elem="cookies.description"><?php echo $translations['cookies']['description']; ?> <a href="./cookies.php" data-elem="cookies.link"><?php echo $translations['cookies']['link']; ?></a>.</p>
-        <div class="cookie-buttons">
-            <button id="cookieAccept" class="btn btn-primary" data-elem="cookies.accept"><?php echo $translations['cookies']['accept']; ?></button>
-            <button id="cookieReject" class="btn btn-outline" data-elem="cookies.reject"><?php echo $translations['cookies']['reject']; ?></button>
-            <button id="cookieSettings" class="btn btn-link" data-elem="cookies.settings"><?php echo $translations['cookies']['settings']; ?></button>
+    <!-- Cookie Consent -->
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <h3 data-elem="cookies.title"><?php echo $translations['cookies']['title']; ?></h3>
+            <p data-elem="cookies.description"><?php echo $translations['cookies']['description']; ?> <a href="./cookies.php" data-elem="cookies.link"><?php echo $translations['cookies']['link']; ?></a>.</p>
+            <div class="cookie-buttons">
+                <button id="cookieAccept" class="btn btn-primary" data-elem="cookies.accept"><?php echo $translations['cookies']['accept']; ?></button>
+                <button id="cookieReject" class="btn btn-outline" data-elem="cookies.reject"><?php echo $translations['cookies']['reject']; ?></button>
+                <button id="cookieSettings" class="btn btn-link" data-elem="cookies.settings"><?php echo $translations['cookies']['settings']; ?></button>
+            </div>
         </div>
     </div>
-</div>
 
-<!-- Back to Top Button -->
-<button id="backToTop" class="back-to-top" aria-label="Back to top">
-    <i class="fas fa-arrow-up"></i>
-</button>
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
-<!-- Chart.js -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js" integrity="sha384-T/4KgSWuZEPozpPz7rnnp/5lDSnpY1VPJCojf1S81uTHS1E38qgLfMgVsAeRCWc4" crossorigin="anonymous" defer></script>
+    <!-- Modal for the video (placed directly under body) -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <span class="video-modal-close" aria-label="Cerrar">&times;</span>
+            <!-- Container to insert the player -->
+            <div id="videoContainer">
+                <lite-youtube videoid="ZR1lxYhLrPw" style="max-width: 100%; height: auto;"></lite-youtube>
+            </div>
+        </div>
+    </div>
 
-<!-- Custom JS -->
-<script src="./js/landing_page.js"></script>
 
-<!-- AOS -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" integrity="sha384-wziAfh6b/qT+3LrqebF9WeK4+J5sehS6FA10J1t3a866kJ/fvU5UwofWnQyzLtwu" crossorigin="anonymous"></script>
-<!-- Init AOS -->
-<script>
-    AOS.init();
-</script>
+    <!-- Container to display big images -->
+    <div id="overlay">
+        <img id="overlay-img" src="" alt="Imagen ampliada">
+    </div>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" integrity="sha384-T/4KgSWuZEPozpPz7rnnp/5lDSnpY1VPJCojf1S81uTHS1E38qgLfMgVsAeRCWc4" crossorigin="anonymous" defer></script>
+
+    <!-- Custom JS -->
+    <script src="./js/landing_page.js"></script>
+    <script src="./js/overlay.js"></script>
+    <script src="./js/liteVideo.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" integrity="sha384-wziAfh6b/qT+3LrqebF9WeK4+J5sehS6FA10J1t3a866kJ/fvU5UwofWnQyzLtwu" crossorigin="anonymous"></script>
+    <!-- Init AOS -->
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 
