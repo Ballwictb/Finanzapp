@@ -25,7 +25,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
     <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
-    <meta property="twitter:image" content="https://launch.finanzapp.es/assets/inicio_image_card.webp">
+    <meta property="twitter:image" content="https://launch.finanzapp.es/assets/inicio_image_large.webp">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://www.finanzapp.es/">
