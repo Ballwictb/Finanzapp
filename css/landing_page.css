@@ -293,33 +293,35 @@ h6 {
 
 /* Lite Video */
 .video-modal {
-    display: none; /* Oculto por defecto */
-    position: fixed;
-    z-index: 9999;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+	display: none;
+	/* Oculto por defecto */
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .video-modal-content {
-    position: relative;
-    margin: 5% auto;
-    padding: 0;
-    width: 90%;
-    max-width: 1200px;
+	position: relative;
+	margin: 5% 25%;
+	padding: 0;
+	width: 100%;
+	max-width: 1200px;
 }
 
 .video-modal-close {
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    color: #ffffff;
-    font-size: 35px;
-    font-weight: bold;
-    cursor: pointer;
+	position: absolute;
+	top: -15px;
+	right: 125px;
+	color: #ffffff;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	z-index: 1;
 }
 
 /* Overlay image */
@@ -1850,6 +1852,8 @@ body:hover .cursor-follower {
 	padding: var(--space-lg);
 	margin-top: var(--space-lg);
 }
+
+
 
 /* media */
 
