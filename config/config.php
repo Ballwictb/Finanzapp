@@ -1,20 +1,28 @@
 <?php
+// Detectar entorno automáticamente
+if ($_SERVER['HTTP_HOST'] === 'localhost') {
+    define('BASE_URL', '/FinanzApp'); // Localhost con carpeta
+} else {
+    define('BASE_URL', ''); // Producción en dominio raíz
+}
+
+// Iniciar sesión si no está iniciada
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
+// Detectar idioma (por URL, sesión o valor por defecto)
+$lang = $_GET['lang'] ?? $_SESSION['lang'] ?? 'es';
 
-//Detect the language (by URL, session or default)
-$lang = $_GET['lang'] ?? $_SESSION['lang'] ?? 'es'; // Predetermined to Spanish
-
-// Save the language in session
+// Guardar idioma en la sesión
 $_SESSION['lang'] = $lang;
 
-// Load the JSON file of the language
-$langFile = "./langs/$lang.json";
+// Ruta del archivo de idioma
+$langFile = __DIR__ . "/../langs/$lang.json";
 
+// Cargar traducciones
 if (file_exists($langFile)) {
     $translations = json_decode(file_get_contents($langFile), true);
 } else {
-    $translations = json_decode(file_get_contents("./langs/es.json"), true); // Spanish by default
+    $translations = json_decode(file_get_contents(__DIR__ . "/../langs/es.json"), true);
 }

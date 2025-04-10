@@ -4,6 +4,95 @@
 <html lang="<?php echo $lang; ?>" itemscope itemtype="http://schema.org/WebPage">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title and basic meta -->
+    <title><?php echo $translations['meta']['title']; ?></title>
+    <meta name="description" content="<?php echo $translations['meta']['description']; ?>" />
+    <meta name="keywords" content="<?php echo $translations['meta']['keywords']; ?>" />
+    <meta name="author" content="<?= $translations['meta']['author'] ?>">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.finanzapp.es/" />
+    <meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
+    <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
+    <meta property="og:image" content="./assets/inicio_image_large.webp" />
+    <meta property="og:email" content="me@example.com" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
+    <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
+    <meta property="twitter:image" content="./assets/inicio_image_card.webp">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.finanzapp.es/">
+
+    <!-- Preconnect for Google Fonts and other resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+    <!-- Fonts (async load with font-display: swap) -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </noscript>
+
+    <!-- External icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css" media="print" onload="this.media='all'">
+
+    <!-- Favicon and other icons -->
+    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest/manifest.json">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "FinanzApp",
+            "description": "<?php echo $translations['meta']['description']; ?>",
+            "url": "https://www.finanzapp.es/",
+            "potentialAction": {
+                "@type": "HomeAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.finanzapp.es/",
+                    "actionPlatform": [
+                        "http://schema.org/DesktopWebPlatform",
+                        "http://schema.org/MobileWebPlatform"
+                    ]
+                }
+            }
+        }
+    </script>
+
+    <!-- Accessibility: Aria-labelledby used to associate elements with their titles -->
+    <meta name="aria-labelledby" content="main-title">
+
+
+    <!-- Custom stylesheets -->
+    <link rel="preload" href="./css/landing_page.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./css/scrollbar.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./css/landing_page.css">
+        <link rel="stylesheet" href="./css/scrollbar.css">
+    </noscript>
+
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <!-- Lite YouTube CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css" />
+
+    <!-- Lite YouTube JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js" defer></script>
+</head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
