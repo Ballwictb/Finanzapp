@@ -268,7 +268,7 @@
                         <h3 class="step-title" data-elem="howItWorks.steps.connect.title"><?php echo $translations['howItWorks']['steps']['connect']['title']; ?></h3>
                         <p class="step-description" data-elem="howItWorks.steps.connect.description"><?php echo $translations['howItWorks']['steps']['connect']['description']; ?></p>
                     </div>
-                    <div class="step-image">
+                    <div class="step-image">			
                         <img src="./assets/HowItWorks/register.jpg" loading="lazy" alt="Registrate" class="step-img">
                     </div>
                 </div>
