@@ -1,5 +1,5 @@
 // Save the HTML for the Lite YouTube player (replace the videoid with yours)
-const videoPlayerHTML = '<lite-youtube videoid="pa4kv2Z5mvQ" style="max-width: 100%; height: auto;"></lite-youtube>';
+const videoPlayerHTML = '<lite-youtube videoid="ZR1lxYhLrPw" style="max-width: 100%; height: auto;"></lite-youtube>';
 
 // Get DOM element references
 const videoModal = document.getElementById('videoModal');
