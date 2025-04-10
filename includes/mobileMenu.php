@@ -35,9 +35,9 @@
     </div>
 
     <div class="mobile-nav-buttons">
-        <a href="./app/login.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="btn btn-outline" data-elem="buttons.login">
+        <a href="<?php echo BASE_URL; ?>/app/login.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="btn btn-outline" data-elem="buttons.login">
             <?php echo htmlspecialchars($translations['buttons']['login'], ENT_QUOTES, 'UTF-8'); ?></a>
-        <a href="./app/register.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="btn btn-primary" data-elem="buttons.register">
+        <a href="<?php echo BASE_URL; ?>/app/register.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="btn btn-primary" data-elem="buttons.register">
             <?php echo htmlspecialchars($translations['buttons']['register'], ENT_QUOTES, 'UTF-8'); ?></a>
     </div>
 </nav>

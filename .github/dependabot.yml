@@ -1,0 +1,37 @@
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+# https://docs.github.com/es/code-security/dependabot
+version: 2 # Versión de Dependabot
+# Debido a que se repite los parametros comentare solo uno.
+# - package-ecosystem: "<area>"  Ecosistema de paquetes para devcontainers
+#   directory: "<path>"  Ruta
+#   schedule: Programación de la actualización
+#     interval: "daily || weekly || monthly"  # Intervalo de actualización
+#   commit-message:  Mensaje de commit para las actualizaciones
+#     prefix: "<commit>"  Prefijo para el mensaje de commit
+#   ignore:   Lista de dependencias a ignorar en las actualizaciones
+#     - dependency-name: "* || path"  # Ignorar que tipo de dependencias
+#       update-types: ["--"]  # Ignorar actualizaciones de que tipo 
+#   labels: Etiquetas para las solicitudes
+#     - "piripipout"  # Etiqueta para las dependencias
+
+updates:  # Configuración de actualizaciones para las diferentes áreas/actions del proyecto
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "build(deps)"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
+    labels:
+      - "Dependencias del Devcontainer"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "mamasita🥸[Actions]"
+    labels:
+      - "Dependencias del actions"

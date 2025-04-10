@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function validatePassword(password) {
-        const re = /^(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+        const re = /^(?=.*[A-Z])(?=.*\d).{8,}$/;
         return re.test(password);
     }
 
@@ -214,4 +214,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     liveValidateInputs(); // Llamada después de definirla
 
-});
+    }    
+);
