@@ -1,4 +1,6 @@
-<?php include_once "./config/config.php" ?>
+<?php include_once "./config/config.php";
+?>
+
 
 <header class="header">
     <div class="container">
@@ -38,7 +40,7 @@
                     <!-- Aquí se conserva la página actual con el parámetro 'page' -->
                     <a href="?lang=es<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener"
                        data-lang="es" class="<?php echo ($lang == 'es') ? 'active' : ''; ?>">Español</a>
-                    <a href="?lang=en<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener"
+                    <a href="?lang=en<?php echo isset($_GET['page']) ? 'Por que e&page=' . $_GET['page'] : ''; ?>" rel="noopener"
                        data-lang="en" class="<?php echo ($lang == 'en') ? 'active' : ''; ?>">English</a>
                     <a href="?lang=fr<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener"
                        data-lang="fr" class="<?php echo ($lang == 'fr') ? 'active' : ''; ?>">Français</a>
