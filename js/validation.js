@@ -173,5 +173,46 @@ document.addEventListener("DOMContentLoaded", function () {
     function validatePassword(password) {
         const re = /^(?=.*[A-Z])(?=.*\d).{8,}$/;
         return re.test(password);
+    }
+
+    // Validación en tiempo real de inputs
+    const liveValidateInputs = () => {
+        const emailInput = document.getElementById("email");
+        const passwordInput = document.getElementById("password");
+        const confirmPasswordInput = document.getElementById("confirm-password");
+    
+        if (emailInput) {
+            emailInput.addEventListener("input", () => {
+                const isValid = validateEmail(emailInput.value.trim());
+                toggleErrorClass(emailInput, !isValid);
+            });
+        }
+    
+        if (passwordInput) {
+            passwordInput.addEventListener("input", () => {
+                const isValid = validatePassword(passwordInput.value.trim());
+                toggleErrorClass(passwordInput, !isValid);
+            });
+        }
+    
+        if (confirmPasswordInput && passwordInput) {
+            confirmPasswordInput.addEventListener("input", () => {
+                const isMatch = confirmPasswordInput.value.trim() === passwordInput.value.trim();
+                toggleErrorClass(confirmPasswordInput, !isMatch);
+            });
+        }
+    };
+    
+    const toggleErrorClass = (input, hasError) => {
+        if (hasError) {
+            input.classList.add("error-input");
+        } else {
+            input.classList.remove("error-input");
+        }
+    };
+    
+
+    liveValidateInputs(); // Llamada después de definirla
+
     }    
-});
+);

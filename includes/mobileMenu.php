@@ -1,8 +1,8 @@
 <div class="mobile-menu">
     <div class="mobile-menu-header">
-        <a href="./index.php" rel="noopener" class="logo">
+        <a href="<?php echo BASE_URL; ?>/index.php" rel="noopener" class="logo">
             <div class="logo-icon">
-                <i class="fas fa-dollar-sign"></i>
+                <img src="<?php echo BASE_URL; ?>/manifest/manifest_icons/android-chrome-192x192.png" loading="lazy" alt="Icon">
             </div>
             <span data-elem="brand"><?php echo $translations['brand']; ?></span>
         </a>
@@ -14,13 +14,13 @@
 
     <nav class="mobile-nav" aria-label="<?php echo htmlspecialchars($translations['aria']['mobileMenu'], ENT_QUOTES, 'UTF-8'); ?>">
     <ul class="mobile-nav-list">
-        <li><a href="./index.php#features" rel="noopener" class="mobile-nav-link" data-elem="nav.features">
+        <li><a href="<?php echo BASE_URL; ?>/index.php#features" rel="noopener" class="mobile-nav-link" data-elem="nav.features">
             <?php echo htmlspecialchars($translations['nav']['features'], ENT_QUOTES, 'UTF-8'); ?></a></li>
-        <li><a href="./index.php#how-it-works" rel="noopener" class="mobile-nav-link" data-elem="nav.howItWorks">
+        <li><a href="<?php echo BASE_URL; ?>/index.php#how-it-works" rel="noopener" class="mobile-nav-link" data-elem="nav.howItWorks">
             <?php echo htmlspecialchars($translations['nav']['howItWorks'], ENT_QUOTES, 'UTF-8'); ?></a></li>
-        <li><a href="./about.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="mobile-nav-link" data-elem="nav.about">
+        <li><a href="<?php echo BASE_URL; ?>/app/about.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="mobile-nav-link" data-elem="nav.about">
             <?php echo htmlspecialchars($translations['nav']['about'], ENT_QUOTES, 'UTF-8'); ?></a></li>
-        <li><a href="./contact.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="mobile-nav-link" data-elem="nav.contact">
+        <li><a href="<?php echo BASE_URL; ?>/app/contact.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="mobile-nav-link" data-elem="nav.contact">
             <?php echo htmlspecialchars($translations['nav']['contact'], ENT_QUOTES, 'UTF-8'); ?></a></li>
     </ul>
 
@@ -35,9 +35,9 @@
     </div>
 
     <div class="mobile-nav-buttons">
-        <a href="./login.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="btn btn-outline" data-elem="buttons.login">
+        <a href="<?php echo BASE_URL; ?>/app/login.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="btn btn-outline" data-elem="buttons.login">
             <?php echo htmlspecialchars($translations['buttons']['login'], ENT_QUOTES, 'UTF-8'); ?></a>
-        <a href="./register.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="btn btn-primary" data-elem="buttons.register">
+        <a href="<?php echo BASE_URL; ?>/app/register.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="btn btn-primary" data-elem="buttons.register">
             <?php echo htmlspecialchars($translations['buttons']['register'], ENT_QUOTES, 'UTF-8'); ?></a>
     </div>
 </nav>

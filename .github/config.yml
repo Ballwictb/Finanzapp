@@ -1,0 +1,9 @@
+# Configuración para el bot de bienvenida
+newIssueWelcomeComment: >
+  ¡Gracias por abrir tu primer issue! Apreciamos tu contribución y revisaremos esto pronto.
+
+newPRWelcomeComment: >
+  ¡Gracias por enviar tu primer pull request! Revisaremos tus cambios lo antes posible.
+
+firstPRMergeComment: >
+  ¡Felicidades por tu primer pull request fusionado! Esperamos ver más contribuciones tuyas en el futuro.

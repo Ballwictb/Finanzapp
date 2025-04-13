@@ -293,33 +293,35 @@ h6 {
 
 /* Lite Video */
 .video-modal {
-    display: none; /* Oculto por defecto */
-    position: fixed;
-    z-index: 9999;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+	display: none;
+	/* Oculto por defecto */
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .video-modal-content {
-    position: relative;
-    margin: 5% auto;
-    padding: 0;
-    width: 90%;
-    max-width: 1200px;
+	position: relative;
+	margin: 5% 25%;
+	padding: 0;
+	width: 100%;
+	max-width: 1200px;
 }
 
 .video-modal-close {
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    color: #ffffff;
-    font-size: 35px;
-    font-weight: bold;
-    cursor: pointer;
+	position: absolute;
+	top: -15px;
+	right: 125px;
+	color: #ffffff;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	z-index: 1;
 }
 
 /* Overlay image */
@@ -1615,6 +1617,8 @@ body:hover .cursor-follower {
 }
 
 .team-card {
+	display: flex;
+	flex-direction: column;
 	background: var(--color-white);
 	border-radius: var(--radius-lg);
 	overflow: hidden;
@@ -1652,6 +1656,9 @@ body:hover .cursor-follower {
 }
 
 .team-info {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
 	padding: var(--space-lg);
 }
 
@@ -1676,6 +1683,7 @@ body:hover .cursor-follower {
 .team-social {
 	display: flex;
 	gap: var(--space-sm);
+	margin-top: auto;
 }
 
 .social-link {
@@ -1851,9 +1859,25 @@ body:hover .cursor-follower {
 	margin-top: var(--space-lg);
 }
 
+
+
 /* media */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1270px) {
+	.nav-list {
+		font-size: 0.8rem;
+	}
+	.nav-buttons {
+		.language-selector {
+			margin-right: var(--space-md);
+		}
+		.btn {
+			padding: var(--space-xs) var(--space-sm);
+		}
+	}
+}
+
+@media only screen and (max-width: 1050px) {
 
 	/* Tablet and smaller devices */
 	.nav-list,

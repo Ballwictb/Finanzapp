@@ -1,4 +1,4 @@
-<?php include_once "./config/config.php" ?>
+<?php include_once "../config/config.php" ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -19,10 +19,17 @@
     <meta property="og:url" content="https://www.finanzapp.es/" />
     <meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
     <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
-    <meta property="og:image" content="http://tny.im/goh" />
+    <meta property="og:image" content="https://launch.finanzapp.es/assets/registro_image_large.webp" />
     <!-- If required, we can add an email -->
     <meta property="og:email" content="me@example.com" />
 
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
+    <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
+    <meta property="twitter:image" content="https://launch.finanzapp.es/assets/registro_image_large.webp">
+
+    
     <!-- Canonical -->
     <link rel="canonical" href="https://www.finanzapp.es/register">
 
@@ -35,32 +42,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
 
     <!-- Favicon and other icons -->
-	<link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon">
 
     <!-- Aria-labelledby is used to associate elements with their titles -->
 	<meta name="aria-labelledby" content="main-title">
 
     <!-- General styles -->
-    <link rel="stylesheet" href="./css/landing_page.css">
+    <link rel="stylesheet" href="../css/landing_page.css">
 
     <!-- Specific styles for the register page -->
-    <link rel="stylesheet" href="./css/auth.css">
+    <link rel="stylesheet" href="../css/auth.css">
 
     <!-- Notyf  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon">
 </head>
 
 <body>
     <!-- Mobile Menu -->
-    <?php include_once "./includes/mobileMenu.php"; ?>
+    <?php include_once "../includes/mobileMenu.php"; ?>
 
     <section class="blurM">
 
         <!-- Header -->
-        <?php include_once "./includes/header.php"; ?>
+        <?php include_once "../includes/header.php"; ?>
 
 
         <!-- Main register section with additional top margin for spacing -->
@@ -116,15 +123,15 @@
         </main>
 
         <!-- Footer -->
-        <?php include_once './includes/footer.php'; ?>
+        <?php include_once '../includes/footer.php'; ?>
 
     </section>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js" integrity="sha384-T/4KgSWuZEPozpPz7rnnp/5lDSnpY1VPJCojf1S81uTHS1E38qgLfMgVsAeRCWc4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js" integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT" crossorigin="anonymous"></script>
-    <script src="./js/landing_page.js"></script>
-    <script src="./js/validation.js"></script>
+    <script src="../js/landing_page.js"></script>
+    <script src="../js/validation.js"></script>
 </body>
 
 </html>
