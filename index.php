@@ -92,7 +92,6 @@
 
     <!-- Lite YouTube JS -->
     <script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.js" defer></script>
-</head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -185,6 +184,9 @@
 	<!-- Lite YouTube JS -->
 
 	<script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@latest/src/lite-yt-embed.js"></script>
+  <script src="//code.tidio.co/h9ijcmijjhzlcjekjmaeu5iwgmrulde2.js" async></script>
+
+</head>
 
 <body>
 	<!-- Mobile Menu -->
