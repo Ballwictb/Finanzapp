@@ -29,7 +29,7 @@
 
 ## 🚀 Live Demo
 
-You can try the application here (in French):  
+You can try the application here (in english):  
 🔗 [https://launch.finanzapp.es/](https://launch.finanzapp.es/?lang=en)
 
 ---
