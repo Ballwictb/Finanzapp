@@ -1,10 +1,8 @@
 <div align="center">
-  <!-- Logo y título -->
-  <h1 align="center">
-    <a href="https://github.com/Ballwictb/FinanzApp">
-      <img src="https://imgur.com/rzYvgn4.png" alt="FinanzApp Logo" width="300">
-    </a>
-  </h1>
+  <!-- Logo oficial -->
+  <a href="https://github.com/Ballwictb/FinanzApp">
+    <img src="https://imgur.com/x1iQiT5.png" alt="FinanzApp Logo" width="300">
+  </a>
 
   <!-- Selector de idioma -->
   <h3>🌐 Cambiar idioma / Change Language / Changer de langue</h3>
@@ -14,71 +12,78 @@
     <a href="./README.fr.md"><img src="https://flagcdn.com/w40/fr.png" alt="Français" height="25" width="40"></a>
   </p>
 
-  <p><em>⚠️ Proyecto de Trabajo Fin de Grado (TFG) - IES La Arboleda 🌲</em></p>
-
   <!-- Badges -->
   <p>
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
-    <img src="https://sonarcloud.io/api/project_badges/quality_gate?project=Ballwictb_FinanzApp" alt="Quality Gate Status">
     <img src="https://img.shields.io/badge/version-1.0.0-green" alt="Version">
+    <img src="https://sonarcloud.io/api/project_badges/quality_gate?project=Ballwictb_FinanzApp" alt="Quality Gate Status">
     <img src="https://img.shields.io/github/stars/Ballwictb/FinanzApp?style=social" alt="GitHub Stars">
     <img src="https://img.shields.io/github/forks/Ballwictb/FinanzApp?style=social" alt="GitHub Forks">
     <img src="https://img.shields.io/github/issues/Ballwictb/FinanzApp" alt="GitHub Issues">
   </p>
 </div>
 
+> ⚠️ **Nota:** Este proyecto ha sido desarrollado como parte del **Trabajo Fin de Grado (TFG)** en el IES La Arboleda 🌲
+
+---
+
+## 🚀 Demo en Vivo
+
+Puedes probar la aplicación directamente en:  
+🔗 [https://launch.finanzapp.es/](https://launch.finanzapp.es/)
+
 ---
 
 ## 📑 Índice 
 
-- [Introducción](#introducción)
-- [Características](#características)
-- [Galería](#galería)
-- [Stack Tecnológico](#stack-tecnológico)
-- [Métricas del Proyecto](#métricas-del-proyecto)
-- [Documentación](#documentación)
-- [Demo en Vivo](#demo-en-vivo)
-- [Equipo](#equipo)
-- [Licencia](#licencia)
+- [Introducción](#🧠-introducción)
+- [Características](#🌟-características)
+- [Galería](#🖼️-galería)
+- [Stack Tecnológico](#🛠️-stack-tecnológico)
+- [Métricas del Proyecto](#📊-métricas-del-proyecto)
+- [Documentación](#📚-documentación)
+- [Equipo](#🧑‍💻-equipo)
+- [Licencia](#📄-licencia)
 
 ---
 
 ## 🧠 Introducción
 
-FinanzApp es una plataforma web inteligente de gestión financiera desarrollada como proyecto de fin de grado en el IES La Arboleda. La aplicación ofrece herramientas completas para el manejo de ahorros, inversiones y criptomonedas, combinando seguridad avanzada con análisis detallados en una interfaz intuitiva y responsive.
+**FinanzApp** es una plataforma web inteligente de gestión financiera desarrollada como proyecto de fin de grado en el IES La Arboleda.  
+La aplicación ofrece herramientas completas para el manejo de ahorros, inversiones y criptomonedas, combinando seguridad avanzada con análisis detallados en una interfaz intuitiva y responsive.
 
 ---
 
 ## 🌟 Características
 
-🔐 **Autenticación Segura**
-- Registro e inicio de sesión con reCAPTCHA v3
-- Protección contra ataques bruteforce
+🔐 **Autenticación Segura**  
+- Registro e inicio de sesión con reCAPTCHA v3  
+- Protección contra ataques bruteforce  
 
-💼 **Gestión Financiera Integral**
-- 💰 Ahorros inteligentes con seguimiento de objetivos
-  - Visualización de progreso con gráficos
-  - Alertas de metas alcanzadas
-- 📈 Inversiones con análisis detallado
-  - Rendimiento histórico (ROI, ganancias/pérdidas)
-  - Comparativa con índices de referencia
-- ₿ Criptomonedas en tiempo real
-  - Cotizaciones actualizadas
-  - Calculadora de conversión integrada
+💼 **Gestión Financiera Integral**  
+- 💰 Ahorros inteligentes con seguimiento de objetivos  
+  - Visualización de progreso con gráficos  
+  - Alertas de metas alcanzadas  
+- 📈 Inversiones con análisis detallado  
+  - Rendimiento histórico (ROI, ganancias/pérdidas)  
+  - Comparativa con índices de referencia  
+- ₿ Criptomonedas en tiempo real  
+  - Cotizaciones actualizadas  
+  - Calculadora de conversión integrada  
 
-🤖 **Automatización Avanzada**
-- Resumen automático de movimientos
-- Categorización inteligente de transacciones
-- Exportación de datos en CSV, PDF y Excel
+🤖 **Automatización Avanzada**  
+- Resumen automático de movimientos  
+- Categorización inteligente de transacciones  
+- Exportación de datos en CSV, PDF y Excel  
 
-📊 **Dashboard Interactivo**
-- Gráficos personalizables (Chart.js)
-- Widgets configurables
-- Vista móvil responsive
+📊 **Dashboard Interactivo**  
+- Gráficos personalizables (Chart.js)  
+- Widgets configurables  
+- Vista móvil responsive  
 
-✉️ **Sistema de Notificaciones**
-- Alertas por email (EmailJS)
-- Recordatorios personalizables
+✉️ **Sistema de Notificaciones**  
+- Alertas por email (EmailJS)  
+- Recordatorios personalizables  
 
 ---
 
@@ -95,30 +100,30 @@ FinanzApp es una plataforma web inteligente de gestión financiera desarrollada 
 
 ## 🛠️ Stack Tecnológico
 
-**Frontend:**
-- ⚛️ React 
-- 🎨 JavaScript
+**Frontend:**  
+- ⚛️ React  
+- 🎨 JavaScript  
 
-**Backend:**
-- 🐘 PHP
-- 🗃️ MySQL
+**Backend:**  
+- 🐘 PHP  
+- 🗃️ MySQL  
 
-**APIs Integradas:**
-- 📑 Resend (análisis financiero)
-- 🛡️ reCAPTCHA (seguridad)
-- ✉️ EmailJS (notificaciones)
+**APIs Integradas:**  
+- 📑 Resend (análisis financiero)  
+- 🛡️ reCAPTCHA (seguridad)  
+- ✉️ EmailJS (notificaciones)  
 
-**DevOps:**
-- 🛠️ GitHub Actions (CI/CD)
-- 🔍 SonarCloud (calidad de código)
-- 📋 Jira (gestión ágil)
+**DevOps:**  
+- 🛠️ GitHub Actions (CI/CD)  
+- 🔍 SonarCloud (calidad de código)  
+- 📋 Jira (gestión ágil)  
 
 ---
 
 ## 📊 Métricas del Proyecto
 
-- [![Code Coverage](https://img.shields.io/badge/Cobertura-85%25-green)]()
-- [![Build Status](https://img.shields.io/badge/Build-Passing-success)]()
+- ![Code Coverage](https://img.shields.io/badge/Cobertura-85%25-green)
+- ![Build Status](https://img.shields.io/badge/Build-Passing-success)
 
 ---
 
@@ -126,13 +131,6 @@ FinanzApp es una plataforma web inteligente de gestión financiera desarrollada 
 
 - 📘 [API Docs](https://github.com/Ballwictb/FinanzApp/wiki/API-Documentation)  
 - 🛠️ [Guía de instalación](https://github.com/Ballwictb/FinanzApp/wiki/Installation-Guide)
-
----
-
-## 🚀 Demo en Vivo
-
-Puedes probar la aplicación directamente en:  
-🔗 [https://launch.finanzapp.es/](https://launch.finanzapp.es/)
 
 ---
 

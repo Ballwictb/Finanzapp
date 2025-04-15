@@ -1,138 +1,136 @@
 <div align="center">
-  <!-- Logo y título -->
-  <h1 align="center">
-    <a href="https://github.com/Ballwictb/FinanzApp">
-      <img src="https://imgur.com/rzYvgn4.png" alt="FinanzApp Logo" width="300">
-    </a>
-  </h1>
+  <!-- Logo officiel -->
+  <a href="https://github.com/Ballwictb/FinanzApp">
+    <img src="https://imgur.com/x1iQiT5.png" alt="Logo de FinanzApp" width="300">
+  </a>
 
-  <!-- Selector de idioma -->
-  <h3>🌐 Cambiar idioma / Change Language / Changer de langue</h3>
+  <!-- Sélecteur de langue -->
+  <h3>🌐 Changer de langue / Change Language / Cambiar idioma</h3>
   <p>
-    <a href="./README.md"><img src="https://flagcdn.com/w40/es.png" alt="Español" height="25" width="40"></a>
-    <a href="./README.en.md"><img src="https://flagcdn.com/w40/gb.png" alt="English" height="25" width="40"></a>
+    <a href="./README.md"><img src="https://flagcdn.com/w40/es.png" alt="Espagnol" height="25" width="40"></a>
+    <a href="./README.en.md"><img src="https://flagcdn.com/w40/gb.png" alt="Anglais" height="25" width="40"></a>
     <a href="./README.fr.md"><img src="https://flagcdn.com/w40/fr.png" alt="Français" height="25" width="40"></a>
   </p>
 
-  <p><em>⚠️ Projet de fin d'études (TFG) - IES La Arboleda 🌲</em></p>
-
   <!-- Badges -->
   <p>
-    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
-    <img src="https://sonarcloud.io/api/project_badges/quality_gate?project=Ballwictb_FinanzApp" alt="Quality Gate Status">
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="Licence">
     <img src="https://img.shields.io/badge/version-1.0.0-green" alt="Version">
-    <img src="https://img.shields.io/github/stars/Ballwictb/FinanzApp?style=social" alt="GitHub Stars">
-    <img src="https://img.shields.io/github/forks/Ballwictb/FinanzApp?style=social" alt="GitHub Forks">
-    <img src="https://img.shields.io/github/issues/Ballwictb/FinanzApp" alt="GitHub Issues">
+    <img src="https://sonarcloud.io/api/project_badges/quality_gate?project=Ballwictb_FinanzApp" alt="Statut Qualité">
+    <img src="https://img.shields.io/github/stars/Ballwictb/FinanzApp?style=social" alt="Étoiles GitHub">
+    <img src="https://img.shields.io/github/forks/Ballwictb/FinanzApp?style=social" alt="Forks GitHub">
+    <img src="https://img.shields.io/github/issues/Ballwictb/FinanzApp" alt="Problèmes GitHub">
   </p>
 </div>
 
+> ⚠️ **Remarque :** Ce projet a été développé dans le cadre du **Travail de Fin d’Études (Thèse Finale)** à l’IES La Arboleda 🌲
+
 ---
 
-## 📑 Table de matières
+## 🚀 Démo en ligne
 
-- [Introduction](#introduction)
-- [Caractéristiques](#caractéristiques)
-- [Galerie](#galerie)
-- [Pile technologique](#pile-technologique)
-- [Métriques du projet](#métriques-du-projet)
-- [Documentation](#documentation)
-- [Démonstration en direct](#démonstration-en-direct)
-- [Équipe](#équipe)
-- [Licence](#license)
+Vous pouvez essayer l’application directement ici (en français):  
+🔗 [https://launch.finanzapp.es/](https://launch.finanzapp.es/?lang=fr)
+
+---
+
+## 📑 Sommaire
+
+- [Introduction](#🧠-introduction)
+- [Fonctionnalités](#🌟-fonctionnalités)
+- [Galerie](#🖼️-galerie)
+- [Stack Technologique](#🛠️-stack-technologique)
+- [Métriques du Projet](#📊-métriques-du-projet)
+- [Documentation](#📚-documentation)
+- [Équipe](#🧑‍💻-équipe)
+- [Licence](#📄-licence)
 
 ---
 
 ## 🧠 Introduction
 
-FinanzApp est une plateforme web de gestion financière intelligente développée en tant que projet de fin d'études à l'IES La Arboleda. L'application offre des outils complets pour gérer l'épargne, les investissements et les crypto-monnaies, combinant une sécurité avancée avec des analyses détaillées dans une interface intuitive et réactive.
+**FinanzApp** est une plateforme web intelligente de gestion financière, développée comme projet de fin d’études à l’IES La Arboleda.  
+L’application propose des outils complets pour la gestion de l’épargne, des investissements et des cryptomonnaies, combinant sécurité avancée et analyses détaillées dans une interface intuitive et responsive.
 
 ---
 
-## 🌟 Caractéristiques
+## 🌟 Fonctionnalités
 
-🔐 **Authentification sécurisée**
-- Enregistrement et connexion avec reCAPTCHA v3
-- Protection contre les attaques par force brute
+🔐 **Authentification Sécurisée**  
+- Inscription et connexion avec reCAPTCHA v3  
+- Protection contre les attaques par force brute  
 
-💼 **Gestion financière complète**
-- 💰 Épargne intelligente avec suivi des objectifs
- - Visualisation des progrès avec graphiques
- - Alertes sur les objectifs atteints
-- 📈 Investissements avec analyse détaillée
- - Performances historiques (ROI, profit/perte)
- - Comparaison des indices de référence
-- ₿ Cryptocurrencies en temps réel
- - Cotations actualisées
- - Calculateur de conversion intégré
+💼 **Gestion Financière Complète**  
+- 💰 Épargne intelligente avec suivi des objectifs  
+  - Visualisation des progrès avec graphiques  
+  - Alertes lorsque les objectifs sont atteints  
+- 📈 Investissements avec analyse détaillée  
+  - Rendement historique (ROI, gains/pertes)  
+  - Comparaison avec des indices de référence  
+- ₿ Cryptomonnaies en temps réel  
+  - Cotations mises à jour  
+  - Calculateur de conversion intégré  
 
-🤖 **Automatisation avancée**
-- Résumé automatique des mouvements
-- Catégorisation intelligente des transactions
-- Exportation des données en CSV, PDF et Excel
+🤖 **Automatisation Avancée**  
+- Résumé automatique des mouvements  
+- Catégorisation intelligente des transactions  
+- Exportation des données en CSV, PDF et Excel  
 
-📊 **Tableau de bord interactif**
-- Tableaux de bord personnalisables (Chart. js)
-- Widgets configurables
-- Affichage mobile réactif
+📊 **Tableau de Bord Interactif**  
+- Graphiques personnalisables (Chart.js)  
+- Widgets configurables  
+- Vue mobile responsive  
 
-✉️ **Système de notification**
-- Alertes par courriel (EmailJS)
-- Rappels personnalisables
+✉️ **Système de Notifications**  
+- Alertes par email (EmailJS)  
+- Rappels personnalisables  
 
 ---
 
 ## 🖼️ Galerie
 
 <div align="center">
-  <img src="./assets/Readme/inicio-desktop.jpeg" alt="Landing Desktop" width="600" style="margin: 10px;">
-  <img src="./assets/Readme/about-us-desktop.jpeg" alt="About Us Desktop" width="600" style="margin: 10px;">
-  <img src="./assets/Readme/inicio-mobile.jpeg" alt="Landing Mobile" width="600" style="margin: 10px;">
-  <img src="./assets/Readme/about-us-mobile.jpeg" alt="About Us Mobile" width="600" style="margin: 10px;">
+  <img src="./assets/Readme/inicio-desktop.jpeg" alt="Page d'accueil - Bureau" width="600" style="margin: 10px;">
+  <img src="./assets/Readme/about-us-desktop.jpeg" alt="À propos - Bureau" width="600" style="margin: 10px;">
+  <img src="./assets/Readme/inicio-mobile.jpeg" alt="Page d'accueil - Mobile" width="600" style="margin: 10px;">
+  <img src="./assets/Readme/about-us-mobile.jpeg" alt="À propos - Mobile" width="600" style="margin: 10px;">
 </div>
 
 ---
 
-## 🛠️ Pile technologique
+## 🛠️ Stack Technologique
 
-**Frontend:**
-- ⚛️ React 
-- 🎨 JavaScript
+**Frontend :**  
+- ⚛️ React  
+- 🎨 JavaScript  
 
-**Backend:**
-- 🐘 PHP
-- 🗃️ MySQL
+**Backend :**  
+- 🐘 PHP  
+- 🗃️ MySQL  
 
-**Aplications intégrées:**
-- 📑 Resend (analyse financière)
-- 🛡️ reCAPTCHA (sécurité)
-- ✉️ EmailJS (notifications)
+**APIs Intégrées :**  
+- 📑 Resend (analyse financière)  
+- 🛡️ reCAPTCHA (sécurité)  
+- ✉️ EmailJS (notifications)  
 
-**DevOps:**
-- 🛠️ GitHub Actions (CI/CD)
-- 🔍 SonarCloud (qualité du code)
-- 📋 Jira (gestion agile)
+**DevOps :**  
+- 🛠️ GitHub Actions (CI/CD)  
+- 🔍 SonarCloud (qualité du code)  
+- 📋 Jira (gestion agile)  
 
 ---
 
-## 📊 Métriques du projet
+## 📊 Métriques du Projet
 
-- [![Code Coverage](https://img.shields.io/badge/Cobertura-85%25-green)]()
-- [![Build Status](https://img.shields.io/badge/Build-Passing-success)]()
+- ![Couverture de code](https://img.shields.io/badge/Couverture-85%25-green)
+- ![Statut Build](https://img.shields.io/badge/Build-Réussi-success)
 
 ---
 
 ## 📚 Documentation
 
-- 📘 [API Docs](https://github.com/Ballwictb/FinanzApp/wiki/API-Documentation)  
-- 🛠️ [Guía de instalación](https://github.com/Ballwictb/FinanzApp/wiki/Installation-Guide)
-
----
-
-## 🚀 Démonstration en direct
-
-Vous pouvez tester l'application directement à l'adresse suivante:  
-🔗 [https://launch.finanzapp.es/](https://launch.finanzapp.es/)
+- 📘 [Documentation API](https://github.com/Ballwictb/FinanzApp/wiki/API-Documentation)  
+- 🛠️ [Guide d’installation](https://github.com/Ballwictb/FinanzApp/wiki/Installation-Guide)
 
 ---
 
@@ -150,8 +148,8 @@ Vous pouvez tester l'application directement à l'adresse suivante:
 
 ## 📄 Licence
 
-Ce projet est sous licence [MIT License](./docs/LICENSE).  
-Vous êtes libre d'utiliser, de modifier et de distribuer ce logiciel à condition de conserver les crédits originaux.
+Ce projet est sous licence [MIT](./docs/LICENSE).  
+Vous êtes libre de l'utiliser, le modifier et le distribuer tant que vous conservez les crédits originaux.
 
 ---
 
