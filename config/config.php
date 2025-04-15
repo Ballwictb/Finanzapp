@@ -1,10 +1,5 @@
 <?php
-// Detectar entorno automáticamente
-if ($_SERVER['HTTP_HOST'] === 'localhost') {
-    define('BASE_URL', '/FinanzApp'); // Localhost con carpeta
-} else {
-    define('BASE_URL', ''); // Producción en dominio raíz
-}
+define('BASE_URL', ''); // Producción en dominio raíz
 
 // Iniciar sesión si no está iniciada
 if (session_status() === PHP_SESSION_NONE) {
