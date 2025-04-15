@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Title and basic meta -->
-	<title><?= $translations['auth']['login']['title'] ?> - <?= $translations['brand'] ?></title>
+	<title><?= $translations['auth']['login']['title'] ?> | <?= $translations['brand'] ?></title>
 	<meta name="description" content="<?= $translations['meta']['description'] ?>">
 	<meta name="keywords" content="<?= $translations['meta']['keywords'] ?>">
 	<meta name="author" content="<?= $translations['meta']['author'] ?>">
@@ -16,8 +16,8 @@
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.finanzapp.es/" />
-	<meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
+	<meta property="og:url" content="https://www.finanzapp.es/login" />
+	<meta property="og:title" content="<?= $translations['auth']['login']['title'] ?> | <?= $translations['brand'] ?>" />
 	<meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
 	<meta property="og:image" content="https://launch.finanzapp.es/assets/login_image_large.webp" />
 	<!-- If required, we can add an email -->

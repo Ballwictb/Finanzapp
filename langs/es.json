@@ -1,10 +1,10 @@
 {
     "meta": {
-        "title": "FinanzApp",
-        "description": "Gestiona tus finanzas personales con una plataforma que te ayuda a visualizar, planificar y optimizar tu dinero de forma intuitiva. ¡Comienza ahora gratis!",
+        "title": "FinanzApp - Gestión Financiera",
+        "description": "Gestiona tus finanzas personales con nuestra plataforma que te ayuda a visualizar, planificar y optimizar tu dinero de forma intuitiva. Descubre herramientas fáciles de usar que potencian tus ahorros y mejoran tu bienestar económico. ¡Comienza ahora gratis!",
         "keywords": "finanzas, gestión financiera, FinanzApp, dinero, ahorro",
         "author": "FinanzApp Team",
-        "ogDescription": "Regístrate en FinanzApp en 30 segundos. La solución completa para gestionar tu dinero fácilmente y de forma gratuita."
+        "ogDescription": "Únete a FinanzApp en solo 30 segundos y revoluciona la forma en que gestionas tu dinero. Nuestra plataforma integral te ofrece herramientas intuitivas para controlar gastos, mejorar tus ahorros y alcanzar tus metas financieras, todo de forma gratuita. ¡Empieza ahora!"
     },
     "selector": {
         "es": "Español",
@@ -125,7 +125,7 @@
             "login": "Iniciar Sesión"
         },
         "meta": {
-            "register_description": "Regístrate en FinanzApp, tu herramienta para gestionar tus finanzas personales de forma eficiente."
+            "register_description": "Regístrate en FinanzApp y descubre la herramienta definitiva para gestionar tus finanzas personales de forma eficiente. Controla tus gastos, organiza tus ingresos y alcanza tus metas económicas con una plataforma intuitiva y gratuita. ¡Empieza hoy!"
         }
     },
     "brand": "FinanzApp",
@@ -175,7 +175,7 @@
         },
         "meta": {
             "title": "Contacto | FinanzApp",
-            "description": "Contáctanos para cualquier pregunta sobre FinanzApp, tu herramienta de gestión financiera personal."
+            "description": "¿Tienes dudas sobre FinanzApp? Contáctanos y recibe asistencia personalizada sobre nuestra herramienta de gestión financiera personal. Estamos aquí para ayudarte a tomar el control de tu economía de forma sencilla, rápida y segura. ¡Escríbenos cuando quieras!"
         }
     },
     "about": {
@@ -229,7 +229,7 @@
         },
         "meta": {
             "title": "Sobre Nosotros | FinanzApp",
-            "description": "Conoce al equipo y los valores detrás de FinanzApp, tu herramienta de gestión financiera personal."
+            "description": "Descubre al equipo que hace posible FinanzApp y los valores que nos impulsan a crear una herramienta de gestión financiera personal confiable, intuitiva y centrada en el usuario. Conoce nuestra misión y el compromiso detrás de cada funcionalidad."
         }
     },
     "aria": {
@@ -256,88 +256,88 @@
             "message": "Error interno del servidor. Por favor, inténtalo de nuevo más tarde."
         }
     },
-		"terms": {
-			"title": "Términos y Condiciones",
-			"description": "Última actualización: 05 de Abril de 2025",
-			"toc": {
-				"introduction" :"Introducción",
-				"definitions" :"Definiciones",
-				"account" :"Cuenta de usuario",
-				"services" :"Servicios",
-				"payments" :"Pagos y facturación",
-				"intellectual" :"Propiedad intelectual",
-				"privacy" :"Privacidad y datos personales",
-				"limitations" :"Limitaciones de responsabilidad",
-				"termination" :"Terminación",
-				"modifications" :"Modificaciones",
-				"law" :"Ley aplicable",
-				"contact" :"Contacto"
-			},
-			"sections": {
-				"introduction" : {
-					"title" : "1. Introducción",
-					"p1": "Bienvenido a FinanzApp. Estos Términos y Condiciones rigen el uso de nuestra aplicación web y servicios relacionados. Al acceder o utilizar FinanzApp, usted acepta estar legalmente vinculado por estos términos. Si no está de acuerdo con alguna parte de estos términos, no podrá acceder o utilizar nuestros servicios.",
-					"p2" : "FinanzApp es un proyecto desarrollado como Trabajo Fin de Grado en el centro IES La Arboleda, diseñado para ayudar a los usuarios a gestionar sus finanzas personales de manera efectiva."
-				},
-				"definitions" : {
-					"title" : "2. Definiciones",
-					"p1" : "A lo largo de estos Términos y Condiciones, los siguientes términos tendrán los significados que se indican a continuación:",
-					"li1" : "\"FinanzApp\", \"nosotros\", \"nos\" o \"nuestro\" se refiere a la aplicación web FinanzApp y sus creadores.",
-					"li2" : " \"Usuario\", \"usted\" o \"su\" se refiere a cualquier persona que acceda o utilice FinanzApp.",
-					"li3" : "\"Servicios\" se refiere a todas las funcionalidades, herramientas y contenidos ofrecidos a través de FinanzApp.",
-					"li4" : "\"Cuenta\" se refiere al registro personal de un usuario en FinanzApp.",
-					"li5" : "\"Datos personales\" se refiere a cualquier información relacionada con una persona física identificada o identificable."
-				},
-				"account": {
-					"title": "3. Cuenta de usuario",
-					"p1": "Para utilizar ciertas funcionalidades de FinanzApp, es necesario crear una cuenta. Al registrarse, usted acepta proporcionar información precisa, completa y actualizada. Es su responsabilidad mantener la confidencialidad de su contraseña y cuenta, y acepta toda la responsabilidad por las actividades que ocurran bajo su cuenta.",
-					"p2": "Nos reservamos el derecho de suspender o terminar su cuenta si detectamos actividades sospechosas o si viola estos Términos y Condiciones."
-				},
-				"services": {
-					"title": "4. Servicios",
-					"p1": "FinanzApp ofrece herramientas para la gestión financiera personal, incluyendo seguimiento de gastos, presupuestos, análisis financiero y otras funcionalidades relacionadas. Nos esforzamos por proporcionar servicios precisos y útiles, pero no garantizamos que los servicios estén libres de errores o que el acceso a ellos sea ininterrumpido.",
-					"p2": "Nos reservamos el derecho de modificar, suspender o discontinuar cualquier aspecto de nuestros servicios en cualquier momento sin previo aviso."
-				},
-				"payments": {
-					"title": "5. Pagos y facturación",
-					"p1": "FinanzApp ofrece actualmente solo servicios gratuitos.<br> Para los futuros servicios de pago, usted acepta pagar todas las tarifas aplicables según lo especificado en el momento de la compra. Los pagos se procesarán a través de proveedores de servicios de pago de terceros, y usted acepta cumplir con sus términos y condiciones.",
-					"p2": "Las futuras suscripciones se renovarán automáticamente a menos que se cancelen antes de la fecha de renovación. Puede cancelar su suscripción en cualquier momento desde la configuración de su cuenta."
-				},
-				"intellectual": {
-					"title": "6. Propiedad intelectual",
-					"p1": "FinanzApp y todo su contenido, características y funcionalidades son propiedad de sus creadores y están protegidos por leyes de propiedad intelectual. No se permite la reproducción, distribución, modificación o creación de trabajos derivados sin autorización expresa.",
-					"p2": "Al utilizar FinanzApp, usted no adquiere ningún derecho de propiedad sobre el servicio o su contenido. Todos los derechos no expresamente concedidos están reservados."
-				},
-				"privacy": {
-					"title": "7. Privacidad y datos personales",
-					"p1": "La recopilación y el uso de sus datos personales están sujetos a nuestra Política de Privacidad, que forma parte integral de estos Términos y Condiciones. Al utilizar FinanzApp, usted acepta nuestras prácticas de privacidad como se describe en dicha política.",
-					"p2": "Cumplimos con el Reglamento General de Protección de Datos (RGPD) y otras leyes de protección de datos aplicables en la Unión Europea y España."
-				},
-				"limitations": {
-					"title": "8. Limitaciones de responsabilidad",
-					"p1": "FinanzApp se proporciona \"tal cual\" y \"según disponibilidad\", sin garantías de ningún tipo, ya sean expresas o implícitas. No garantizamos que los servicios satisfagan sus requisitos o que sean ininterrumpidos, oportunos, seguros o libres de errores.",
-					"p2": "En ningún caso seremos responsables por daños indirectos, incidentales, especiales, consecuentes o punitivos, incluyendo pérdida de beneficios, datos u otras pérdidas intangibles, resultantes del uso o la imposibilidad de usar nuestros servicios."
-				},
-				"termination": {
-					"title": "9. Terminación",
-					"p1": "Podemos terminar o suspender su acceso a FinanzApp inmediatamente, sin previo aviso ni responsabilidad, por cualquier motivo, incluyendo, sin limitación, si usted incumple estos Términos y Condiciones.",
-					"p2": "Tras la terminación, su derecho a utilizar los servicios cesará inmediatamente. Si desea terminar su cuenta, puede simplemente dejar de usar los servicios o seguir el procedimiento de eliminación de cuenta disponible en la configuración."
-				},
-				"modifications": {
-					"title": "10. Modificaciones",
-					"p1": "Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Las modificaciones entrarán en vigor inmediatamente después de su publicación en FinanzApp. Es su responsabilidad revisar periódicamente estos términos para estar al tanto de las actualizaciones.",
-					"p2": "El uso continuado de FinanzApp después de la publicación de las modificaciones constituirá su aceptación de los nuevos términos."
-				},
-				"law": {
-					"title": "11. Ley aplicable",
-					"p1": "Estos Términos y Condiciones se regirán e interpretarán de acuerdo con las leyes de España, sin tener en cuenta sus disposiciones sobre conflictos de leyes.",
-					"p2": "Cualquier disputa relacionada con estos términos será sometida a la jurisdicción exclusiva de los tribunales de Madrid, España."
-				},
-				"contact": {
-					"title": "12. Contacto",
-					"p1": "Si tiene alguna pregunta sobre estos Términos y Condiciones, puede contactarnos en:",
-					"address": "Dirección del centro: Av. del Oeste, s/n, 28922 Alcorcón, Madrid"
-				}
-			}
-		}
+    "terms": {
+        "title": "Términos y Condiciones",
+        "description": "Última actualización: 05 de Abril de 2025",
+        "toc": {
+            "introduction": "Introducción",
+            "definitions": "Definiciones",
+            "account": "Cuenta de usuario",
+            "services": "Servicios",
+            "payments": "Pagos y facturación",
+            "intellectual": "Propiedad intelectual",
+            "privacy": "Privacidad y datos personales",
+            "limitations": "Limitaciones de responsabilidad",
+            "termination": "Terminación",
+            "modifications": "Modificaciones",
+            "law": "Ley aplicable",
+            "contact": "Contacto"
+        },
+        "sections": {
+            "introduction": {
+                "title": "1. Introducción",
+                "p1": "Bienvenido a FinanzApp. Estos Términos y Condiciones rigen el uso de nuestra aplicación web y servicios relacionados. Al acceder o utilizar FinanzApp, usted acepta estar legalmente vinculado por estos términos. Si no está de acuerdo con alguna parte de estos términos, no podrá acceder o utilizar nuestros servicios.",
+                "p2": "FinanzApp es un proyecto desarrollado como Trabajo Fin de Grado en el centro IES La Arboleda, diseñado para ayudar a los usuarios a gestionar sus finanzas personales de manera efectiva."
+            },
+            "definitions": {
+                "title": "2. Definiciones",
+                "p1": "A lo largo de estos Términos y Condiciones, los siguientes términos tendrán los significados que se indican a continuación:",
+                "li1": "\"FinanzApp\", \"nosotros\", \"nos\" o \"nuestro\" se refiere a la aplicación web FinanzApp y sus creadores.",
+                "li2": " \"Usuario\", \"usted\" o \"su\" se refiere a cualquier persona que acceda o utilice FinanzApp.",
+                "li3": "\"Servicios\" se refiere a todas las funcionalidades, herramientas y contenidos ofrecidos a través de FinanzApp.",
+                "li4": "\"Cuenta\" se refiere al registro personal de un usuario en FinanzApp.",
+                "li5": "\"Datos personales\" se refiere a cualquier información relacionada con una persona física identificada o identificable."
+            },
+            "account": {
+                "title": "3. Cuenta de usuario",
+                "p1": "Para utilizar ciertas funcionalidades de FinanzApp, es necesario crear una cuenta. Al registrarse, usted acepta proporcionar información precisa, completa y actualizada. Es su responsabilidad mantener la confidencialidad de su contraseña y cuenta, y acepta toda la responsabilidad por las actividades que ocurran bajo su cuenta.",
+                "p2": "Nos reservamos el derecho de suspender o terminar su cuenta si detectamos actividades sospechosas o si viola estos Términos y Condiciones."
+            },
+            "services": {
+                "title": "4. Servicios",
+                "p1": "FinanzApp ofrece herramientas para la gestión financiera personal, incluyendo seguimiento de gastos, presupuestos, análisis financiero y otras funcionalidades relacionadas. Nos esforzamos por proporcionar servicios precisos y útiles, pero no garantizamos que los servicios estén libres de errores o que el acceso a ellos sea ininterrumpido.",
+                "p2": "Nos reservamos el derecho de modificar, suspender o discontinuar cualquier aspecto de nuestros servicios en cualquier momento sin previo aviso."
+            },
+            "payments": {
+                "title": "5. Pagos y facturación",
+                "p1": "FinanzApp ofrece actualmente solo servicios gratuitos.<br> Para los futuros servicios de pago, usted acepta pagar todas las tarifas aplicables según lo especificado en el momento de la compra. Los pagos se procesarán a través de proveedores de servicios de pago de terceros, y usted acepta cumplir con sus términos y condiciones.",
+                "p2": "Las futuras suscripciones se renovarán automáticamente a menos que se cancelen antes de la fecha de renovación. Puede cancelar su suscripción en cualquier momento desde la configuración de su cuenta."
+            },
+            "intellectual": {
+                "title": "6. Propiedad intelectual",
+                "p1": "FinanzApp y todo su contenido, características y funcionalidades son propiedad de sus creadores y están protegidos por leyes de propiedad intelectual. No se permite la reproducción, distribución, modificación o creación de trabajos derivados sin autorización expresa.",
+                "p2": "Al utilizar FinanzApp, usted no adquiere ningún derecho de propiedad sobre el servicio o su contenido. Todos los derechos no expresamente concedidos están reservados."
+            },
+            "privacy": {
+                "title": "7. Privacidad y datos personales",
+                "p1": "La recopilación y el uso de sus datos personales están sujetos a nuestra Política de Privacidad, que forma parte integral de estos Términos y Condiciones. Al utilizar FinanzApp, usted acepta nuestras prácticas de privacidad como se describe en dicha política.",
+                "p2": "Cumplimos con el Reglamento General de Protección de Datos (RGPD) y otras leyes de protección de datos aplicables en la Unión Europea y España."
+            },
+            "limitations": {
+                "title": "8. Limitaciones de responsabilidad",
+                "p1": "FinanzApp se proporciona \"tal cual\" y \"según disponibilidad\", sin garantías de ningún tipo, ya sean expresas o implícitas. No garantizamos que los servicios satisfagan sus requisitos o que sean ininterrumpidos, oportunos, seguros o libres de errores.",
+                "p2": "En ningún caso seremos responsables por daños indirectos, incidentales, especiales, consecuentes o punitivos, incluyendo pérdida de beneficios, datos u otras pérdidas intangibles, resultantes del uso o la imposibilidad de usar nuestros servicios."
+            },
+            "termination": {
+                "title": "9. Terminación",
+                "p1": "Podemos terminar o suspender su acceso a FinanzApp inmediatamente, sin previo aviso ni responsabilidad, por cualquier motivo, incluyendo, sin limitación, si usted incumple estos Términos y Condiciones.",
+                "p2": "Tras la terminación, su derecho a utilizar los servicios cesará inmediatamente. Si desea terminar su cuenta, puede simplemente dejar de usar los servicios o seguir el procedimiento de eliminación de cuenta disponible en la configuración."
+            },
+            "modifications": {
+                "title": "10. Modificaciones",
+                "p1": "Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Las modificaciones entrarán en vigor inmediatamente después de su publicación en FinanzApp. Es su responsabilidad revisar periódicamente estos términos para estar al tanto de las actualizaciones.",
+                "p2": "El uso continuado de FinanzApp después de la publicación de las modificaciones constituirá su aceptación de los nuevos términos."
+            },
+            "law": {
+                "title": "11. Ley aplicable",
+                "p1": "Estos Términos y Condiciones se regirán e interpretarán de acuerdo con las leyes de España, sin tener en cuenta sus disposiciones sobre conflictos de leyes.",
+                "p2": "Cualquier disputa relacionada con estos términos será sometida a la jurisdicción exclusiva de los tribunales de Madrid, España."
+            },
+            "contact": {
+                "title": "12. Contacto",
+                "p1": "Si tiene alguna pregunta sobre estos Términos y Condiciones, puede contactarnos en:",
+                "address": "Dirección del centro: Av. del Oeste, s/n, 28922 Alcorcón, Madrid"
+            }
+        }
+    }
 }
