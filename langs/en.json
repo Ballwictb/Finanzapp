@@ -1,10 +1,10 @@
 {
     "meta": {
-        "title": "FinanzApp",
-        "description": "Manage your personal finances with a platform that helps you visualize, plan, and optimize your money intuitively. Start now for free!",
+        "title": "FinanzApp - Financial Management",
+        "description": "Manage your personal finances with our platform that helps you visualize, plan, and optimize your money intuitively. Discover easy-to-use tools that boost your savings and improve your financial well-being. Start for free now!",
         "keywords": "finance, financial management, FinanzApp, money, savings",
         "author": "FinanzApp Team",
-        "ogDescription": "Sign up for FinanzApp in 30 seconds. The complete solution to manage your money easily and for free."
+        "ogDescription": "Sign up for FinanzApp in just 30 seconds and revolutionize the way you manage your money. Our all-in-one platform provides intuitive tools to track expenses, boost your savings, and achieve your financial goals, all completely free. Get started now!"
     },
     "selector": {
         "es": "Spanish",
@@ -122,7 +122,7 @@
             "login": "Login"
         },
         "meta": {
-            "register_description": "Register for FinanzApp, your tool for efficient personal finance management."
+            "register_description": "Sign up for FinanzApp and discover the ultimate tool to efficiently manage your personal finances. Track expenses, organize income, and reach your financial goals with an intuitive and free platform. Start today and take control of your money!"
         }
     },
     "brand": "FinanzApp",
@@ -172,7 +172,7 @@
         },
         "meta": {
             "title": "Contact | FinanzApp",
-            "description": "Contact us for any questions about FinanzApp, your personal finance management tool."
+            "description": "Have questions about FinanzApp? Contact us for personalized support with our personal finance management tool. We're here to help you take control of your finances in a simple, fast, and secure way. Reach out to us anytime!"
         }
     },
     "about": {
@@ -226,7 +226,7 @@
         },
         "meta": {
             "title": "About Us | FinanzApp",
-            "description": "Meet the team and values behind FinanzApp, your personal finance management tool."
+            "description": "Meet the team behind FinanzApp and discover the values that drive us to build a reliable, intuitive personal finance management tool. Learn about our mission and the passion we put into every feature to help you take control of your finances."
         }
     },
     "aria": {
@@ -253,88 +253,88 @@
             "message": "Internal server error. Please try again later."
         }
     },
-		"terms": {
-			"title": "Terms and conditions",
-			"description": "Last update: April 5, 2025",
-			"toc": {
-				"introduction": "Introduction",
-				"definitions": "Definitions",
-				"account": "User Account",
-				"services": "Services",
-				"payments": "Payments and Billing",
-				"intellectual": "Intellectual Property",
-				"privacy": "Privacy and Personal Data",
-				"limitations": "Limitations of Liability",
-				"termination": "Termination",
-				"modifications": "Modifications",
-				"law": "Applicable Law",
-				"contact": "Contact"
-			},
-			"sections": {
-				"introduction": {
-					"title": "1. Introduction",
-					"p1": "Welcome to FinanzApp. These Terms and Conditions govern the use of our web application and related services. By accessing or using FinanzApp, you agree to be legally bound by these terms. If you do not agree with any part of these terms, you may not access or use our services.",
-					"p2": "FinanzApp is a project developed as a Final Degree Project at the IES La Arboleda center, designed to help users manage their personal finances effectively."
-				},
-				"definitions": {
-					"title": "2. Definitions",
-					"p1": "Throughout these Terms and Conditions, the following terms will have the meanings set forth below:",
-					"li1": "\"FinanzApp\", \"we\", \"us\", or \"our\" refers to the web application FinanzApp and its creators.",
-					"li2": "\"User\", \"you\", or \"your\" refers to any person who accesses or uses FinanzApp.",
-					"li3": "\"Services\" refers to all functionalities, tools, and content provided through FinanzApp.",
-					"li4": "\"Account\" refers to a user's personal registration on FinanzApp.",
-					"li5": "\"Personal data\" refers to any information related to an identified or identifiable natural person."
-				},
-				"account": {
-					"title": "3. User Account",
-					"p1": "To use certain features of FinanzApp, it is necessary to create an account. By registering, you agree to provide accurate, complete, and up-to-date information. It is your responsibility to maintain the confidentiality of your password and account, and you accept full responsibility for activities that occur under your account.",
-					"p2": "We reserve the right to suspend or terminate your account if we detect suspicious activity or if you violate these Terms and Conditions."
-				},
-				"services": {
-					"title": "4. Services",
-					"p1": "FinanzApp offers tools for personal financial management, including expense tracking, budgeting, financial analysis, and other related features. We strive to provide accurate and useful services, but we do not guarantee that the services will be error-free or that access to them will be uninterrupted.",
-					"p2": "We reserve the right to modify, suspend, or discontinue any aspect of our services at any time without notice."
-				},
-				"payments": {
-					"title": "5. Payments and Billing",
-					"p1": "FinanzApp currently offers only free services.<br> For future paid services, you agree to pay all applicable fees as specified at the time of purchase. Payments will be processed through third-party payment service providers, and you agree to comply with their terms and conditions.",
-					"p2": "Future subscriptions will automatically renew unless canceled before the renewal date. You can cancel your subscription at any time from your account settings."
-				},
-				"intellectual": {
-					"title": "6. Intellectual Property",
-					"p1": "FinanzApp and all its content, features, and functionalities are the property of its creators and are protected by intellectual property laws. Reproduction, distribution, modification, or creation of derivative works without express permission is prohibited.",
-					"p2": "By using FinanzApp, you do not acquire any ownership rights to the service or its content. All rights not expressly granted are reserved."
-				},
-				"privacy": {
-					"title": "7. Privacy and Personal Data",
-					"p1": "The collection and use of your personal data are subject to our Privacy Policy, which is an integral part of these Terms and Conditions. By using FinanzApp, you agree to our privacy practices as described in that policy.",
-					"p2": "We comply with the General Data Protection Regulation (GDPR) and other applicable data protection laws in the European Union and Spain."
-				},
-				"limitations": {
-					"title": "8. Limitation of Liability",
-					"p1": "FinanzApp is provided \"as is\" and \"as available\", without warranties of any kind, express or implied. We do not guarantee that the services will meet your requirements or that they will be uninterrupted, timely, secure, or error-free.",
-					"p2": "In no event shall we be liable for indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or other intangible losses, arising from the use or inability to use our services."
-				},
-				"termination": {
-					"title": "9. Termination",
-					"p1": "We may terminate or suspend your access to FinanzApp immediately, without prior notice or liability, for any reason, including, but not limited to, if you breach these Terms and Conditions.",
-					"p2": "Upon termination, your right to use the services will immediately cease. If you wish to terminate your account, you may simply stop using the services or follow the account deletion procedure available in the settings."
-				},
-				"modifications": {
-					"title": "10. Modifications",
-					"p1": "We reserve the right to modify these Terms and Conditions at any time. The modifications will take effect immediately after being published on FinanzApp. It is your responsibility to periodically review these terms to stay informed of updates.",
-					"p2": "Your continued use of FinanzApp after the publication of the modifications will constitute your acceptance of the new terms."
-				},
-				"law": {
-					"title": "11. Applicable Law",
-					"p1": "These Terms and Conditions will be governed and interpreted in accordance with the laws of Spain, without regard to its conflict of laws provisions.",
-					"p2": "Any dispute relating to these terms will be subject to the exclusive jurisdiction of the courts in Madrid, Spain."
-				},
-				"contact": {
-					"title": "12. Contact",
-					"p1": "If you have any questions about these Terms and Conditions, you can contact us at:",
-					"address": "Center address: Av. del Oeste, s/n, 28922 Alcorcón, Madrid"
-				}
-			}
-		}
+    "terms": {
+        "title": "Terms and conditions",
+        "description": "Last update: April 5, 2025",
+        "toc": {
+            "introduction": "Introduction",
+            "definitions": "Definitions",
+            "account": "User Account",
+            "services": "Services",
+            "payments": "Payments and Billing",
+            "intellectual": "Intellectual Property",
+            "privacy": "Privacy and Personal Data",
+            "limitations": "Limitations of Liability",
+            "termination": "Termination",
+            "modifications": "Modifications",
+            "law": "Applicable Law",
+            "contact": "Contact"
+        },
+        "sections": {
+            "introduction": {
+                "title": "1. Introduction",
+                "p1": "Welcome to FinanzApp. These Terms and Conditions govern the use of our web application and related services. By accessing or using FinanzApp, you agree to be legally bound by these terms. If you do not agree with any part of these terms, you may not access or use our services.",
+                "p2": "FinanzApp is a project developed as a Final Degree Project at the IES La Arboleda center, designed to help users manage their personal finances effectively."
+            },
+            "definitions": {
+                "title": "2. Definitions",
+                "p1": "Throughout these Terms and Conditions, the following terms will have the meanings set forth below:",
+                "li1": "\"FinanzApp\", \"we\", \"us\", or \"our\" refers to the web application FinanzApp and its creators.",
+                "li2": "\"User\", \"you\", or \"your\" refers to any person who accesses or uses FinanzApp.",
+                "li3": "\"Services\" refers to all functionalities, tools, and content provided through FinanzApp.",
+                "li4": "\"Account\" refers to a user's personal registration on FinanzApp.",
+                "li5": "\"Personal data\" refers to any information related to an identified or identifiable natural person."
+            },
+            "account": {
+                "title": "3. User Account",
+                "p1": "To use certain features of FinanzApp, it is necessary to create an account. By registering, you agree to provide accurate, complete, and up-to-date information. It is your responsibility to maintain the confidentiality of your password and account, and you accept full responsibility for activities that occur under your account.",
+                "p2": "We reserve the right to suspend or terminate your account if we detect suspicious activity or if you violate these Terms and Conditions."
+            },
+            "services": {
+                "title": "4. Services",
+                "p1": "FinanzApp offers tools for personal financial management, including expense tracking, budgeting, financial analysis, and other related features. We strive to provide accurate and useful services, but we do not guarantee that the services will be error-free or that access to them will be uninterrupted.",
+                "p2": "We reserve the right to modify, suspend, or discontinue any aspect of our services at any time without notice."
+            },
+            "payments": {
+                "title": "5. Payments and Billing",
+                "p1": "FinanzApp currently offers only free services.<br> For future paid services, you agree to pay all applicable fees as specified at the time of purchase. Payments will be processed through third-party payment service providers, and you agree to comply with their terms and conditions.",
+                "p2": "Future subscriptions will automatically renew unless canceled before the renewal date. You can cancel your subscription at any time from your account settings."
+            },
+            "intellectual": {
+                "title": "6. Intellectual Property",
+                "p1": "FinanzApp and all its content, features, and functionalities are the property of its creators and are protected by intellectual property laws. Reproduction, distribution, modification, or creation of derivative works without express permission is prohibited.",
+                "p2": "By using FinanzApp, you do not acquire any ownership rights to the service or its content. All rights not expressly granted are reserved."
+            },
+            "privacy": {
+                "title": "7. Privacy and Personal Data",
+                "p1": "The collection and use of your personal data are subject to our Privacy Policy, which is an integral part of these Terms and Conditions. By using FinanzApp, you agree to our privacy practices as described in that policy.",
+                "p2": "We comply with the General Data Protection Regulation (GDPR) and other applicable data protection laws in the European Union and Spain."
+            },
+            "limitations": {
+                "title": "8. Limitation of Liability",
+                "p1": "FinanzApp is provided \"as is\" and \"as available\", without warranties of any kind, express or implied. We do not guarantee that the services will meet your requirements or that they will be uninterrupted, timely, secure, or error-free.",
+                "p2": "In no event shall we be liable for indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or other intangible losses, arising from the use or inability to use our services."
+            },
+            "termination": {
+                "title": "9. Termination",
+                "p1": "We may terminate or suspend your access to FinanzApp immediately, without prior notice or liability, for any reason, including, but not limited to, if you breach these Terms and Conditions.",
+                "p2": "Upon termination, your right to use the services will immediately cease. If you wish to terminate your account, you may simply stop using the services or follow the account deletion procedure available in the settings."
+            },
+            "modifications": {
+                "title": "10. Modifications",
+                "p1": "We reserve the right to modify these Terms and Conditions at any time. The modifications will take effect immediately after being published on FinanzApp. It is your responsibility to periodically review these terms to stay informed of updates.",
+                "p2": "Your continued use of FinanzApp after the publication of the modifications will constitute your acceptance of the new terms."
+            },
+            "law": {
+                "title": "11. Applicable Law",
+                "p1": "These Terms and Conditions will be governed and interpreted in accordance with the laws of Spain, without regard to its conflict of laws provisions.",
+                "p2": "Any dispute relating to these terms will be subject to the exclusive jurisdiction of the courts in Madrid, Spain."
+            },
+            "contact": {
+                "title": "12. Contact",
+                "p1": "If you have any questions about these Terms and Conditions, you can contact us at:",
+                "address": "Center address: Av. del Oeste, s/n, 28922 Alcorcón, Madrid"
+            }
+        }
+    }
 }

@@ -8,15 +8,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Title and basic meta -->
-	<title><?php echo $translations['meta']['title']; ?></title>
+	<title><?php echo $translations['cookies']['title']; ?> | <?php echo $translations['brand']; ?></title>
 	<meta name="description" content="<?php echo $translations['meta']['description']; ?>" />
 	<meta name="keywords" content="<?php echo $translations['meta']['keywords']; ?>" />
     <meta name="author" content="<?= $translations['meta']['author'] ?>">
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.finanzapp.es/" />
-	<meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
+	<meta property="og:url" content="https://www.finanzapp.es/cookies" />
+	<meta property="og:title" content="<?php echo $translations['cookies']['title']; ?> | <?php echo $translations['brand']; ?>" />
 	<meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
 	<meta property="og:image" content="http://tny.im/goh" />
 	<!-- If required, we can add an email -->
@@ -29,7 +29,7 @@
 	<meta property="twitter:image" content="https://www.finanzapp.com/assets/twitter-image.jpg">
 
 	<!-- Canonical -->
-	<link rel="canonical" href="https://www.finanzapp.es/">
+	<link rel="canonical" href="https://www.finanzapp.es/cookies">
 
 	<!-- Preconnect para Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">

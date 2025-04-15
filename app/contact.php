@@ -16,8 +16,8 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.finanzapp.es/" />
-    <meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
+    <meta property="og:url" content="https://www.finanzapp.es/contact" />
+    <meta property="og:title" content="<?php echo $translations['contact']['meta']['title']; ?>" />
     <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
     <meta property="og:image" content="https://launch.finanzapp.es/assets/contacto_image_large.webp" />
     <!-- If required, we can add an email -->

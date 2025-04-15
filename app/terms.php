@@ -8,13 +8,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Title and basic meta -->
-	<title><?php echo $translations['meta']['title']; ?></title>
+	<title><?php echo $translations['terms']['title']; ?> | <?php echo $translations['brand']; ?></title>
 	<meta name="description" content="<?php echo $translations['meta']['description']; ?>" />
 	<meta name="keywords" content="<?php echo $translations['meta']['keywords']; ?>" />
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.finanzapp.es/" />
+	<meta property="og:url" content="https://www.finanzapp.es/terms" />
 	<meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
 	<meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
 	<meta property="og:image" content="http://tny.im/goh" />
@@ -23,12 +23,12 @@
 
 	<!-- Twitter Cards -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
+	<meta property="twitter:title" content="<?php echo $translations['terms']['title']; ?> | <?php echo $translations['brand']; ?>">
 	<meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
 	<meta property="twitter:image" content="https://www.finanzapp.com/assets/twitter-image.jpg">
 
 	<!-- Canonical -->
-	<link rel="canonical" href="https://www.finanzapp.es/">
+	<link rel="canonical" href="https://www.finanzapp.es/terms">
 
 	<!-- Preconnect para Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">

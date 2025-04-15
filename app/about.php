@@ -16,8 +16,8 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.finanzapp.es/" />
-    <meta property="og:title" content="<?php echo $translations['meta']['title']; ?>" />
+    <meta property="og:url" content="https://www.finanzapp.es/about" />
+    <meta property="og:title" content="<?php echo $translations['about']['meta']['title']; ?>" />
     <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
     <meta property="og:image" content="https://launch.finanzapp.es/assets/about_image_large.webp" />
     <!-- If required, we can add an email -->
@@ -30,7 +30,7 @@
     <meta property="twitter:image" content="https://launch.finanzapp.es/assets/about_image_large.webp">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://www.finanzapp.es/">
+    <link rel="canonical" href="https://www.finanzapp.es/about">
 
     <!-- Preconnect for Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
