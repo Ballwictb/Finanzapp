@@ -304,7 +304,10 @@
 	</section>
 
 	<!-- Features Section -->
-	<section id="features" class="features">
+	<section  id="features"  class="features">
+		<br>
+		<br>
+		<br>
 		<div class="container">
 			<div class="section-header">
 				<h2 class="section-title" data-elem="features.title"><?php echo $translations['features']['title']; ?> <span
@@ -374,6 +377,9 @@
 
 	<!-- How It Works Section -->
 	<section id="how-it-works" class="how-it-works">
+		<br>
+		<br>
+		<br>
 		<div class="container">
 			<div class="section-header">
 				<h2 class="section-title" data-elem="howItWorks.title"><?php echo $translations['howItWorks']['title']; ?> <span
