@@ -239,23 +239,6 @@
     "language": {
         "select": "Seleccionar idioma"
     },
-    "errors": {
-        "400": {
-            "message": "Petición incorrecta. Por favor, verifica la información enviada."
-        },
-        "401": {
-            "message": "No autorizado. Por favor, inicia sesión para acceder a esta página."
-        },
-        "403": {
-            "message": "Acceso denegado. No tienes permiso para acceder a esta página."
-        },
-        "404": {
-            "message": "Página no encontrada. La página que buscas no existe o ha sido movida."
-        },
-        "500": {
-            "message": "Error interno del servidor. Por favor, inténtalo de nuevo más tarde."
-        }
-    },
     "terms": {
         "title": "Términos y Condiciones",
         "description": "Última actualización: 05 de Abril de 2025",
