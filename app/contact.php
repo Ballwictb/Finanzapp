@@ -168,9 +168,8 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
-    <!-- Translation JS -->
-    <script src="../js/translations.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js" integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT" crossorigin="anonymous"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js" integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT" crossorigin="anonymous"></script>
 
 		<!-- Email js -->
 		<script type="text/javascript"
