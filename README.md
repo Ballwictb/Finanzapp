@@ -1,60 +1,83 @@
 <div align="center">
   <!-- Logo oficial -->
   <a href="https://github.com/Ballwictb/FinanzApp">
-    <img src="https://imgur.com/x1iQiT5.png" alt="FinanzApp Logo" width="300">
+    <img src="https://finanzapp.es/logo-r.png" alt="FinanzApp Logo" width="500">
   </a>
 
   <!-- Selector de idioma -->
-  <h3>🌐 Cambiar idioma / Change Language / Changer de langue</h3>
-  <p>
-    <a href="./README.md"><img src="https://flagcdn.com/w40/es.png" alt="Español" height="25" width="40"></a>
-    <a href="./README.en.md"><img src="https://flagcdn.com/w40/gb.png" alt="English" height="25" width="40"></a>
-    <a href="./README.fr.md"><img src="https://flagcdn.com/w40/fr.png" alt="Français" height="25" width="40"></a>
-  </p>
+### 🌐 Cambiar idioma
+| 🇪🇸 Español | 🇬🇧 English | 🇫🇷 Français |
+|------------|-------------|--------------|
+|<p align="center"> <a href="./README.md"><img src="https://flagcdn.com/w40/es.png" alt="Español" height="25" width="40"></a></p> |<p align="center"> <a href="./README.en.md"><img src="https://flagcdn.com/w40/gb.png" alt="English" height="25" width="40"></a></p> |<p align="center"> <a href="./README.fr.md"><img src="https://flagcdn.com/w40/fr.png" alt="Français" height="25" width="40"></a></p> |
+
 
   <!-- Badges -->
-  <p>
-    <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
-    <img src="https://img.shields.io/badge/version-1.0.0-green" alt="Version">
-    <img src="https://sonarcloud.io/api/project_badges/quality_gate?project=Ballwictb_FinanzApp" alt="Quality Gate Status">
-    <img src="https://img.shields.io/github/stars/Ballwictb/FinanzApp?style=social" alt="GitHub Stars">
-    <img src="https://img.shields.io/github/forks/Ballwictb/FinanzApp?style=social" alt="GitHub Forks">
-    <img src="https://img.shields.io/github/issues/Ballwictb/FinanzApp" alt="GitHub Issues">
-  </p>
+### 🛠️ Proyecto
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square&logo=github)](LICENSE)
+[![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=flat-square&logo=github)](#)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Ballwictb_FinanzApp)](https://sonarcloud.io/summary/new_code?id=Ballwictb_FinanzApp)
+
+<!-- Estado de Stars, Forks, Issues -->
+### 📊 Estadísticas del Repositorio
+
+[![GitHub Stars](https://img.shields.io/github/stars/Ballwictb/FinanzApp?style=flat-square&logo=github&color=yellow)](https://github.com/Ballwictb/FinanzApp/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Ballwictb/FinanzApp?style=flat-square&logo=github&color=blue)](https://github.com/Ballwictb/FinanzApp/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/Ballwictb/FinanzApp?color=orange&style=flat-square)](https://github.com/Ballwictb/FinanzApp/issues)
+
 </div>
 
-> ⚠️ **Nota:** Este proyecto ha sido desarrollado como parte del **Trabajo Fin de Grado (TFG)** en el IES La Arboleda 🌲
+> [!NOTE]
+> Este proyecto ha sido desarrollado como parte del **Trabajo Fin de Grado (TFG)** en el IES La Arboleda 🌲
 
 ---
 
-## 🚀 Demo en Vivo
+## 🚀 **Demo en Vivo - ¡Explora FinanzApp AHORA!**
 
-Puedes probar la aplicación directamente en:  
-🔗 [https://launch.finanzapp.es/](https://launch.finanzapp.es/)
+🔥 **¡Haz clic y prueba la app en tiempo real!** 🔥
 
----
-
-## 📑 Índice 
-
-- [Introducción](#🧠-introducción)
-- [Características](#🌟-características)
-- [Galería](#🖼️-galería)
-- [Stack Tecnológico](#🛠️-stack-tecnológico)
-- [Métricas del Proyecto](#📊-métricas-del-proyecto)
-- [Documentación](#📚-documentación)
-- [Equipo](#🧑‍💻-equipo)
-- [Licencia](#📄-licencia)
+Puedes experimentar todas las funcionalidades directamente aquí:  
+🌐 [**Visita la Demo en Vivo de FinanzApp**](https://launch.finanzapp.es/)
 
 ---
 
-## 🧠 Introducción
+## 📑 **Índice del Proyecto**
+
+1. **🧠 [Introducción](#introducción)**  
+   _Conoce los fundamentos de FinanzApp y su propósito._
+   
+2. **🌟 [Características](#características)**  
+   _Explora las funciones clave que hacen única a la app._
+
+3. **🖼️ [Galería](#galería)**  
+   _Echa un vistazo a las imágenes y capturas de pantalla._
+
+4. **🛠️ [Stack Tecnológico](#stack-tecnológico)**  
+   _Descubre las herramientas y tecnologías que componen el proyecto._
+
+5. **📊 [Métricas del Proyecto](#métricas-del-proyecto)**  
+   _Revisa las métricas y estadísticas clave sobre el rendimiento._
+
+6. **📚 [Documentación](#documentación)**  
+   _Accede a la documentación completa para entender todos los detalles._
+
+7. **🧑‍💻 [Equipo](#equipo)**  
+   _Conoce al equipo de desarrollo detrás de FinanzApp._
+
+8. **📄 [Licencia](#licencia)**  
+   _Consulta la licencia bajo la cual se distribuye el proyecto._
+
+
+---
+	
+## Introducción
+
 
 **FinanzApp** es una plataforma web inteligente de gestión financiera desarrollada como proyecto de fin de grado en el IES La Arboleda.  
 La aplicación ofrece herramientas completas para el manejo de ahorros, inversiones y criptomonedas, combinando seguridad avanzada con análisis detallados en una interfaz intuitiva y responsive.
 
 ---
 
-## 🌟 Características
+## Características
 
 🔐 **Autenticación Segura**  
 - Registro e inicio de sesión con reCAPTCHA v3  
@@ -87,7 +110,7 @@ La aplicación ofrece herramientas completas para el manejo de ahorros, inversio
 
 ---
 
-## 🖼️ Galería
+## Galería
 
 <div align="center">
   <img src="./assets/Readme/inicio-desktop.jpeg" alt="Landing Desktop" width="600" style="margin: 10px;">
@@ -98,7 +121,7 @@ La aplicación ofrece herramientas completas para el manejo de ahorros, inversio
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 **Frontend:**  
 - ⚛️ React  
@@ -120,21 +143,21 @@ La aplicación ofrece herramientas completas para el manejo de ahorros, inversio
 
 ---
 
-## 📊 Métricas del Proyecto
+## Métricas del Proyecto
 
 - ![Code Coverage](https://img.shields.io/badge/Cobertura-85%25-green)
 - ![Build Status](https://img.shields.io/badge/Build-Passing-success)
 
 ---
 
-## 📚 Documentación
+## Documentación
 
 - 📘 [API Docs](https://github.com/Ballwictb/FinanzApp/wiki/API-Documentation)  
 - 🛠️ [Guía de instalación](https://github.com/Ballwictb/FinanzApp/wiki/Installation-Guide)
 
 ---
 
-## 🧑‍💻 Equipo
+## Equipo
 
 <div align="center">
 
@@ -146,7 +169,7 @@ La aplicación ofrece herramientas completas para el manejo de ahorros, inversio
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está licenciado bajo la [Licencia MIT](./docs/LICENSE).  
 Eres libre de usar, modificar y distribuir este software siempre que mantengas los créditos originales.
