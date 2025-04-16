@@ -500,9 +500,7 @@
 	</div>
 
 	<!-- Chart.js -->
-	<script src="https://cdn.jsdelivr.net/npm/chart.js"
-		integrity="sha384-T/4KgSWuZEPozpPz7rnnp/5lDSnpY1VPJCojf1S81uTHS1E38qgLfMgVsAeRCWc4" crossorigin="anonymous"
-		defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js" integrity="sha384-b0GXujLkk9eYYSmcSfoyZbfyElGAQnDyY0skCHSG6w3JgTMFnz11ggrTAr7seu9f" crossorigin="anonymous"></script>
 
 	<!-- Custom JS -->
 	<script src="./js/landing_page.js"></script>

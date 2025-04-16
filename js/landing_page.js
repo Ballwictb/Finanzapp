@@ -114,7 +114,7 @@ function initHeroChart() {
 
 	if (!ctx) return;
 
-	new Chart(ctx, {
+	let chart = new Chart(ctx, {
 		type: 'line',
 		data: {
 			labels: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun'],
@@ -168,6 +168,7 @@ function initHeroChart() {
 			}
 		}
 	});
+	chart;
 }
 
 // Back to top button
