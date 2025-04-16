@@ -165,17 +165,17 @@ h6 {
 	margin-bottom: var(--space-3xl);
 }
 
-.section-title {
+/* .section-title {
 	font-size: var(--font-size-4xl);
 	margin-bottom: var(--space-md);
-}
+} */
 
-.section-description {
+/* .section-description {
 	font-size: var(--font-size-lg);
 	color: var(--color-gray);
 	max-width: 700px;
 	margin: 0 auto;
-}
+} */
 
 /* buttons */
 
@@ -1034,7 +1034,6 @@ body:hover .cursor-follower {
 	padding: var(--space-xs) var(--space-lg);
 	color: rgba(0, 102, 255, 0.9);
 	background: #f3f7ffe6;
-	;
 	border-radius: var(--radius-full);
 	font-size: var(--font-size-sm);
 	font-weight: 600;
@@ -1867,10 +1866,12 @@ body:hover .cursor-follower {
 	.nav-list {
 		font-size: 0.8rem;
 	}
+
 	.nav-buttons {
 		.language-selector {
 			margin-right: var(--space-md);
 		}
+
 		.btn {
 			padding: var(--space-xs) var(--space-sm);
 		}
