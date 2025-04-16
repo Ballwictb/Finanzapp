@@ -236,23 +236,6 @@
     "language": {
         "select": "Choisir la langue"
     },
-    "errors": {
-        "400": {
-            "message": "Requête incorrecte. Veuillez vérifier les données envoyées."
-        },
-        "401": {
-            "message": "Requête non autorisée. Veuillez vous connecter pour accéder à cette page."
-        },
-        "403": {
-            "message": "Accès refusé. Vous n'avez pas l'autorisation d'accéder à cette page."
-        },
-        "404": {
-            "message": "Page non trouvée. Veuillez vérifier l'URL ou revenir à la page d'accueil."
-        },
-        "500": {
-            "message": "Erreur interne du serveur. Veuillez réessayer plus tard."
-        }
-    },
     "terms": {
         "title": "Termes et conditions",
         "description": "Dernière mise à jour: 5 avril 2025",

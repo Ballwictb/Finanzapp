@@ -236,23 +236,6 @@
     "language": {
         "select": "Select language"
     },
-    "errors": {
-        "400": {
-            "message": "Bad request. Please check the data you entered."
-        },
-        "401": {
-            "message": "Unauthorized. Please log in to access this page."
-        },
-        "403": {
-            "message": "Forbidden. You do not have permission to access this page."
-        },
-        "404": {
-            "message": "Page not found. The page you are looking for does not exist."
-        },
-        "500": {
-            "message": "Internal server error. Please try again later."
-        }
-    },
     "terms": {
         "title": "Terms and conditions",
         "description": "Last update: April 5, 2025",
