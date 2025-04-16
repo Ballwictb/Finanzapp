@@ -29,7 +29,7 @@
     <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
     <meta property="twitter:image" content="https://launch.finanzapp.es/assets/contacto_image_large.webp">
 
-    
+
     <!-- Canonical -->
     <link rel="canonical" href="https://www.finanzapp.es/contact">
 
@@ -67,7 +67,7 @@
 
     <section class="blurM">
         <!-- Header -->
-        <?php include_once "../includes/header.php"; ?>
+        <?php include "../includes/header.php"; ?>
 
         <!-- Page Header -->
         <section class="page-header">
