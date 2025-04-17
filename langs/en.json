@@ -291,7 +291,8 @@
             "privacy": {
                 "title": "7. Privacy and Personal Data",
                 "p1": "The collection and use of your personal data are subject to our Privacy Policy, which is an integral part of these Terms and Conditions. By using FinanzApp, you agree to our privacy practices as described in that policy.",
-                "p2": "We comply with the General Data Protection Regulation (GDPR) and other applicable data protection laws in the European Union and Spain."
+                "p2": "We comply with the General Data Protection Regulation (GDPR) and other applicable data protection laws in the European Union and Spain.",
+                "p3": "We collect technical information from your device, including your IP address and approximate geolocation, in order to provide analytical services through Google Analytics. This data is used to analyze traffic and application usage for legal purposes and to improve the user experience. By using our services, you consent to the collection and processing of this data for analytical purposes."
             },
             "limitations": {
                 "title": "8. Limitation of Liability",
