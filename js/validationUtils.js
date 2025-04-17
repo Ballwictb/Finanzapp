@@ -122,6 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    // Validations for the contact form
     if (contactForm) {
         contactForm.addEventListener('submit', function (event) {
             event.preventDefault();
@@ -175,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return re.test(password);
     }
 
-    // Validación en tiempo real de inputs
+    // Real-time validation for inputs
     const liveValidateInputs = () => {
         const emailInput = document.getElementById("email");
         const passwordInput = document.getElementById("password");
@@ -202,7 +203,8 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
     };
-    
+
+    // Toggle error class
     const toggleErrorClass = (input, hasError) => {
         if (hasError) {
             input.classList.add("error-input");
@@ -210,9 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
             input.classList.remove("error-input");
         }
     };
-    
 
-    liveValidateInputs(); // Llamada después de definirla
-
-    }    
-);
+    // Call liveValidateInputs after defining it
+    liveValidateInputs();
+});

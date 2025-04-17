@@ -118,8 +118,8 @@
 		integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT"
 		crossorigin="anonymous"></script>
 	<script src="../js/landing_page.js"></script>
-	<script src="../js/validation.js"></script>
-
+	<script src="../js/validationUtils.js"></script>
+	<script src="../js/loginValidation.js"></script>
 </body>
 
 </html>
