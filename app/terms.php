@@ -80,7 +80,7 @@
     </section>
 
 
-		<!-- Terms Content -->
+	<!-- Terms Content -->
     <section class="legal-content">
         <div class="container">
             <div class="legal-container">
@@ -94,7 +94,7 @@
                         <li><a href="#services" data-elem="terms.toc.services"><?php echo $translations['terms']['toc']['services']?></a></li>
                         <li><a href="#payments" data-elem="terms.toc.payments"><?php echo $translations['terms']['toc']['payments']?></a></li>
                         <li><a href="#intellectual" data-elem="terms.toc.intellectual"><?php echo $translations['terms']['toc']['intellectual']?></a></li>
-                        <li><a href="#privacy" data-elem="terms.toc.privacy"><?php echo $translations['terms']['toc']['privacy']?></a></a></li>
+                        <li><a href="#privacy" data-elem="terms.toc.privacy"><?php echo $translations['terms']['toc']['privacy']?></a></li>
                         <li><a href="#limitations" data-elem="terms.toc.limitations"><?php echo $translations['terms']['toc']['limitations']?></a>
                         </li>
                         <li><a href="#termination" data-elem="terms.toc.termination"><?php echo $translations['terms']['toc']['termination']?></a></li>
@@ -118,7 +118,7 @@
                             <li data-elem="terms.sections.definitions.li1"><?php echo $translations['terms']['sections']['definitions']['li1']?></li>
                             <li data-elem="terms.sections.definitions.li2"><?php echo $translations['terms']['sections']['definitions']['li2']?></li>
                             <li data-elem="terms.sections.definitions.li3"><?php echo $translations['terms']['sections']['definitions']['li3']?></li>
-                            <li data-elem="terms.sections.definitions.li4"><?php echo $translations['terms']['sections']['definitions']['li4']?>/li>
+                            <li data-elem="terms.sections.definitions.li4"><?php echo $translations['terms']['sections']['definitions']['li4']?></li>
                             <li data-elem="terms.sections.definitions.li5"><?php echo $translations['terms']['sections']['definitions']['li5']?></li>
                         </ul>
                     </section>
@@ -152,8 +152,8 @@
                     <section id="privacy">
                         <h2 data-elem="terms.sections.privacy.title"><?php echo $translations['terms']['sections']['privacy']['title']?></h2>
                         <p data-elem="terms.sections.privacy.p1"><?php echo $translations['terms']['sections']['privacy']['p1']?></p>
-                        <p data-elem="terms.sections.privacy.p2"><?php echo $translations['terms']['sections']['privacy']['p2']?>
-                        </p>
+                        <p data-elem="terms.sections.privacy.p2"><?php echo $translations['terms']['sections']['privacy']['p2']?></p>
+                        <p data-elem="terms.sections.privacy.p3"><?php echo $translations['terms']['sections']['privacy']['p3']?></p>
                     </section>
 
                     <section id="limitations">

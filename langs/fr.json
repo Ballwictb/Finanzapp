@@ -291,7 +291,8 @@
             "privacy": {
                 "title": "7. Vie privée et données personnelles",
                 "p1": "La collecte et l'utilisation de vos données personnelles sont soumises à notre Politique de Confidentialité, qui fait partie intégrante de ces Termes et Conditions. En utilisant FinanzApp, vous acceptez nos pratiques de confidentialité telles que décrites dans cette politique.",
-                "p2": "Nous respectons le Règlement Général sur la Protection des Données (RGPD) et d'autres lois sur la protection des données applicables dans l'Union Européenne et en Espagne."
+                "p2": "Nous respectons le Règlement Général sur la Protection des Données (RGPD) et d'autres lois sur la protection des données applicables dans l'Union Européenne et en Espagne.",
+                "p3": "Nous collectons des informations techniques à partir de votre appareil, y compris votre adresse IP et votre géolocalisation approximative, afin de fournir des services d'analyse par le biais de Google Analytics. Ces données sont utilisées pour analyser le trafic et l'utilisation de l'application à des fins juridiques et pour améliorer l'expérience de l'utilisateur. En utilisant nos services, vous consentez à la collecte et au traitement de ces données à des fins d'analyse."
             },
             "limitations": {
                 "title": "8. Limitations de responsabilité",
