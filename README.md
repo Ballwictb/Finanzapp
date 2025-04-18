@@ -13,7 +13,7 @@
 
   <!-- Badges -->
 ### 🛠️ Proyecto
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square&logo=github)](LICENSE)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY%E2%80%91NC%204.0-lightgrey.svg)](LICENSE)
 [![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=flat-square&logo=github)](#)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Ballwictb_FinanzApp)](https://sonarcloud.io/summary/new_code?id=Ballwictb_FinanzApp)
 
