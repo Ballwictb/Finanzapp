@@ -32,6 +32,20 @@
         "Personal Finance",
         "Productivity"
     ],
+    "screenshots": [
+        {
+            "src": "/manifest/manifest_icons//screenshot_mobile.png",
+            "sizes": "374x668",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "/manifest/manifest_icons//screenshot_desktop.png",
+            "sizes": "1284x728",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+    ],
     "related_applications": [],
     "prefer_related_applications": false
 }
