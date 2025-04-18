@@ -171,7 +171,7 @@ La aplicación ofrece herramientas completas para el manejo de ahorros, inversio
 
 ## Licencia
 
-Este proyecto está licenciado bajo la [Licencia MIT](./docs/LICENSE).  
+Este proyecto está licenciado bajo la [Licencia CC BY-NC 4.0](./docs/LICENSE).  
 Eres libre de usar, modificar y distribuir este software siempre que mantengas los créditos originales.
 
 ---
