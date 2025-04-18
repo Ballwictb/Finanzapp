@@ -1,9 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const registerForm = document.getElementById("registerForm");
-
-    if (!registerForm) return;
-
-    // Inicializamos Notyf directamente
+    // Inicializar Notyf
     const notyf = new Notyf({
         duration: 3000,
         position: { x: 'right', y: 'top' },
@@ -20,6 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         ]
     });
+
+    const registerForm = document.getElementById("registerForm");
+    if (!registerForm) return;
 
     registerForm.addEventListener('submit', function (event) {
         event.preventDefault();
@@ -71,70 +70,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
     liveValidateInputs();
 });
-
-// Helper function to show errors
-function showError(message, ...elements) {
-    const notyf = new Notyf({
-        duration: 3000,
-        position: { x: 'right', y: 'top' },
-        types: [
-            {
-                type: 'error',
-                background: '#ff4444',
-                dismissible: true
-            }
-        ]
-    });
-
-    notyf.error(message);
-    if (elements) {
-        elements.forEach(el => el?.classList.add('error-input'));
-    }
-}
-
-// Validation functions
-function validateEmail(email) {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email);
-}
-
-function validatePassword(password) {
-    const re = /^(?=.*[A-Z])(?=.*\d).{8,}$/;
-    return re.test(password);
-}
-
-// Real-time validation
-function liveValidateInputs() {
-    const emailInput = document.getElementById("email");
-    const passwordInput = document.getElementById("password");
-    const confirmPasswordInput = document.getElementById("confirm-password");
-
-    if (emailInput) {
-        emailInput.addEventListener("input", () => {
-            const isValid = validateEmail(emailInput.value.trim());
-            toggleErrorClass(emailInput, !isValid);
-        });
-    }
-
-    if (passwordInput) {
-        passwordInput.addEventListener("input", () => {
-            const isValid = validatePassword(passwordInput.value.trim());
-            toggleErrorClass(passwordInput, !isValid);
-        });
-    }
-
-    if (confirmPasswordInput && passwordInput) {
-        confirmPasswordInput.addEventListener("input", () => {
-            const isMatch = confirmPasswordInput.value.trim() === passwordInput.value.trim();
-            toggleErrorClass(confirmPasswordInput, !isMatch);
-        });
-    }
-}
-
-function toggleErrorClass(input, hasError) {
-    if (hasError) {
-        input.classList.add("error-input");
-    } else {
-        input.classList.remove("error-input");
-    }
-}

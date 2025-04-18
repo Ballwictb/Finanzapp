@@ -181,6 +181,8 @@
 	  <!-- Custom JS -->
     <script src="../js/landing_page.js"></script>
     <script src="../js/validationUtils.js"></script>
+    <script src="../js/contactValidation.js"></script>
+
 </body>
 
 </html>

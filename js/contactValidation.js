@@ -17,21 +17,18 @@ document.addEventListener("DOMContentLoaded", function () {
         ]
     });
 
-    const loginForm = document.getElementById("loginForm");
-    if (!loginForm) return;
+    const contactForm = document.getElementById("contactForm");
+    if (!contactForm) return;
 
-    loginForm.addEventListener("submit", function (event) {
+    contactForm.addEventListener('submit', function (event) {
         event.preventDefault();
         let isValid = true;
 
         const emailElem = document.getElementById("email");
-        const passwordElem = document.getElementById("password");
-
         const emailValue = emailElem.value.trim();
-        const passwordValue = passwordElem.value.trim();
+        const privacyCheckbox = document.getElementById('privacy');
 
         emailElem.classList.remove('error-input');
-        passwordElem.classList.remove('error-input');
 
         if (!emailValue) {
             showError("El campo email es obligatorio", emailElem);
@@ -41,16 +38,13 @@ document.addEventListener("DOMContentLoaded", function () {
             isValid = false;
         }
 
-        if (!passwordValue) {
-            showError("El campo contraseña es obligatorio", passwordElem);
-            isValid = false;
-        } else if (!validatePassword(passwordValue)) {
-            showError("La contraseña debe tener al menos 8 caracteres, una mayúscula y un número", passwordElem);
+        if (!privacyCheckbox.checked) {
+            showError("Debe aceptar la política de privacidad");
             isValid = false;
         }
 
         if (isValid) {
-            notyf.success("Inicio de sesión exitoso");
+            notyf.success("Mensaje enviado correctamente");
         }
     });
 
