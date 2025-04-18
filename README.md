@@ -14,15 +14,36 @@
   <!-- Badges -->
 ### 🛠️ Proyecto
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY%E2%80%91NC%204.0-lightgrey.svg)](LICENSE)
-[![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=flat-square&logo=github)](#)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FBallwictb%2FFinanzapp.svg?type=shield&issueType=security)](https://app.fossa.com/projects/git%2Bgithub.com%2FBallwictb%2FFinanzapp?ref=badge_shield&issueType=security)
+<br>
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-highlight.svg)](https://sonarcloud.io/summary/new_code?id=Ballwictb_FinanzApp)
+<br>
 [![Quality Gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Ballwictb_FinanzApp)](https://sonarcloud.io/summary/new_code?id=Ballwictb_FinanzApp)
+<br>
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Ballwictb_FinanzApp&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Ballwictb_FinanzApp)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Ballwictb_FinanzApp&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Ballwictb_FinanzApp)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Ballwictb_FinanzApp&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Ballwictb_FinanzApp)
 
 <!-- Estado de Stars, Forks, Issues -->
 ### 📊 Estadísticas del Repositorio
 
+[![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=flat-square&logo=github)](#)
 [![GitHub Stars](https://img.shields.io/github/stars/Ballwictb/FinanzApp?style=flat-square&logo=github&color=yellow)](https://github.com/Ballwictb/FinanzApp/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/Ballwictb/FinanzApp?style=flat-square&logo=github&color=blue)](https://github.com/Ballwictb/FinanzApp/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/Ballwictb/FinanzApp?color=orange&style=flat-square)](https://github.com/Ballwictb/FinanzApp/issues)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Ballwictb_FinanzApp&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Ballwictb_FinanzApp)
+
+<details>
+<summary>Star History</summary>
+	
+<a href="https://www.star-history.com/#ballwictb/Finanzapp&Timeline">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ballwictb/Finanzapp&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ballwictb/Finanzapp&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ballwictb/Finanzapp&type=Timeline" />
+ </picture>
+</a>
+</details>
 
 </div>
 
