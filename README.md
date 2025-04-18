@@ -27,7 +27,7 @@
 </div>
 
 > [!NOTE]
-> Este proyecto ha sido desarrollado como parte del **Trabajo Fin de Grado (TFG)** en el IES La Arboleda 🌲
+> Este proyecto ha sido desarrollado como parte del **Trabajo Fin de Grado (TFG)** en el <a href="https://site.educa.madrid.org/ies.laarboleda.alcorcon/" target="_blank"> IES La Arboleda</a> 🌲
 
 ---
 
