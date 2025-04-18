@@ -14,7 +14,7 @@
 
   <!-- Badges -->
   <p>
-    <img src="https://img.shields.io/badge/license-MIT-blue" alt="Licence">
+    <img src="https://img.shields.io/badge/License-CC%20BY%E2%80%91NC%204.0-lightgrey.svg" alt="Licence">
     <img src="https://img.shields.io/badge/version-1.0.0-green" alt="Version">
     <img src="https://sonarcloud.io/api/project_badges/quality_gate?project=Ballwictb_FinanzApp" alt="Statut Qualité">
     <img src="https://img.shields.io/github/stars/Ballwictb/FinanzApp?style=social" alt="Étoiles GitHub">
