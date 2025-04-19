@@ -67,8 +67,8 @@
 		{
 			"@context": "https://schema.org",
 			"@type": "WebPage",
-			"name": "<?php echo $translations['login']['title']; ?> - FinanzApp",
-			"description": "<?php echo $translations['login']['meta_description']; ?>",
+			"name": "<?= $translations['auth']['login']['title'] ?> - FinanzApp",
+			"description": "<?= $translations['meta']['description'] ?>",
 			"url": "https://launch.finanzapp.es/login.php",
 			"potentialAction": {
 				"@type": "LoginAction",

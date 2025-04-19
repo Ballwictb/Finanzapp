@@ -243,6 +243,7 @@
     "terms": {
         "title": "Términos y Condiciones",
         "description": "Última actualización: 05 de Abril de 2025",
+        "meta_description": "Lee nuestros Términos y Condiciones para entender cómo FinanzApp gestiona tus datos",
         "toc": {
             "introduction": "Introducción",
             "definitions": "Definiciones",
@@ -323,6 +324,72 @@
                 "p1": "Si tiene alguna pregunta sobre estos Términos y Condiciones, puede contactarnos en:",
                 "address": "Dirección del centro: Av. del Oeste, s/n, 28922 Alcorcón, Madrid"
             }
+        }
+    },
+    "privacy": {
+        "title": "Política de Privacidad",
+        "meta_description": "Lee cómo FinanzApp recopila, utiliza y protege tus datos personales al usar nuestra plataforma.",
+        "toc": {
+            "title": "Política de Privacidad",
+            "introduction": "Introducción",
+            "information": "Información que recopilamos",
+            "usage": "Uso de la información",
+            "sharing": "Compartición de la información",
+            "cookies": "Cookies",
+            "security": "Seguridad",
+            "rights": "Derechos de los usuarios",
+            "retention": "Retención de datos",
+            "changes": "Cambios en la política de privacidad",
+            "contact": "Contacto"
+        },
+        "introduction": {
+            "title": "Introducción",
+            "p1": "Esta Política de Privacidad describe cómo FinanzApp, desarrollada como parte de un Trabajo de Fin de Grado, recopila, utiliza y protege tus datos personales. Nuestro compromiso es garantizar tu privacidad mientras utilizas nuestros servicios."
+        },
+        "information": {
+            "title": "Información que recopilamos",
+            "p1": "Recopilamos únicamente la información necesaria para ofrecerte una experiencia personalizada y segura. Esto incluye:",
+            "li1": "Nombre de usuario (puede ser cualquier conjunto de caracteres)",
+            "li2": "Dirección de correo electrónico",
+            "li3": "Contraseña (almacenada de forma segura)",
+            "li4": "Datos de uso anónimos recopilados mediante Google Analytics"
+        },
+        "usage": {
+            "title": "Uso de la información",
+            "p1": "Utilizamos la información para mejorar nuestros servicios, personalizar tu experiencia y realizar análisis estadísticos con el fin de optimizar nuestra plataforma."
+        },
+        "sharing": {
+            "title": "Compartición de la información",
+            "p1": "No compartimos tu información personal con terceros, excepto con proveedores de servicios como Google Analytics para finalidades analíticas."
+        },
+        "cookies": {
+            "title": "Cookies",
+            "p1": "Utilizamos cookies esenciales para el funcionamiento del sitio y cookies analíticas para mejorar la experiencia de usuario.",
+            "p2": "Puedes gestionar tus preferencias de cookies desde la configuración de tu navegador."
+        },
+        "security": {
+            "title": "Seguridad",
+            "p1": "Aplicamos medidas de seguridad como tokens de autenticación y cifrado para proteger tus datos frente a accesos no autorizados."
+        },
+        "rights": {
+            "title": "Derechos de los usuarios",
+            "p1": "Tienes derecho a acceder, rectificar, eliminar y oponerte al uso de tus datos. Puedes ejercer estos derechos contactándonos.",
+            "li1": "Acceso a tus datos",
+            "li2": "Rectificación de datos incorrectos",
+            "li3": "Eliminación de tu cuenta",
+            "li4": "Oposición al tratamiento de datos"
+        },
+        "retention": {
+            "title": "Retención de datos",
+            "p1": "Tus datos se eliminan de inmediato tras la solicitud de eliminación de cuenta."
+        },
+        "changes": {
+            "title": "Cambios en la política de privacidad",
+            "p1": "Nos reservamos el derecho a actualizar esta política. Notificaremos los cambios importantes mediante un aviso en la plataforma."
+        },
+        "contact": {
+            "title": "Contacto",
+            "p1": "Si tienes dudas sobre esta política, puedes contactarnos a través de:"
         }
     }
 }

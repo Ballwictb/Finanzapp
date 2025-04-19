@@ -61,8 +61,8 @@
         {
             "@context": "https://schema.org",
             "@type": "AboutPage",
-            "name": "<?php echo $translations['about']['title']; ?> - FinanzApp",
-            "description": "<?php echo $translations['about']['meta_description']; ?>",
+            "name": "<?php echo $translations['about']['meta']['title']; ?> - FinanzApp",
+            "description": "<?php echo $translations['about']['meta']['description']; ?>",
             "url": "https://launch.finanzapp.es/app/about.php",
             "publisher": {
                 "@type": "Organization",

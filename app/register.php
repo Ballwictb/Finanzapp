@@ -64,8 +64,8 @@
         {
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "<?php echo $translations['register']['title']; ?> - FinanzApp",
-            "description": "<?php echo $translations['register']['meta_description']; ?>",
+            "name": "<?php echo $translations['auth']['register']['title']; ?> - FinanzApp",
+            "description": "<?php echo $translations['auth']['meta']['register_description']; ?>",
             "url": "https://launch.finanzapp.es/register.php",
             "potentialAction": {
                 "@type": "RegisterAction",

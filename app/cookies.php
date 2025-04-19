@@ -69,7 +69,7 @@
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "<?php echo $translations['cookies']['title']; ?> | FinanzApp",
-            "description": "<?php echo $translations['cookies']['meta_description']; ?>",
+            "description": "<?php echo $translations['meta']['description']; ?>",
             "url": "https://launch.finanzapp.es/app/cookies.php",
             "isPartOf": {
                 "@type": "WebSite",
