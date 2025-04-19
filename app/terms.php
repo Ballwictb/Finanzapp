@@ -62,6 +62,21 @@
 	<!-- Custom script for the loader animation -->
 	<script src="../js/loader.js"></script>
 
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "<?php echo $translations['terms']['title']; ?> - FinanzApp",
+            "description": "<?php echo $translations['terms']['meta_description']; ?>",
+            "url": "https://launch.finanzapp.es/app/terms.php",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "FinanzApp",
+                "url": "https://launch.finanzapp.es/"
+            }
+        }
+    </script>
 </head>
 
 <body>

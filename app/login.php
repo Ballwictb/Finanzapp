@@ -61,6 +61,28 @@
 
 	<!-- ReCaptcha -->
 	<script src="https://launch.finanzapp.es/js/api.js" integrity="sha384-CdhidNt+STVg/jxRNtQC1nw7l1Ys8/TxZI2ZVTypU9tDQ6goYcuMYbd8VR23C6/x" crossorigin="anonymous"></script>
+
+	<!-- Schema.org JSON-LD -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebPage",
+			"name": "<?php echo $translations['login']['title']; ?> - FinanzApp",
+			"description": "<?php echo $translations['login']['meta_description']; ?>",
+			"url": "https://launch.finanzapp.es/login.php",
+			"potentialAction": {
+				"@type": "LoginAction",
+				"target": {
+					"@type": "EntryPoint",
+					"urlTemplate": "https://launch.finanzapp.es/app/login.php",
+					"actionPlatform": [
+						"http://schema.org/DesktopWebPlatform",
+						"http://schema.org/MobileWebPlatform"
+					]
+				}
+			}
+		}
+	</script>
 </head>
 
 <body>

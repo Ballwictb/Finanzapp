@@ -59,6 +59,25 @@
 
     <!-- Notyf  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "name": "<?php echo $translations['contact']['title']; ?> - FinanzApp",
+            "description": "<?php echo $translations['contact']['meta']['description']; ?>",
+            "url": "https://launch.finanzapp.es/app/contact.php",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer service", 
+                "email": "info@finanzapp.es",
+                "availableLanguage": ["Spanish", "English"],
+                "url": "https://launch.finanzapp.es/app/contact.php"
+            }
+        }
+    </script>
+
 </head>
 
 <body>
