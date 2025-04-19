@@ -19,7 +19,7 @@
     <meta property="og:url" content="https://www.finanzapp.es/contact" />
     <meta property="og:title" content="<?php echo $translations['contact']['meta']['title']; ?>" />
     <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
-    <meta property="og:image" content="https://launch.finanzapp.es/assets/contacto_image_large.webp" />
+    <meta property="og:image" content="<?= $translations['meta']['image'] ?>" />
     <!-- If required, we can add an email -->
     <meta property="og:email" content="me@example.com" />
 
@@ -27,7 +27,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
     <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
-    <meta property="twitter:image" content="https://launch.finanzapp.es/assets/contacto_image_large.webp">
+    <meta property="twitter:image" content="<?= $translations['meta']['image'] ?>">
 
 
     <!-- Canonical -->

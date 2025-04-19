@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Title and basic meta -->
     <title><?php echo $translations['about']['meta']['title']; ?></title>
     <meta name="description" content="<?php echo $translations['about']['meta']['description']; ?>" />
@@ -19,7 +19,7 @@
     <meta property="og:url" content="https://www.finanzapp.es/about" />
     <meta property="og:title" content="<?php echo $translations['about']['meta']['title']; ?>" />
     <meta property="og:description" content="<?php echo $translations['meta']['ogDescription']; ?>" />
-    <meta property="og:image" content="https://launch.finanzapp.es/assets/about_image_large.webp" />
+    <meta property="og:image" content="<?= $translations['meta']['image'] ?>" />
     <!-- If required, we can add an email -->
     <meta property="og:email" content="me@example.com" />
 
@@ -27,7 +27,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="<?php echo $translations['meta']['title']; ?>">
     <meta property="twitter:description" content="<?php echo $translations['meta']['description']; ?>">
-    <meta property="twitter:image" content="https://launch.finanzapp.es/assets/about_image_large.webp">
+    <meta property="twitter:image" content="<?= $translations['meta']['image'] ?>">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://www.finanzapp.es/about">
@@ -41,7 +41,7 @@
 
     <!-- External Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ballwictb/font-awesome-sixball-v2@main/six-rp/css/all.min.css">
-    
+
     <!-- Favicon and other icons -->
     <link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon">
 
@@ -51,7 +51,7 @@
     <!-- Accessibility -->
     <!-- Aria-labelledby is used to associate elements with their titles -->
     <meta name="aria-labelledby" content="main-title">
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/landing_page.css">
     <link rel="stylesheet" href="../css/scrollbar.css">

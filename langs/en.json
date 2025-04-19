@@ -4,7 +4,8 @@
         "description": "Manage your personal finances with our platform that helps you visualize, plan, and optimize your money intuitively. Discover easy-to-use tools that boost your savings and improve your financial well-being. Start for free now!",
         "keywords": "finance, financial management, FinanzApp, money, savings",
         "author": "FinanzApp Team",
-        "ogDescription": "Sign up for FinanzApp in just 30 seconds and revolutionize the way you manage your money. Our all-in-one platform provides intuitive tools to track expenses, boost your savings, and achieve your financial goals, all completely free. Get started now!"
+        "ogDescription": "Sign up for FinanzApp in just 30 seconds and revolutionize the way you manage your money. Our all-in-one platform provides intuitive tools to track expenses, boost your savings, and achieve your financial goals, all completely free. Get started now!",
+				"image":"https://launch.finanzapp.es/assets/inicio_image_large_en.png"
     },
     "selector": {
         "es": "Spanish",
