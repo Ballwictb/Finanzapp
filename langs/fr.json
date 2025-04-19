@@ -321,5 +321,71 @@
                 "address": "Adresse du centre : Av. del Oeste, s/n, 28922 Alcorcón, Madrid"
             }
         }
+    },
+    "privacy": {
+        "title": "Politique de Confidentialité",
+        "meta_description": "Découvrez comment FinanzApp collecte, utilise et protège vos données personnelles lorsque vous utilisez notre plateforme.",
+        "toc": {
+            "title": "Politique de confidentialité",
+            "introduction": "Introduction",
+            "information": "Informations que nous collectons",
+            "usage": "Utilisation des informations",
+            "sharing": "Partage des informations",
+            "cookies": "Cookies",
+            "security": "Sécurité",
+            "rights": "Droits des utilisateurs",
+            "retention": "Conservation des données",
+            "changes": "Modifications de la politique de confidentialité",
+            "contact": "Contact"
+        },
+        "introduction": {
+            "title": "Introduction",
+            "p1": "Cette politique de confidentialité explique comment FinanzApp, développée dans le cadre d’un projet de fin d'études, collecte, utilise et protège vos données personnelles. Nous nous engageons à garantir votre confidentialité lors de l'utilisation de nos services."
+        },
+        "information": {
+            "title": "Informations que nous collectons",
+            "p1": "Nous collectons uniquement les informations nécessaires pour vous offrir une expérience personnalisée et sécurisée, notamment :",
+            "li1": "Nom d'utilisateur (peut être toute chaîne de caractères)",
+            "li2": "Adresse e-mail",
+            "li3": "Mot de passe (stocké en toute sécurité)",
+            "li4": "Données d'utilisation anonymes via Google Analytics"
+        },
+        "usage": {
+            "title": "Utilisation des informations",
+            "p1": "Nous utilisons vos données pour améliorer nos services, personnaliser votre expérience et réaliser des analyses statistiques afin d'optimiser la plateforme."
+        },
+        "sharing": {
+            "title": "Partage des informations",
+            "p1": "Nous ne partageons pas vos données personnelles avec des tiers, sauf avec des prestataires comme Google Analytics à des fins analytiques."
+        },
+        "cookies": {
+            "title": "Cookies",
+            "p1": "Nous utilisons des cookies essentiels pour le fonctionnement du site et des cookies analytiques pour améliorer l'expérience utilisateur.",
+            "p2": "Vous pouvez gérer vos préférences de cookies dans les paramètres de votre navigateur."
+        },
+        "security": {
+            "title": "Sécurité",
+            "p1": "Nous mettons en œuvre des mesures de sécurité telles que des jetons d'authentification et le chiffrement pour protéger vos données contre tout accès non autorisé."
+        },
+        "rights": {
+            "title": "Droits des utilisateurs",
+            "p1": "Vous avez le droit d'accéder à vos données, de les rectifier, de les supprimer et de vous opposer à leur traitement. Contactez-nous pour exercer ces droits.",
+            "li1": "Accès à vos données",
+            "li2": "Correction de données incorrectes",
+            "li3": "Suppression de votre compte",
+            "li4": "Opposition au traitement des données"
+        },
+        "retention": {
+            "title": "Conservation des données",
+            "p1": "Vos données sont supprimées immédiatement après une demande de suppression de compte."
+        },
+        "changes": {
+            "title": "Modifications de la politique de confidentialité",
+            "p1": "Nous nous réservons le droit de mettre à jour cette politique. Les modifications importantes seront notifiées sur la plateforme."
+        },
+        "contact": {
+            "title": "Contact",
+            "p1": "Pour toute question concernant cette politique, veuillez nous contacter à :"
+        }
     }
 }

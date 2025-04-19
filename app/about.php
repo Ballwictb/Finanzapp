@@ -55,6 +55,25 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/landing_page.css">
     <link rel="stylesheet" href="../css/scrollbar.css">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "name": "<?php echo $translations['about']['meta']['title']; ?> - FinanzApp",
+            "description": "<?php echo $translations['about']['meta']['description']; ?>",
+            "url": "https://launch.finanzapp.es/app/about.php",
+            "publisher": {
+                "@type": "Organization",
+                "name": "FinanzApp",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://launch.finanzapp.es/assets/logo.ico"
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>

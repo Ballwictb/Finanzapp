@@ -58,6 +58,28 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon">
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "<?php echo $translations['auth']['register']['title']; ?> - FinanzApp",
+            "description": "<?php echo $translations['auth']['meta']['register_description']; ?>",
+            "url": "https://launch.finanzapp.es/register.php",
+            "potentialAction": {
+                "@type": "RegisterAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://launch.finanzapp.es/app/register.php",
+                    "actionPlatform": [
+                        "http://schema.org/DesktopWebPlatform",
+                        "http://schema.org/MobileWebPlatform"
+                    ]
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>

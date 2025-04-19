@@ -33,7 +33,7 @@
                     <h4 class="footer-title" data-elem="footer.legal"><?php echo $translations['footer']['legal']; ?></h4>
                     <ul class="footer-menu">
                         <li><a href="<?php echo BASE_URL; ?>/app/terms.php" rel="noopener" data-elem="footer.links.terms"><?php echo $translations['footer']['links']['terms']; ?></a></li>
-                        <!-- <li><a href="<?php echo BASE_URL; ?>/app/privacy.php" rel="noopener" data-elem="footer.links.privacy"><?php echo $translations['footer']['links']['privacy']; ?></a></li> -->
+                        <li><a href="<?php echo BASE_URL; ?>/app/privacy.php" rel="noopener" data-elem="footer.links.privacy"><?php echo $translations['footer']['links']['privacy']; ?></a></li>
                         <li><a href="<?php echo BASE_URL; ?>/app/cookies.php" rel="noopener" data-elem="footer.links.cookies"><?php echo $translations['footer']['links']['cookies']; ?></a></li>
                     </ul>
                 </div>

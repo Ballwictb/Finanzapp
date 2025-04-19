@@ -63,6 +63,21 @@
 	<!-- Custom script for the loader animation -->
 	<script src="../js/loader.js"></script>
 
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "<?php echo $translations['cookies']['title']; ?> | FinanzApp",
+            "description": "<?php echo $translations['meta']['description']; ?>",
+            "url": "https://launch.finanzapp.es/app/cookies.php",
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": "FinanzApp",
+                "url": "https://launch.finanzapp.es/"
+            }
+        }
+    </script>
 </head>
 
 <body>
