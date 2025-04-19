@@ -1,1 +1,3 @@
 config/secrets.php
+config/database.php
+app/auth/sendLogin.php
