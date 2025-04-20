@@ -129,6 +129,9 @@
 	.feature-description {
 		color: var(--color-gray-light) !important;
 	}
+	.footer-menu a:hover {
+		color: var(--color-dark) !important;
+	}
 	.cta-title {
 		color: var(--color-dark) !important;
 	}
