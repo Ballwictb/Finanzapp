@@ -1,3 +1,17 @@
-frontend:
-  - 'js/*.js'
-  - 'css/*.css'
+"Frontend: JS":
+  - '**/*.js'
+  - '**/*.jsx'
+  - '**/*.ts'
+  - '**/*.tsx'
+  - 'src/**/*.js'
+  - 'src/**/*.ts'
+  - 'client/**'
+  - 'frontend/**'
+
+"Frontend: CSS":
+  - '**/*.css'
+  - '**/*.scss'
+  - '**/*.sass'
+  - '**/*.less'
+  - 'styles/**'
+  - 'css/**'
