@@ -484,7 +484,7 @@
 		<i class="fas fa-arrow-up"></i>
 	</button>
 
-	<!-- Modal for the video (placed directly under body) -->
+	<!-- Modal for the video -->
 	<div id="videoModal" class="video-modal">
 		<div class="video-modal-content">
 			<span class="video-modal-close" aria-label="Cerrar">&times;</span>
