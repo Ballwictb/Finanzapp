@@ -53,7 +53,8 @@ document.addEventListener("DOMContentLoaded", function () {
 			const xhr = new XMLHttpRequest();
 			const formData = new FormData(loginForm);
 
-			xhr.open('POST', '/app/auth/sendLogin.php', true);
+			xhr.open('POST', 'https://pro.finanzapp.es/app/auth/sendLogin.php', true);
+			xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
 
 			xhr.onreadystatechange = function () {
 				if (xhr.readyState === 4 && xhr.status === 200) {
