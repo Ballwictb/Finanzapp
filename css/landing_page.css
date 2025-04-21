@@ -89,94 +89,123 @@
 		--shadow-lg: 0 10px 30px var(--color-dark-blue);
 		--shadow-xl: 0 20px 50px var(--color-dark-blue);
 	}
-	.stat-card{
+
+	.stat-card {
 		background: var(--color-dark-blue) !important;
 	}
-	.stat-card-label{
+
+	.stat-card-label {
 		color: var(--color-dark) !important;
 	}
+
 	.hero-description {
 		color: var(--color-dark) !important;
 	}
+
 	.how-it-works {
 		background: var(--color-dark-blue) !important;
 	}
+
 	.feature-card {
 		background: var(--color-dark-blue) !important;
 	}
+
 	.footer {
 		background: var(--color-dark-blue) !important;
 		color: var(--color-dark) !important;
 	}
+
 	.footer-brand .logo {
 		color: var(--color-dark) !important;
 	}
+
 	.footer-column .footer-title {
 		color: var(--color-dark) !important;
 	}
+
 	.social-link {
 		background: rgba(0, 0, 0, 0.1) !important;
 	}
+
 	.social-link:hover {
 		background: var(--color-primary) !important;
 	}
-	.github:hover{
+
+	.github:hover {
 		background: rgba(0, 0, 0, 0.1) !important;
 	}
+
 	.step-description {
 		color: var(--color-gray-light) !important;
 	}
+
 	.feature-description {
 		color: var(--color-gray-light) !important;
 	}
+
 	.footer-menu a:hover {
 		color: var(--color-dark) !important;
 	}
+
 	.cta-title {
 		color: var(--color-dark) !important;
 	}
+
 	.cta-description {
 		color: var(--color-gray-light) !important;
 	}
+
 	.cta-note {
 		color: var(--color-gray-light) !important;
 	}
-	.header{
+
+	.header {
 		background: var(--dark-blue2) !important;
 	}
-	.btn-primary{
+
+	.btn-primary {
 		color: var(--color-dark) !important;
 	}
-	.btn-large{
+
+	.btn-large {
 		color: var(--color-dark) !important;
 	}
-	.btn-outline{
+
+	.btn-outline {
 		border-color: var(--color-gray) !important;
 	}
-	.page-header{
+
+	.page-header {
 		background: var(--color-dark-blue) !important;
 		color: var(--color-dark) !important;
 	}
-	.team-card{
+
+	.team-card {
 		background: var(--color-dark-blue) !important;
 		box-shadow: var(--shadow-lg) !important;
 	}
-	.value-card{
+
+	.value-card {
 		background: var(--color-dark-blue) !important;
 	}
-	.auth-form{
-		border-color: var(--color-gray) !important;	
+
+	.auth-form {
+		border-color: var(--color-gray) !important;
 	}
-	.legal-toc{
+
+	.legal-toc {
 		background: var(--color-dark-blue) !important;
 	}
-	.cookie-type{
+
+	.cookie-type {
 		background: var(--color-dark-blue) !important;
 	}
-	.browser-instructions{
+
+	.browser-instructions {
 		background: var(--color-dark-blue) !important;
 	}
-	.third-party-list{
+
+	.third-party-list {
 		background: var(--color-dark-blue) !important;
 	}
 }
@@ -401,6 +430,26 @@ h6 {
 .btn-play:hover .play-icon {
 	transform: scale(1.1);
 	box-shadow: var(--shadow-lg);
+}
+
+/* User logged */
+.profile-wrapper {
+	position: relative;
+	/* para cuando luego pongas el menú */
+}
+
+.profile-toggle {
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}
+
+.profile-toggle .avatar {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	object-fit: cover;
 }
 
 /* Lite Video */
