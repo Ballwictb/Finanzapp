@@ -60,7 +60,7 @@
 	<link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon">
 
 	<!-- ReCaptcha -->
-	<script src="https://launch.finanzapp.es/js/api.js" integrity="sha384-CdhidNt+STVg/jxRNtQC1nw7l1Ys8/TxZI2ZVTypU9tDQ6goYcuMYbd8VR23C6/x" crossorigin="anonymous"></script>
+	<script src="https://pro.finanzapp.es/js/api.js" integrity="sha384-CdhidNt+STVg/jxRNtQC1nw7l1Ys8/TxZI2ZVTypU9tDQ6goYcuMYbd8VR23C6/x" crossorigin="anonymous"></script>
 
 	<!-- Schema.org JSON-LD -->
 	<script type="application/ld+json">
