@@ -185,35 +185,3 @@ function initBackToTop() {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	});
 }
-
-// Cookie consent
-function initCookieConsent() {
-	const cookieConsent = document.getElementById('cookieConsent');
-	const acceptButton = document.getElementById('cookieAccept');
-	const rejectButton = document.getElementById('cookieReject');
-	const settingsButton = document.getElementById('cookieSettings');
-
-	if (!cookieConsent || !acceptButton || !rejectButton || !settingsButton) return;
-
-	const cookieChoice = localStorage.getItem('cookieChoice');
-
-	if (!cookieChoice) {
-		setTimeout(() => {
-			cookieConsent.style.display = 'block';
-		}, 3000);
-	}
-
-	acceptButton.addEventListener('click', () => {
-		localStorage.setItem('cookieChoice', 'accepted');
-		cookieConsent.style.display = 'none';
-	});
-
-	rejectButton.addEventListener('click', () => {
-		localStorage.setItem('cookieChoice', 'rejected');
-		cookieConsent.style.display = 'none';
-	});
-
-	settingsButton.addEventListener('click', () => {
-		window.location.href = 'cookies.html';
-	});
-}
