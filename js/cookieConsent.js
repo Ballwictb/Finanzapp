@@ -19,8 +19,24 @@
         };
     }
 
-    function sendConsentData() {
-        
+    function sendConsentData(consentInfo) {
+        if (!consentInfo) return;
+
+        fetch('receive-data.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Requested-With': 'XMLHttpRequest'
+            },
+            body: JSON.stringify(consentInfo)
+        })
+        .then(res => res.json())
+        .then(responseData => {
+            console.log('Datos enviados correctamente:', responseData);
+        })
+        .catch(error => {
+            console.error('Error al enviar los datos:', error);
+        });
     }
 
     function initCookieConsent() {
@@ -33,7 +49,7 @@
 
         const storedChoice = localStorage.getItem('cookieChoice');
         if (!storedChoice) {
-            // show banner after 3 seconds if no prior decision
+            // Mostrar banner después de 3 segundos si no hay decisión previa
             setTimeout(() => {
                 banner.style.display = 'block';
             }, 3000);
@@ -43,7 +59,7 @@
             localStorage.setItem('cookieChoice', 'accepted');
             banner.style.display = 'none';
 
-            // collect and send data to server
+            // Recopilar y enviar los datos al servidor
             const consentInfo = collectConsentData();
             sendConsentData(consentInfo);
         });
@@ -51,15 +67,16 @@
         btnReject.addEventListener('click', () => {
             localStorage.setItem('cookieChoice', 'rejected');
             banner.style.display = 'none';
-            // TODO: you may want to send a minimal 'rejected' log to server if needed
+            // Puedes agregar un log mínimo si es necesario
         });
 
         btnSettings.addEventListener('click', () => {
-            // TODO: redirect to your cookie settings page
+            // Redirigir a la página de configuración de cookies
             window.location.href = 'cookies.php';
         });
     }
 
-    // Auto‑initialize once DOM is ready
+    // Inicializar una vez que el DOM esté listo
     document.addEventListener('DOMContentLoaded', initCookieConsent);
+
 })();
