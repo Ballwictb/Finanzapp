@@ -7,16 +7,32 @@
         const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone || 'unknown';
         const language = (navigator.languages && navigator.languages[0]) || navigator.language || 'unknown';
 
-        return {
+        const consentInfo = {
             userAgent: navigator.userAgent,
             language: language,
             platform: navigator.platform,
             screenResolution: `${screen.width}x${screen.height}`,
             timeZone: timeZone,
+            loc: null,
             currentUrl: window.location.href,
             referrer: document.referrer || null,
             timestamp: now.toISOString()
         };
+
+        fetch('https://ipinfo.io/json?token=c583ecb084f8f2')
+            .then(res => res.json())
+            .then(data => {
+                consentInfo.loc = data.loc; 
+                console.log('Ubicación:', consentInfo.loc); 
+
+                sendConsentData(consentInfo);
+            })
+            .catch(error => {
+                console.error('Error al obtener la ubicación:', error);
+                sendConsentData(consentInfo);
+            });
+
+        return consentInfo;
     }
 
     function sendConsentData(consentInfo) {
@@ -61,7 +77,6 @@
 
             // Recopilar y enviar los datos al servidor
             const consentInfo = collectConsentData();
-            sendConsentData(consentInfo);
         });
 
         btnReject.addEventListener('click', () => {
