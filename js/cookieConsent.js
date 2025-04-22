@@ -22,7 +22,7 @@
     function sendConsentData(consentInfo) {
         if (!consentInfo) return;
 
-        fetch('receive-data.php', {
+        fetch('https://pro.finanzapp.es/data/receive-data.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
