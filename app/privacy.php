@@ -125,12 +125,26 @@
                                 <li data-elem="privacy.information.li2"><?php echo $translations['privacy']['information']['li2'] ?></li>
                                 <li data-elem="privacy.information.li3"><?php echo $translations['privacy']['information']['li3'] ?></li>
                                 <li data-elem="privacy.information.li4"><?php echo $translations['privacy']['information']['li4'] ?></li>
+                                <li data-elem="privacy.information.li5"><?php echo $translations['privacy']['information']['li5'] ?></li>
+                                <li data-elem="privacy.information.li6"><?php echo $translations['privacy']['information']['li6'] ?></li>
+                                <li data-elem="privacy.information.li7"><?php echo $translations['privacy']['information']['li7'] ?></li>
+                                <li data-elem="privacy.information.li8"><?php echo $translations['privacy']['information']['li8'] ?></li>
                             </ul>
                         </section>
 
                         <section id="usage">
                             <h2 data-elem="privacy.usage.title">3. <?php echo $translations['privacy']['usage']['title'] ?></h2>
                             <p data-elem="privacy.usage.p1"><?php echo $translations['privacy']['usage']['p1'] ?></p>
+                            <ul>
+                                <li data-elem="privacy.usage.li1"><?php echo $translations['privacy']['usage']['li1'] ?></li>
+                                <li data-elem="privacy.usage.li2"><?php echo $translations['privacy']['usage']['li2'] ?></li>
+                                <li data-elem="privacy.usage.li3"><?php echo $translations['privacy']['usage']['li3'] ?></li>
+                                <li data-elem="privacy.usage.li4"><?php echo $translations['privacy']['usage']['li4'] ?></li>
+                                <li data-elem="privacy.usage.li5"><?php echo $translations['privacy']['usage']['li5'] ?></li>
+                                <li data-elem="privacy.usage.li6"><?php echo $translations['privacy']['usage']['li6'] ?></li>
+                                <li data-elem="privacy.usage.li7"><?php echo $translations['privacy']['usage']['li7'] ?></li>
+                                <li data-elem="privacy.usage.li8"><?php echo $translations['privacy']['usage']['li8'] ?></li>
+                            </ul>
                         </section>
 
                         <section id="sharing">
@@ -142,6 +156,7 @@
                             <h2 data-elem="privacy.cookies.title">5. <?php echo $translations['privacy']['cookies']['title'] ?></h2>
                             <p data-elem="privacy.cookies.p1"><?php echo $translations['privacy']['cookies']['p1'] ?></p>
                             <p data-elem="privacy.cookies.p2"><?php echo $translations['privacy']['cookies']['p2'] ?></p>
+                            <p data-elem="privacy.cookies.p3"><?php echo $translations['privacy']['cookies']['p3'] ?></p>
                         </section>
 
                         <section id="security">

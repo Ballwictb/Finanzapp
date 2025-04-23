@@ -333,7 +333,7 @@
             "title": "Política de Privacidad",
             "introduction": "Introducción",
             "information": "Información que recopilamos",
-            "usage": "Uso de la información",
+            "usage": "Cómo usamos la información",
             "sharing": "Compartición de la información",
             "cookies": "Cookies",
             "security": "Seguridad",
@@ -348,48 +348,64 @@
         },
         "information": {
             "title": "Información que recopilamos",
-            "p1": "Recopilamos únicamente la información necesaria para ofrecerte una experiencia personalizada y segura. Esto incluye:",
-            "li1": "Nombre de usuario (puede ser cualquier conjunto de caracteres)",
-            "li2": "Dirección de correo electrónico",
-            "li3": "Contraseña (almacenada de forma segura)",
-            "li4": "Datos de uso anónimos recopilados mediante Google Analytics"
+            "p1": "Recopilamos los siguientes datos para mejorar nuestros servicios, garantizar la seguridad y ofrecer una mejor experiencia de usuario:",
+            "li1": "Nombre de usuario y dirección de correo electrónico, cuando los proporcionas voluntariamente (por ejemplo, al registrarte).",
+            "li2": "Contraseña, que se almacena de forma segura mediante técnicas de cifrado y hashing.",
+            "li3": "Dirección IP y ubicación geográfica aproximada, obtenidas a través de servicios externos como ipinfo.io. Esta información se utiliza únicamente con fines de mejora de la experiencia del usuario y personalización del contenido.",
+            "li4": "Información del navegador, incluyendo el user agent, idioma preferido y plataforma utilizada.",
+            "li5": "Información del dispositivo, como la resolución de pantalla, uso de CPU, memoria disponible, nivel de batería y tipo de conexión de red.",
+            "li6": "Datos sobre tu interacción con la web, como URL visitadas, página de origen (referer), fecha y hora de acceso, clics y duración de la sesión. Estos datos se usan para análisis de tráfico y mejora de la experiencia de usuario.",
+            "li7": "Presencia de dispositivos multimedia conectados (como micrófono o cámara), utilizada únicamente para fines estadísticos sin acceder a contenido de audio o video.",
+            "li8": "Errores técnicos detectados durante tu navegación, como problemas de carga de página o errores de rendimiento.",
+            "li9": "Cookies y tecnologías similares para personalización, análisis y mejora del servicio."
         },
         "usage": {
-            "title": "Uso de la información",
-            "p1": "Utilizamos la información para mejorar nuestros servicios, personalizar tu experiencia y realizar análisis estadísticos con el fin de optimizar nuestra plataforma."
+            "title": "Cómo usamos la información",
+            "p1": "Utilizamos los datos recopilados para los siguientes fines:",
+            "li1": "Crear y gestionar cuentas de usuario.",
+            "li2": "Proporcionar contenido personalizado y preferencias de idioma.",
+            "li3": "Supervisar el rendimiento del sistema y detectar errores o abusos.",
+            "li4": "Realizar análisis estadísticos y entender el comportamiento del usuario.",
+            "li5": "Garantizar la seguridad de la plataforma y prevenir fraudes o usos indebidos.",
+            "li6": "Optimizar el diseño, la compatibilidad y la experiencia de usuario del sitio web.",
+            "li7": "Cumplir con obligaciones legales y responder a solicitudes legítimas de las autoridades.",
+            "li8": "Informar a los usuarios sobre actualizaciones importantes o cambios en nuestros servicios o políticas."
         },
         "sharing": {
             "title": "Compartición de la información",
-            "p1": "No compartimos tu información personal con terceros, excepto con proveedores de servicios como Google Analytics para finalidades analíticas."
+            "p1": "No compartimos tu información personal con terceros, excepto con proveedores de servicios como Google Analytics para finalidades analíticas. En casos específicos, podríamos compartir tus datos con autoridades competentes si así lo requiere una solicitud legal o judicial."
         },
         "cookies": {
             "title": "Cookies",
             "p1": "Utilizamos cookies esenciales para el funcionamiento del sitio y cookies analíticas para mejorar la experiencia de usuario.",
-            "p2": "Puedes gestionar tus preferencias de cookies desde la configuración de tu navegador."
+            "p2": "También usamos cookies y tecnologías similares para recolectar información técnica del navegador y del dispositivo con fines estadísticos, de seguridad y personalización.",
+            "p3": "Puedes gestionar tus preferencias de cookies desde la configuración de tu navegador."
         },
         "security": {
             "title": "Seguridad",
-            "p1": "Aplicamos medidas de seguridad como tokens de autenticación y cifrado para proteger tus datos frente a accesos no autorizados."
+            "p1": "Aplicamos medidas de seguridad como tokens de autenticación y cifrado SSL para proteger tus datos frente a accesos no autorizados. Sin embargo, ninguna medida de seguridad es completamente infalible y siempre existe un pequeño riesgo inherente."
         },
         "rights": {
             "title": "Derechos de los usuarios",
-            "p1": "Tienes derecho a acceder, rectificar, eliminar y oponerte al uso de tus datos. Puedes ejercer estos derechos contactándonos.",
-            "li1": "Acceso a tus datos",
-            "li2": "Rectificación de datos incorrectos",
-            "li3": "Eliminación de tu cuenta",
-            "li4": "Oposición al tratamiento de datos"
+            "p1": "Tienes derecho a acceder, rectificar, eliminar y oponerte al uso de tus datos. Puedes ejercer estos derechos contactándonos de las siguientes formas:",
+            "li1": "Acceso a tus datos personales.",
+            "li2": "Rectificación de datos incorrectos.",
+            "li3": "Eliminación de tu cuenta y todos los datos asociados.",
+            "li4": "Oposición al tratamiento de tus datos en determinadas circunstancias."
         },
         "retention": {
             "title": "Retención de datos",
-            "p1": "Tus datos se eliminan de inmediato tras la solicitud de eliminación de cuenta."
+            "p1": "Tus datos se eliminan de inmediato tras la solicitud de eliminación de cuenta. No almacenamos datos personales más tiempo del necesario para cumplir con los fines establecidos en esta política."
         },
         "changes": {
             "title": "Cambios en la política de privacidad",
-            "p1": "Nos reservamos el derecho a actualizar esta política. Notificaremos los cambios importantes mediante un aviso en la plataforma."
+            "p1": "Nos reservamos el derecho a actualizar esta política en cualquier momento. Notificaremos los cambios importantes mediante un aviso en la plataforma o por correo electrónico."
         },
         "contact": {
             "title": "Contacto",
-            "p1": "Si tienes dudas sobre esta política, puedes contactarnos a través de:"
+            "p1": "Si tienes dudas sobre esta política o deseas ejercer alguno de tus derechos, puedes contactarnos a través de:",
+            "email": "legal@finanzapp.es",
+            "address": "Av. del Oeste, s/n, 28922 Alcorcón, Madrid"
         }
     }
 }

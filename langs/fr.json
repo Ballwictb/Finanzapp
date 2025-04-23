@@ -324,12 +324,12 @@
     },
     "privacy": {
         "title": "Politique de Confidentialité",
-        "meta_description": "Découvrez comment FinanzApp collecte, utilise et protège vos données personnelles lorsque vous utilisez notre plateforme.",
+        "meta_description": "Découvrez comment FinanzApp collecte, utilise et protège vos données personnelles lors de l'utilisation de notre plateforme.",
         "toc": {
-            "title": "Politique de confidentialité",
+            "title": "Politique de Confidentialité",
             "introduction": "Introduction",
             "information": "Informations que nous collectons",
-            "usage": "Utilisation des informations",
+            "usage": "Comment nous utilisons les informations",
             "sharing": "Partage des informations",
             "cookies": "Cookies",
             "security": "Sécurité",
@@ -340,52 +340,68 @@
         },
         "introduction": {
             "title": "Introduction",
-            "p1": "Cette politique de confidentialité explique comment FinanzApp, développée dans le cadre d’un projet de fin d'études, collecte, utilise et protège vos données personnelles. Nous nous engageons à garantir votre confidentialité lors de l'utilisation de nos services."
+            "p1": "Cette Politique de Confidentialité décrit comment FinanzApp, développée dans le cadre d'un mémoire de fin d'études, collecte, utilise et protège vos données personnelles. Nous nous engageons à garantir votre confidentialité lors de l'utilisation de nos services."
         },
         "information": {
             "title": "Informations que nous collectons",
-            "p1": "Nous collectons uniquement les informations nécessaires pour vous offrir une expérience personnalisée et sécurisée, notamment :",
-            "li1": "Nom d'utilisateur (peut être toute chaîne de caractères)",
-            "li2": "Adresse e-mail",
-            "li3": "Mot de passe (stocké en toute sécurité)",
-            "li4": "Données d'utilisation anonymes via Google Analytics"
+            "p1": "Nous collectons les données suivantes pour améliorer nos services, garantir la sécurité et offrir une meilleure expérience utilisateur :",
+            "li1": "Nom d'utilisateur et adresse e-mail lorsque vous les fournissez volontairement (par exemple lors de l'inscription).",
+            "li2": "Mot de passe, stocké de manière sécurisée à l'aide de techniques de cryptage et de hachage.",
+            "li3": "Adresse IP et emplacement géographique approximatif, obtenus via des services externes comme ipinfo.io. Ces informations sont utilisées uniquement pour améliorer l'expérience utilisateur et la personnalisation du contenu.",
+            "li4": "Informations sur le navigateur, y compris le user agent, la langue préférée et la plateforme utilisée.",
+            "li5": "Informations sur l'appareil, telles que la résolution d'écran, l'utilisation du processeur, la mémoire disponible, le niveau de batterie et le type de connexion réseau.",
+            "li6": "Données relatives à votre interaction avec le site, telles que les URL visitées, la page d'origine (referer), l'heure et la date d'accès, les clics et la durée de la session. Ces données sont utilisées pour l'analyse du trafic et l'amélioration de l'expérience utilisateur.",
+            "li7": "Présence de dispositifs multimédia connectés (comme un microphone ou une caméra), utilisée uniquement à des fins statistiques sans accès au contenu audio ou vidéo.",
+            "li8": "Erreurs techniques détectées lors de votre navigation, telles que des problèmes de chargement de pages ou des erreurs de performance.",
+            "li9": "Cookies et technologies similaires pour la personnalisation, l'analyse et l'amélioration du service."
         },
         "usage": {
-            "title": "Utilisation des informations",
-            "p1": "Nous utilisons vos données pour améliorer nos services, personnaliser votre expérience et réaliser des analyses statistiques afin d'optimiser la plateforme."
+            "title": "Comment nous utilisons les informations",
+            "p1": "Nous utilisons les données collectées pour les fins suivantes :",
+            "li1": "Créer et gérer des comptes utilisateur.",
+            "li2": "Fournir du contenu personnalisé et des préférences linguistiques.",
+            "li3": "Surveiller la performance du système et détecter les erreurs ou abus.",
+            "li4": "Réaliser des analyses statistiques et comprendre le comportement des utilisateurs.",
+            "li5": "Assurer la sécurité de la plateforme et prévenir les fraudes ou abus.",
+            "li6": "Optimiser la conception, la compatibilité et l'expérience utilisateur du site Web.",
+            "li7": "Respecter les obligations légales et répondre aux demandes légitimes des autorités.",
+            "li8": "Informer les utilisateurs des mises à jour importantes ou des changements dans nos services ou politiques."
         },
         "sharing": {
             "title": "Partage des informations",
-            "p1": "Nous ne partageons pas vos données personnelles avec des tiers, sauf avec des prestataires comme Google Analytics à des fins analytiques."
+            "p1": "Nous ne partageons pas vos informations personnelles avec des tiers, sauf avec des prestataires de services comme Google Analytics à des fins analytiques. Dans certains cas, nous pourrions partager vos données avec les autorités compétentes si cela est exigé par une demande légale ou judiciaire."
         },
         "cookies": {
             "title": "Cookies",
             "p1": "Nous utilisons des cookies essentiels pour le fonctionnement du site et des cookies analytiques pour améliorer l'expérience utilisateur.",
-            "p2": "Vous pouvez gérer vos préférences de cookies dans les paramètres de votre navigateur."
+            "p2": "Nous utilisons également des cookies et des technologies similaires pour collecter des informations techniques sur le navigateur et l'appareil à des fins statistiques, de sécurité et de personnalisation.",
+            "p3": "Vous pouvez gérer vos préférences en matière de cookies dans les paramètres de votre navigateur."
         },
         "security": {
             "title": "Sécurité",
-            "p1": "Nous mettons en œuvre des mesures de sécurité telles que des jetons d'authentification et le chiffrement pour protéger vos données contre tout accès non autorisé."
+            "p1": "Nous appliquons des mesures de sécurité telles que des jetons d'authentification et un chiffrement SSL pour protéger vos données contre tout accès non autorisé. Cependant, aucune mesure de sécurité n'est totalement infaillible et il existe toujours un petit risque inhérent."
         },
         "rights": {
             "title": "Droits des utilisateurs",
-            "p1": "Vous avez le droit d'accéder à vos données, de les rectifier, de les supprimer et de vous opposer à leur traitement. Contactez-nous pour exercer ces droits.",
-            "li1": "Accès à vos données",
-            "li2": "Correction de données incorrectes",
-            "li3": "Suppression de votre compte",
-            "li4": "Opposition au traitement des données"
+            "p1": "Vous avez le droit d'accéder, rectifier, supprimer et vous opposer à l'utilisation de vos données. Vous pouvez exercer ces droits en nous contactant de la manière suivante :",
+            "li1": "Accès à vos données personnelles.",
+            "li2": "Rectification des données incorrectes.",
+            "li3": "Suppression de votre compte et de toutes les données associées.",
+            "li4": "Opposition au traitement de vos données dans certaines circonstances."
         },
         "retention": {
             "title": "Conservation des données",
-            "p1": "Vos données sont supprimées immédiatement après une demande de suppression de compte."
+            "p1": "Vos données sont supprimées immédiatement après la demande de suppression du compte. Nous ne stockons pas de données personnelles plus longtemps que nécessaire pour atteindre les objectifs définis dans cette politique."
         },
         "changes": {
             "title": "Modifications de la politique de confidentialité",
-            "p1": "Nous nous réservons le droit de mettre à jour cette politique. Les modifications importantes seront notifiées sur la plateforme."
+            "p1": "Nous nous réservons le droit de mettre à jour cette politique à tout moment. Nous informerons les utilisateurs des changements importants via un avis sur la plateforme ou par e-mail."
         },
         "contact": {
             "title": "Contact",
-            "p1": "Pour toute question concernant cette politique, veuillez nous contacter à :"
+            "p1": "Si vous avez des questions concernant cette politique ou souhaitez exercer l'un de vos droits, vous pouvez nous contacter à :",
+            "email": "legal@finanzapp.es",
+            "address": "Av. del Oeste, s/n, 28922 Alcorcón, Madrid"
         }
     }
 }

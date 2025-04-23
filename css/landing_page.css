@@ -208,6 +208,17 @@
 	.third-party-list {
 		background: var(--color-dark-blue) !important;
 	}
+
+	
+	.mobile-language-options a {
+		background: var(--color-gray) !important;
+	}
+
+	.mobile-language-options a.active {
+		background: var(--color-primary) !important;
+		color: var(--color-dark) !important;
+	}
+	
 }
 
 /* reset */
