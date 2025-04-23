@@ -329,7 +329,7 @@
             "title": "Privacy Policy",
             "introduction": "Introduction",
             "information": "Information We Collect",
-            "usage": "Use of Information",
+            "usage": "How We Use the Information",
             "sharing": "Sharing of Information",
             "cookies": "Cookies",
             "security": "Security",
@@ -340,52 +340,68 @@
         },
         "introduction": {
             "title": "Introduction",
-            "p1": "This Privacy Policy explains how FinanzApp, developed as part of a final degree project, collects, uses, and protects your personal data. We are committed to safeguarding your privacy while using our services."
+            "p1": "This Privacy Policy describes how FinanzApp, developed as part of a Bachelor's Thesis, collects, uses, and protects your personal data. We are committed to ensuring your privacy while using our services."
         },
         "information": {
             "title": "Information We Collect",
-            "p1": "We only collect the necessary information to provide a personalized and secure experience, including:",
-            "li1": "Username (can be any character string)",
-            "li2": "Email address",
-            "li3": "Password (securely stored)",
-            "li4": "Anonymous usage data collected via Google Analytics"
+            "p1": "We collect the following data to improve our services, ensure security, and provide a better user experience:",
+            "li1": "Username and email address when voluntarily provided (e.g., during registration).",
+            "li2": "Password, securely stored using encryption and hashing techniques.",
+            "li3": "IP address and approximate geographic location, obtained through external services like ipinfo.io. This information is used solely for improving user experience and content personalization.",
+            "li4": "Browser information, including user agent, preferred language, and platform used.",
+            "li5": "Device information, such as screen resolution, CPU usage, available memory, battery level, and network connection type.",
+            "li6": "Data on your interaction with the website, such as visited URLs, referring page, access time and date, clicks, and session duration. This data is used for traffic analysis and improving user experience.",
+            "li7": "Presence of connected multimedia devices (such as microphone or camera), used solely for statistical purposes without accessing audio or video content.",
+            "li8": "Technical errors detected during your browsing, such as page load issues or performance errors.",
+            "li9": "Cookies and similar technologies for personalization, analysis, and service improvement."
         },
         "usage": {
-            "title": "Use of Information",
-            "p1": "We use your data to improve our services, personalize your experience, and conduct statistical analysis to optimize the platform."
+            "title": "How we use the information",
+            "p1": "We use the collected data for the following purposes:",
+            "li1": "Create and manage user accounts.",
+            "li2": "Provide personalized content and language preferences.",
+            "li3": "Monitor system performance and detect errors or abuses.",
+            "li4": "Conduct statistical analysis and understand user behavior.",
+            "li5": "Ensure platform security and prevent fraud or misuse.",
+            "li6": "Optimize website design, compatibility, and user experience.",
+            "li7": "Comply with legal obligations and respond to legitimate requests from authorities.",
+            "li8": "Inform users about important updates or changes to our services or policies."
         },
         "sharing": {
             "title": "Sharing of Information",
-            "p1": "We do not share your personal information with third parties, except for analytics providers such as Google Analytics."
+            "p1": "We do not share your personal information with third parties, except with service providers like Google Analytics for analytical purposes. In specific cases, we may share your data with competent authorities if required by a legal or judicial request."
         },
         "cookies": {
-            "title": "Cookies",   
-            "p1": "We use essential cookies for the website's functionality and analytical cookies to improve the user experience.",
-            "p2": "You can manage your cookie preferences through your browser settings."
+            "title": "Cookies",
+            "p1": "We use essential cookies for the site's operation and analytical cookies to improve the user experience.",
+            "p2": "We also use cookies and similar technologies to collect technical browser and device information for statistical, security, and personalization purposes.",
+            "p3": "You can manage your cookie preferences from your browser settings."
         },
         "security": {
             "title": "Security",
-            "p1": "We implement security measures such as authentication tokens and encryption to protect your data from unauthorized access."
+            "p1": "We apply security measures such as authentication tokens and SSL encryption to protect your data from unauthorized access. However, no security measure is completely foolproof, and there is always a slight inherent risk."
         },
         "rights": {
             "title": "User Rights",
-            "p1": "You have the right to access, rectify, delete, and oppose the use of your data. You can exercise these rights by contacting us.",
-            "li1": "Access to your data",
-            "li2": "Correction of incorrect data",
-            "li3": "Account deletion",
-            "li4": "Opposition to data processing"
+            "p1": "You have the right to access, rectify, delete, and object to the use of your data. You can exercise these rights by contacting us as follows:",
+            "li1": "Access your personal data.",
+            "li2": "Rectify incorrect data.",
+            "li3": "Delete your account and all associated data.",
+            "li4": "Object to the processing of your data in certain circumstances."
         },
         "retention": {
             "title": "Data Retention",
-            "p1": "Your data is deleted immediately upon account deletion request."
+            "p1": "Your data is deleted immediately upon account deletion request. We do not store personal data longer than necessary to fulfill the purposes outlined in this policy."
         },
         "changes": {
             "title": "Changes to the Privacy Policy",
-            "p1": "We reserve the right to update this policy. Significant changes will be notified through a platform notice."
+            "p1": "We reserve the right to update this policy at any time. We will notify users of significant changes via a notice on the platform or by email."
         },
         "contact": {
             "title": "Contact",
-            "p1": "If you have any questions about this policy, please contact us via:"
+            "p1": "If you have any questions regarding this policy or wish to exercise any of your rights, you can contact us at:",
+            "email": "legal@finanzapp.es",
+            "address": "Av. del Oeste, s/n, 28922 Alcorcón, Madrid"
         }
     }
 }
