@@ -415,7 +415,7 @@
 	<script src="./js/landing_page.js"></script>
 	<script src="./js/overlay.js"></script>
 	<script src="./js/liteVideo.js"></script>
-	<script src="./js/cookieConsent.js"></script>
+	<script src="https://pro.finanzapp.es/js/cConsent.js"></script>
 
 	<!-- AOS -->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"
