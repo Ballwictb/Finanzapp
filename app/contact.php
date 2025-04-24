@@ -70,7 +70,7 @@
             "url": "https://launch.finanzapp.es/app/contact.php",
             "contactPoint": {
                 "@type": "ContactPoint",
-                "contactType": "customer service", 
+                "contactType": "customer service",
                 "email": "info@finanzapp.es",
                 "availableLanguage": ["Spanish", "English"],
                 "url": "https://launch.finanzapp.es/app/contact.php"
@@ -201,6 +201,7 @@
     <script src="../js/landing_page.js"></script>
     <script src="../js/validationUtils.js"></script>
     <script src="../js/contactValidation.js"></script>
+		<script src="../js/trans.js"></script>
 
 </body>
 

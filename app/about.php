@@ -274,6 +274,8 @@
 
     <!-- Custom JS -->
     <script src="../js/landing_page.js"></script>
+		<script src="../js/trans.js"></script>
+
 </body>
 
 </html>
