@@ -129,10 +129,16 @@
 
 	.social-link:hover {
 		background: var(--color-primary) !important;
+		color: #fff !important;
 	}
 
 	.github:hover {
-		background: rgba(0, 0, 0, 0.1) !important;
+		background: #fff !important;
+		color: #000 !important;
+	}
+
+	.linkedin:hover {
+		color: #fff !important;
 	}
 
 	.step-description {
@@ -141,6 +147,11 @@
 
 	.feature-description {
 		color: var(--color-gray-light) !important;
+	}
+
+	.step-number {
+		color: var(--color-primary) !important;
+		opacity: 0.5 !important;
 	}
 
 	.footer-menu a:hover {
@@ -173,6 +184,10 @@
 
 	.btn-outline {
 		border-color: var(--color-gray) !important;
+
+		&:hover {
+			color: #fff !important;
+		}
 	}
 
 	.page-header {
@@ -187,6 +202,10 @@
 
 	.value-card {
 		background: var(--color-dark-blue) !important;
+	}
+
+	.value-icon {
+		color: #fff !important;
 	}
 
 	.auth-form {
@@ -209,7 +228,7 @@
 		background: var(--color-dark-blue) !important;
 	}
 
-	
+
 	.mobile-language-options a {
 		background: var(--color-gray) !important;
 	}
@@ -218,7 +237,32 @@
 		background: var(--color-primary) !important;
 		color: var(--color-dark) !important;
 	}
-	
+
+	.method-icon {
+		color: #fff !important;
+	}
+
+	.back-to-top {
+		color: #fff !important;
+	}
+
+	.social-link-contact {
+		color: #fff !important;
+	}
+
+	.auth-form .form-note {
+		color: #fff !important;
+	}
+
+	.language-dropdown a.active {
+		color: #fff !important;
+	}
+
+	.feature-icon {
+		color: #fff !important;
+	}
+
+
 }
 
 /* reset */

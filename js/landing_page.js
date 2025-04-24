@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	initMobileMenu();
 	initHeroChart();
 	initBackToTop();
-	initCookieConsent();
+	// initCookieConsent();
 });
 
 // Loader animation con control de sesión

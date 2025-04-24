@@ -33,10 +33,10 @@ $user       = $_SESSION['user'] ?? null;
                 <li><a href="<?php echo BASE_URL; ?>/index.php?lang=<?php echo $lang; ?>#how-it-works" rel="noopener" class="nav-link" data-elem="nav.howItWorks"
                         aria-label="<?php echo htmlspecialchars($translations['nav']['howItWorks'], ENT_QUOTES, 'UTF-8'); ?>">
                         <?php echo htmlspecialchars($translations['nav']['howItWorks'], ENT_QUOTES, 'UTF-8'); ?></a></li>
-                <li><a href="<?php echo BASE_URL; ?>/app/about.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="nav-link" data-elem="nav.about"
+                <li><a href="<?php echo BASE_URL; ?>/app/about.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="nav-link tran" data-elem="nav.about"
                         aria-label="<?php echo htmlspecialchars($translations['nav']['about'], ENT_QUOTES, 'UTF-8'); ?>">
                         <?php echo htmlspecialchars($translations['nav']['about'], ENT_QUOTES, 'UTF-8'); ?></a></li>
-                <li><a href="<?php echo BASE_URL; ?>/app/contact.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="nav-link" data-elem="nav.contact"
+                <li><a href="<?php echo BASE_URL; ?>/app/contact.php?lang=<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener" class="nav-link tran" data-elem="nav.contact"
                         aria-label="<?php echo htmlspecialchars($translations['nav']['contact'], ENT_QUOTES, 'UTF-8'); ?>">
                         <?php echo htmlspecialchars($translations['nav']['contact'], ENT_QUOTES, 'UTF-8'); ?></a></li>
             </ul>
@@ -51,11 +51,11 @@ $user       = $_SESSION['user'] ?? null;
                 </button>
                 <div class="language-dropdown">
                     <a href="?lang=es<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener"
-                        data-lang="es" class="<?php echo ($lang == 'es') ? 'active' : ''; ?>">Español</a>
-                    <a href="?lang=en<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener"
-                        data-lang="en" class="<?php echo ($lang == 'en') ? 'active' : ''; ?>">English</a>
+                        data-lang="es" class="<?php echo ($lang == 'es') ? 'active' : ''; ?> tran">Español</a>
+                    <a href="?lang=en<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?> " rel="noopener"
+                        data-lang="en" class="<?php echo ($lang == 'en') ? 'active' : ''; ?> tran">English</a>
                     <a href="?lang=fr<?php echo isset($_GET['page']) ? '&page=' . $_GET['page'] : ''; ?>" rel="noopener"
-                        data-lang="fr" class="<?php echo ($lang == 'fr') ? 'active' : ''; ?>">Français</a>
+                        data-lang="fr" class="<?php echo ($lang == 'fr') ? 'active' : ''; ?> tran">Français</a>
                 </div>
             </div>
             <?php if ($isLoggedIn): ?>
@@ -72,11 +72,11 @@ $user       = $_SESSION['user'] ?? null;
                 </div>
             <?php else: ?>
                 <a href="<?php echo BASE_URL; ?>/app/login.php?lang=<?php echo $lang; ?>"
-                    class="btn btn-outline">
+                    class="btn btn-outline tran">
                     <?php echo $translations['buttons']['login']; ?>
                 </a>
                 <a href="<?php echo BASE_URL; ?>/app/register.php?lang=<?php echo $lang; ?>"
-                    class="btn btn-primary">
+                    class="btn btn-primary tran">
                     <?php echo $translations['buttons']['register']; ?>
                 </a>
             <?php endif; ?>
