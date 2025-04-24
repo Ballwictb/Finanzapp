@@ -49,6 +49,7 @@
 
     <!-- General styles -->
     <link rel="stylesheet" href="../css/landing_page.css">
+		<link rel="stylesheet" href="../css/scrollbar.css">
 
     <!-- Specific styles for the register page -->
     <link rel="stylesheet" href="../css/auth.css">
@@ -155,6 +156,8 @@
     <script src="../js/landing_page.js"></script>
     <script src="../js/validationUtils.js"></script>
     <script src="../js/registerValidation.js"></script>
+		<script src="../js/trans.js"></script>
+
 </body>
 
 </html>
