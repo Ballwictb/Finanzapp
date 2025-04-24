@@ -20,6 +20,14 @@ body::-webkit-scrollbar-track {
 	background-color: var(--track-color);
 }
 
+body {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+body.saliendo {
+	opacity: 0;
+}
 
 /* Firefox */
 @supports not selector(::-webkit-scrollbar) {
