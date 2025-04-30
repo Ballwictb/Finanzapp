@@ -109,7 +109,8 @@
             "password_placeholder": "1J#4_6*8",
             "submit": "Iniciar Sesión",
             "no_account": "¿No tienes una cuenta?",
-            "register": "Regístrate"
+            "register": "Regístrate",
+            "forgot_password": "¿Olvidaste tu contraseña?"
         },
         "register": {
             "title": "Crear Cuenta",
@@ -124,6 +125,14 @@
             "submit": "Registro",
             "note": "¿Ya tiene una cuenta?",
             "login": "Iniciar Sesión"
+        },
+        "reset": {
+            "title": "Restablecer contraseña",
+            "email_label": "Correo electrónico",
+            "email_placeholder": "Introduce tu correo electrónico",
+            "submit": "Enviar enlace de restablecimiento",
+            "sent": "Si el correo existe, se ha enviado un enlace para restablecer tu contraseña.",
+            "back_to_login": "Volver al inicio de sesión"
         },
         "meta": {
             "register_description": "Regístrate en FinanzApp y descubre la herramienta definitiva para gestionar tus finanzas personales de forma eficiente. Controla tus gastos, organiza tus ingresos y alcanza tus metas económicas con una plataforma intuitiva y gratuita. ¡Empieza hoy!"
@@ -407,5 +416,13 @@
             "email": "legal@finanzapp.es",
             "address": "Av. del Oeste, s/n, 28922 Alcorcón, Madrid"
         }
+    },
+    "reset": {
+        "title": "Restablecer contraseña",
+        "email_label": "Correo electrónico",
+        "email_placeholder": "Introduce tu correo",
+        "submit": "Enviar enlace",
+        "sent": "Si el correo existe en nuestros registros, se ha enviado un enlace.",
+        "back_to_login": "Volver al inicio de sesión"
     }
 }

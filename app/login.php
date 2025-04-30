@@ -121,12 +121,23 @@
 						</div>
 					</form>
 					<p class="form-note">
-						<?= $translations['auth']['login']['no_account'] ?> <a href="./register.php" rel="noopener"
-							aria-label="<?= $translations['auth']['login']['register'] ?>"><?= $translations['auth']['login']['register'] ?></a>
+						<a href="./reset.php" rel="noopener"
+							aria-label="<?= $translations['auth']['login']['forgot_password'] ?>">
+							<?= $translations['auth']['login']['forgot_password'] ?>
+						</a>
+					</p>
+
+					<p class="form-note">
+						<?= $translations['auth']['login']['no_account'] ?>
+						<a href="./register.php" rel="noopener"
+							aria-label="<?= $translations['auth']['login']['register'] ?>">
+							<?= $translations['auth']['login']['register'] ?>
+						</a>
 					</p>
 				</div>
 			</div>
 		</main>
+
 
 		<!-- Footer -->
 		<?php include_once '../includes/footer.php'; ?>
