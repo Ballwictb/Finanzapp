@@ -125,7 +125,7 @@
                         </div>
                         <div class="form-group checkbox-container">
                             <label class="checkbox-label">
-                                <input type="checkbox" name="notifications" id="notifications">
+                                <input type="checkbox" name="notifications" id="notifications" value="1">
                             </label>
                             <label for="notifications" data-elem="register.notifications">
                                 <?php echo $translations['auth']['register']['notifications']; ?>
