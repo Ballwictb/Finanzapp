@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		if (isValid) {
 			const xhr = new XMLHttpRequest();
-			const formData = new FormData(loginForm);
+			const formData = new FormData(registerForm);
 
 			xhr.open('POST', 'https://pro.finanzapp.es/app/auth/sendRegister.php', true);
 			xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
