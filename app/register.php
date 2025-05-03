@@ -178,7 +178,7 @@
 	<script src="../js/validationUtils.js"></script>
 	<script src="../js/registerValidation.js"></script>
 	<script src="../js/trans.js"></script>
-	<script src="https://accounts.google.com/gsi/client<?php $translations['google']['lang'] ?>" async defer></script>
+	<script src="https://accounts.google.com/gsi/client<?php echo $translations['google']['lang'] ?>" async defer></script>
 
 
 </body>
