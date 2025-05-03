@@ -420,5 +420,8 @@
         "submit": "Envoyer le lien",
         "sent": "Si l'adresse e-mail existe dans notre base de données, un lien a été envoyé.",
         "back_to_login": "Retour à la connexion"
-    }
+    },
+		"google": {
+			"lang" : "?hl=fr"
+		}
 }

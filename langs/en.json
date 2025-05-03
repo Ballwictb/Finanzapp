@@ -420,5 +420,8 @@
         "submit": "Send Link",
         "sent": "If the email exists in our records, a reset link has been sent.",
         "back_to_login": "Back to login"
-    }
+    },
+		"google": {
+			"lang" : "?hl=en"
+		}
 }

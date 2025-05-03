@@ -424,5 +424,8 @@
         "submit": "Enviar enlace",
         "sent": "Si el correo existe en nuestros registros, se ha enviado un enlace.",
         "back_to_login": "Volver al inicio de sesión"
-    }
+    },
+		"google": {
+			"lang" : "?hl=es"
+		}
 }
