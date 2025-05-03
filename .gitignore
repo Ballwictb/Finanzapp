@@ -1,3 +1,5 @@
 config/secrets.php
 config/database.php
 app/auth/sendLogin.php
+app/auth/sendRegister.php
+app/auth/google-callback.php
