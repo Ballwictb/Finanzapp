@@ -103,7 +103,8 @@
 						data-context="signup"
 						data-ux_mode="redirect"
 						data-login_uri="https://pro.finanzapp.es/app/auth/google-callback.php"
-						data-auto_prompt="false">
+						data-auto_prompt="false"
+						style="width: 100%;">
 					</div>
 
 					<div class="g_id_signin"
@@ -112,7 +113,8 @@
 						data-theme="outline"
 						data-text="signup_with"
 						data-size="large"
-						data-logo_alignment="left">
+						data-logo_alignment="left"
+						style="width: 100%;">
 					</div>
 					<br>
 					<hr>
@@ -176,7 +178,7 @@
 	<script src="../js/validationUtils.js"></script>
 	<script src="../js/registerValidation.js"></script>
 	<script src="../js/trans.js"></script>
-	<script src="https://accounts.google.com/gsi/client" async defer></script>
+	<script src="https://accounts.google.com/gsi/client<?php $translations['google']['lang'] ?>" async defer></script>
 
 
 </body>
