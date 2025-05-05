@@ -42,17 +42,17 @@
 
         <main class="auth reset-password">
             <div class="container">
-                <div class="auth-form">
+                <div class="auth-form" action="#" method="post">
                     <h2><?= $translations['auth']['reset']['title'] ?></h2>
-                    <form id="resetPasswordForm" action="auth/resetPassword.php" method="post">
+                    <form id="resetPasswordForm">
                         <input type="hidden" name="token" value="<?= htmlspecialchars($_GET['token'] ?? '') ?>">
                         <div class="form-group">
-                            <label for="new_password"><?= $translations['auth']['reset']['new_password_label'] ?></label>
-                            <input type="password" id="new_password" name="new_password" placeholder="<?= $translations['auth']['reset']['new_password_placeholder'] ?>" required>
+                            <label for="password"><?= $translations['auth']['reset']['new_password_label'] ?></label>
+                            <input type="password" id="password" name="new_password" placeholder="<?= $translations['auth']['reset']['new_password_placeholder'] ?>" required>
                         </div>
                         <div class="form-group">
-                            <label for="confirm_password"><?= $translations['auth']['reset']['confirm_password_label'] ?></label>
-                            <input type="password" id="confirm_password" name="confirm_password" placeholder="<?= $translations['auth']['reset']['new_password_placeholder'] ?>" required>
+                            <label for="confirm-password"><?= $translations['auth']['reset']['confirm_password_label'] ?></label>
+                            <input type="password" id="confirm-password" name="confirm_password" placeholder="<?= $translations['auth']['reset']['new_password_placeholder'] ?>" required>
                         </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary btn-large">
@@ -79,30 +79,10 @@
     <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"></script>
     <!-- Core scripts -->
     <script src="../js/landing_page.js"></script>
+    <script src="../js/passwordChange.js"></script>
     <script src="../js/trans.js"></script>
     <!-- Password validation utilities -->
     <script src="../js/validationUtils.js"></script>
-    <!-- Form submission and client-side validation -->
-    <script>
-        document.getElementById('resetPasswordForm').addEventListener('submit', function(event) {
-            const notyf = new Notyf();
-            const newPwd = document.getElementById('new_password').value;
-            const confirmPwd = document.getElementById('confirm_password').value;
-
-            // Validate password strength
-            if (!validatePassword(newPwd)) {
-                notyf.error('Password must be at least 8 characters, including an uppercase letter and a digit.');
-                event.preventDefault();
-                return;
-            }
-
-            // Ensure passwords match
-            if (newPwd !== confirmPwd) {
-                notyf.error('Passwords do not match.');
-                event.preventDefault();
-            }
-        });
-    </script>
 </body>
 
 </html>

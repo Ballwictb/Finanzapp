@@ -92,7 +92,7 @@
 			<div class="container">
 				<div class="auth-form">
 					<h2><?= $translations['auth']['reset']['title'] ?></h2>
-					<form id="resetForm" action="auth/sendResetLink.php" method="post">
+					<form id="resetForm" action="#" method="post">
 						<div class="form-group">
 							<label for="email"><?= $translations['auth']['reset']['email_label'] ?></label>
 							<input type="email" id="email" name="email"
@@ -119,6 +119,7 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"></script>
 	<script src="../js/landing_page.js"></script>
+	<script src="../js/resetValidation.js"></script>
 	<script src="../js/trans.js"></script>
 </body>
 
