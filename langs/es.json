@@ -5,7 +5,7 @@
         "keywords": "finanzas, gestión financiera, FinanzApp, dinero, ahorro",
         "author": "FinanzApp Team",
         "ogDescription": "Únete a FinanzApp en solo 30 segundos y revoluciona la forma en que gestionas tu dinero. Nuestra plataforma integral te ofrece herramientas intuitivas para controlar gastos, mejorar tus ahorros y alcanzar tus metas financieras, todo de forma gratuita. ¡Empieza ahora!",
-				"image":"https://launch.finanzapp.es/assets/inicio_image_large_es.png"
+		"image":"https://launch.finanzapp.es/assets/inicio_image_large_es.png"
     },
     "selector": {
         "es": "Español",
@@ -130,7 +130,12 @@
             "title": "Restablecer contraseña",
             "email_label": "Correo electrónico",
             "email_placeholder": "Introduce tu correo electrónico",
+            "new_password_label": "Introduce tu nueva contraseña",
+            "new_password_placeholder": "1J#4_6*8",
+            "confirm_password_label": "Confirme la nueva contraseña",
             "submit": "Enviar enlace de restablecimiento",
+            "submit_new_pass": "Cambiar contraseña",
+            "success_message": "Contraseña cambiada con éxito",
             "sent": "Si el correo existe, se ha enviado un enlace para restablecer tu contraseña.",
             "back_to_login": "Volver al inicio de sesión"
         },

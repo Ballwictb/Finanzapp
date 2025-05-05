@@ -4,6 +4,8 @@ config/secrets.php
 app/auth/email_sender.php
 app/auth/google-callback.php
 app/auth/panel_newsletter.php
+app/auth/resetPassword.php
 app/auth/send-email.php
 app/auth/sendLogin.php
 app/auth/sendRegister.php
+app/auth/sendResetLink.php

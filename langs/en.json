@@ -5,12 +5,15 @@
         "keywords": "finance, financial management, FinanzApp, money, savings",
         "author": "FinanzApp Team",
         "ogDescription": "Sign up for FinanzApp in just 30 seconds and revolutionize the way you manage your money. Our all-in-one platform provides intuitive tools to track expenses, boost your savings, and achieve your financial goals, all completely free. Get started now!",
-				"image":"https://launch.finanzapp.es/assets/inicio_image_large_en.png"
+        "image": "https://launch.finanzapp.es/assets/inicio_image_large_en.png"
     },
     "selector": {
         "es": "Spanish",
         "en": "English",
         "fr": "French"
+    },
+    "general": {
+        "goBack": "Back"
     },
     "loader": {
         "text": "Loading FinanzApp..."
@@ -127,7 +130,12 @@
             "title": "Reset Password",
             "email_label": "Email address",
             "email_placeholder": "Enter your email address",
+            "new_password_label": "Enter your new password",
+            "new_password_placeholder": "1J#4_6*8",
+            "confirm_password_label": "Confirm the new password",
             "submit": "Send reset link",
+            "submit_new_pass": "Change password",
+            "success_message": "Password changed successfully",
             "sent": "If the email exists, a reset link has been sent.",
             "back_to_login": "Back to login"
         },
@@ -421,7 +429,7 @@
         "sent": "If the email exists in our records, a reset link has been sent.",
         "back_to_login": "Back to login"
     },
-		"google": {
-			"lang" : "?hl=en"
-		}
+    "google": {
+        "lang": "?hl=en"
+    }
 }

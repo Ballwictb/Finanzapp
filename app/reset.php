@@ -92,7 +92,7 @@
 			<div class="container">
 				<div class="auth-form">
 					<h2><?= $translations['auth']['reset']['title'] ?></h2>
-					<form id="resetForm" action="send_reset_link.php" method="post">
+					<form id="resetForm" action="auth/sendResetLink.php" method="post">
 						<div class="form-group">
 							<label for="email"><?= $translations['auth']['reset']['email_label'] ?></label>
 							<input type="email" id="email" name="email"

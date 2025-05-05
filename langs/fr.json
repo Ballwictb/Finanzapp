@@ -5,12 +5,15 @@
         "keywords": "finances, gestion financière, FinanzApp, argent, économie",
         "author": "Équipe FinanzApp",
         "ogDescription": "Inscrivez-vous sur FinanzApp en seulement 30 secondes et révolutionnez la gestion de votre argent. Notre plateforme complète met à votre disposition des outils intuitifs pour suivre vos dépenses, augmenter vos économies et atteindre vos objectifs financiers, le tout gratuitement. Commencez dès maintenant!",
-				"image":"https://launch.finanzapp.es/assets/inicio_image_large_en.png"
+        "image": "https://launch.finanzapp.es/assets/inicio_image_large_en.png"
     },
     "selector": {
         "es": "Espagnol",
         "en": "Anglais",
         "fr": "Français"
+    },
+    "general": {
+        "goBack": "Retour"
     },
     "loader": {
         "text": "Chargement de FinanzApp..."
@@ -127,7 +130,12 @@
             "title": "Réinitialiser le mot de passe",
             "email_label": "Adresse e-mail",
             "email_placeholder": "Entrez votre adresse e-mail",
+            "new_password_label": "Entrez votre nouveau mot de passe",
+            "new_password_placeholder": "1J#4_6*8",
+            "confirm_password_label": "Confirmez le nouveau mot de passe",
             "submit": "Envoyer le lien de réinitialisation",
+            "submit_new_pass": "Changer le mot de passe",
+            "success_message": "Mot de passe modifié avec succès",
             "sent": "Si l'adresse existe, un lien de réinitialisation a été envoyé.",
             "back_to_login": "Retour à la connexion"
         },
@@ -421,7 +429,7 @@
         "sent": "Si l'adresse e-mail existe dans notre base de données, un lien a été envoyé.",
         "back_to_login": "Retour à la connexion"
     },
-		"google": {
-			"lang" : "?hl=fr"
-		}
+    "google": {
+        "lang": "?hl=fr"
+    }
 }
