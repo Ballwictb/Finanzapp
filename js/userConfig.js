@@ -52,17 +52,18 @@ document.addEventListener("DOMContentLoaded", function () {
         // Envío XHR
         const xhr = new XMLHttpRequest();
         const formData = new FormData(configForm);
-        xhr.open("POST", `${BASE_URL}/app/auth/sendUserConfig.php`, true);
-        xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
-        xhr.onreadystatechange = () => {
-            if (xhr.readyState === 4) {
-                if (xhr.status === 200) {
-                    const data = JSON.parse(xhr.responseText);
-                    data.success
-                        ? notyf.success("Cambios guardados con éxito")
-                        : notyf.error(data.message || "Error al guardar");
+
+        xhr.open('POST', 'https://pro.finanzapp.es/app/auth/sendUserConfig.php', true);
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                const data = JSON.parse(xhr.responseText);
+
+                if (data.success) {
+                    notyf.success("Cambios realizados con éxito");
                 } else {
-                    notyf.error("Error de red, inténtalo de nuevo");
+                    notyf.error("No se pudieron guardar los cambios");
                 }
             }
         };
