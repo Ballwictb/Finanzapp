@@ -18,7 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 
 	const loginForm = document.getElementById("loginForm");
+	console.log("¿He encontrado el form?", loginForm);
 	if (!loginForm) return;
+	console.log("¡Listener de loginForm registrado!");
 
 	loginForm.addEventListener("submit", function (event) {
 		event.preventDefault();

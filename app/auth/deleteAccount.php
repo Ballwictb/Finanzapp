@@ -8,15 +8,15 @@ if (!isset($_SERVER["HTTP_X_REQUESTED_WITH"]) || strtolower($_SERVER['HTTP_X_REQ
 	exit;
 }
 
-if (isset($_SESSION['email'])) {
-	$email = $_SESSION['email'];
+if (isset($_SESSION['user']['email'])) {
+	$email = $_SESSION['user']['email'];
 } else {
 	echo json_encode(['success' => false, 'message' => "No hay una sesión activa con email."]);
 	exit;
 }
 
 
-include_once "/config/database.php";
+include_once "../../config/database.php";
 
 $sql = ("DELETE FROM users WHERE email LIKE ?" );
 $stmt = $conn->prepare($sql);
@@ -25,8 +25,9 @@ $stmt->execute();
 
 $stmt->close();
 $conn->close();
-
-include_once "logout.php";
+session_unset();
+session_destroy();
+// include_once "./logout.php";
 
 echo json_encode(['success' => true, 'message' => "Usuario eliminado correctamente."]);
 

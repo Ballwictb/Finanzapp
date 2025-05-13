@@ -254,6 +254,15 @@
     "language": {
         "select": "Select language"
     },
+    "userConfig": {
+        "logout": "Log out",
+        "configuration": "Configuration",
+        "configuration-full": "Account Settings",
+        "avatar-select": "Select an avatar",
+        "new-password": "New password (optional)",
+        "notifications": "I wish to receive email notifications",
+        "confirm-changes": "Save changes"
+    },
     "terms": {
         "title": "Terms and conditions",
         "description": "Last update: April 5, 2025",

@@ -254,6 +254,15 @@
     "language": {
         "select": "Choisir la langue"
     },
+    "userConfig": {
+        "logout": "Déconnexion",
+        "configuration": "Configuration",
+        "configuration-full": "Paramètres du compte",
+        "avatar-select": "Sélectionner un avatar",
+        "new-password": "Nouveau mot de passe (facultatif)",
+        "notifications": "Je souhaite recevoir des notifications par courrier électronique",
+        "confirm-changes": "Enregistrer les modifications"
+    },
     "terms": {
         "title": "Termes et conditions",
         "description": "Dernière mise à jour: 5 avril 2025",

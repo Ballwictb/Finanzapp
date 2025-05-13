@@ -254,6 +254,15 @@
     "language": {
         "select": "Seleccionar idioma"
     },
+    "userConfig": {
+        "logout": "Cerrar sesión",
+        "configuration": "Configuración",
+        "configuration-full": "Configuración de cuenta",
+        "avatar-select": "Selecciona un avatar",
+        "new-password": "Nueva contraseña (opcional)",
+        "notifications": "Deseo recibir notificaciones por email",
+        "confirm-changes": "Guardar cambios"
+    },
     "terms": {
         "title": "Términos y Condiciones",
         "description": "Última actualización: 05 de Abril de 2025",
