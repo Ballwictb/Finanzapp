@@ -168,9 +168,8 @@ $user       = $_SESSION['user'] ?? null;
 							alt="Avatar de <?php echo htmlspecialchars($user['name'], ENT_QUOTES); ?>"
 							class="avatar" style="width: 40px; height: 40px; border-radius: 50%;">
 					</button>
-					<!-- Logout y Delete -->
+					<!-- Logout -->
 					<button id="logoutBtn" class="btn btn-outline"><?php echo $translations['userConfig']['logout']; ?></button>
-					<!-- <button id="deleteBtn" class="btn btn-outline">Borrar</button> -->
 
 					<!-- Dropdown menu -->
 					<div class="profile-dropdown" id="profileDropdown">
@@ -255,60 +254,25 @@ $user       = $_SESSION['user'] ?? null;
 	});
 </script>
 
-<!-- Script to delete the account completely from the DB -->
-<script>
-	document.addEventListener("DOMContentLoaded", function() {
-		const deleteBtn = document.getElementById("deleteBtn");
-		if (deleteBtn) {
-			deleteBtn.addEventListener("click", function() {
-				fetch("<?php echo BASE_URL; ?>/app/auth/deleteAccount.php", {
-						method: "POST",
-						headers: {
-							"X-Requested-With": "XMLHttpRequest"
-						}
-					})
-					.then(response => response.json())
-					.then(data => {
-						console.log(data);
-						if (data.success) {
-							window.location.href = "<?php echo BASE_URL; ?>/index.php";
-						} else {
-							alert("Error al borrar cuenta");
-						}
-					})
-					.catch(error => {
-						console.error("Error al hacer delete:", error);
-					});
-			});
-		}
-	});
-</script>
-
 <!-- Script to logout -->
 <script>
-	document.addEventListener("DOMContentLoaded", function() {
-		const logoutBtn = document.getElementById("logoutBtn");
-		if (logoutBtn) {
-			logoutBtn.addEventListener("click", function() {
+	document.addEventListener("DOMContentLoaded", () => {
+		document.querySelectorAll("#logoutBtn").forEach(btn => {
+			btn.addEventListener("click", () => {
 				fetch("<?php echo BASE_URL; ?>/app/auth/logout.php", {
 						method: "POST",
 						headers: {
 							"X-Requested-With": "XMLHttpRequest"
 						}
 					})
-					.then(response => response.json())
+					.then(res => res.json())
 					.then(data => {
-						if (data.success) {
-							window.location.href = "<?php echo BASE_URL; ?>/index.php";
-						} else {
-							alert("Error al cerrar sesión");
-						}
+						if (data.success) window.location.href = "<?php echo BASE_URL; ?>/index.php";
+						else alert("Error al cerrar sesión");
 					})
-					.catch(error => {
-						console.error("Error al hacer logout:", error);
-					});
+					.catch(err => console.error("Logout error:", err));
 			});
-		}
+		});
 	});
 </script>
 

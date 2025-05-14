@@ -422,6 +422,23 @@ h6 {
 
 }
 
+.btn-delete-outline {
+	background: transparent;
+	color: #e53e3e;
+	border: 2px solid #e53e3e;
+}
+
+.btn-delete-outline:hover {
+	background: #c53030;
+	color: #ffffff;
+	transform: translateY(-2px);
+}
+
+.btn-delete-large {
+	padding: 1rem var(--space-2xl);
+	font-size: var(--font-size-lg);
+}
+
 .btn-outline {
 	background: transparent;
 	color: var(--color-primary);
@@ -437,7 +454,6 @@ h6 {
 .btn-large {
 	padding: var(--space-lg) var(--space-2xl);
 	font-size: var(--font-size-lg);
-
 }
 
 .btn-block {

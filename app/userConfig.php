@@ -43,30 +43,34 @@
 
 	<!-- Avatar CSS from userConfig -->
 	<style>
-	  .avatar-options {
-	    display: flex;
-	    flex-wrap: wrap;
-	    gap: 0.5rem;
-	    margin-bottom: 1rem;
-	  }
-	  .avatar-options label {
-	    cursor: pointer;
-	    border: 2px solid transparent;
-	    border-radius: 4px;
-	    transition: border-color 0.2s;
-	  }
-	  .avatar-options input[type="radio"] {
-	    display: none;
-	  }
-	  .avatar-options img {
-	    width: 60px;
-	    height: 60px;
-	    border-radius: 50%;
-	    object-fit: cover;
-	  }
-	  .avatar-options input[type="radio"]:checked + img {
-	    border: 2px solid #007bff;
-	  }
+		.avatar-options {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+			margin-bottom: 1rem;
+		}
+
+		.avatar-options label {
+			cursor: pointer;
+			border: 2px solid transparent;
+			border-radius: 4px;
+			transition: border-color 0.2s;
+		}
+
+		.avatar-options input[type="radio"] {
+			display: none;
+		}
+
+		.avatar-options img {
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			object-fit: cover;
+		}
+
+		.avatar-options input[type="radio"]:checked+img {
+			border: 2px solid #007bff;
+		}
 	</style>
 </head>
 
@@ -84,14 +88,15 @@
 						<div class="form-group">
 							<label><?php echo $translations['userConfig']['avatar-select']; ?></label>
 							<div class="avatar-options">
-								<?php for ($i=1; $i<=10; $i++): $num=str_pad($i,2,'0',STR_PAD_LEFT); $url="https://carefully-happy-quetzal.global.ssl.fastly.net/assets/avatars/{$num}.jpeg"; ?>
-								<label>
-									<input type="radio" name="avatar" value="<?=$url?>" <?=($user['url_image']??'')===$url?'checked':''?> />
-									<img src="<?=$url?>" alt="Avatar <?=$num?>" />
-								</label>
+								<?php for ($i = 1; $i <= 10; $i++): $num = str_pad($i, 2, '0', STR_PAD_LEFT);
+									$url = "https://carefully-happy-quetzal.global.ssl.fastly.net/assets/avatars/{$num}.jpeg"; ?>
+									<label>
+										<input type="radio" name="avatar" value="<?= $url ?>" <?= ($user['url_image'] ?? '') === $url ? 'checked' : '' ?> />
+										<img src="<?= $url ?>" alt="Avatar <?= $num ?>" />
+									</label>
 								<?php endfor; ?>
 								<label>
-									<input type="radio" name="avatar" value="default" <?=empty($user['url_image'])?'checked':''?> />
+									<input type="radio" name="avatar" value="default" <?= empty($user['url_image']) ? 'checked' : '' ?> />
 									<img src="https://carefully-happy-quetzal.global.ssl.fastly.net/assets/avatars/default.jpeg" alt="Avatar Default" />
 								</label>
 							</div>
@@ -99,7 +104,7 @@
 						<!-- Name -->
 						<div class="form-group">
 							<label for="name"><?php echo $translations['auth']['register']['fullname']; ?></label>
-							<input type="text" id="name" name="name" value="<?=htmlspecialchars($user['name']??'',ENT_QUOTES)?>" required />
+							<input type="text" id="name" name="name" value="<?= htmlspecialchars($user['name'] ?? '', ENT_QUOTES) ?>" required />
 						</div>
 						<!-- Password -->
 						<div class="form-group">
@@ -112,13 +117,20 @@
 						</div>
 						<!-- Notifications -->
 						<div class="form-group checkbox-container">
-							<label class="checkbox-label"><input type="checkbox" id="notifications" name="notifications" <?=isset($user['notifications'])&&$user['notifications']?'checked':''?> /></label>
+							<label class="checkbox-label"><input type="checkbox" id="notifications" name="notifications" <?= isset($user['notifications']) && $user['notifications'] ? 'checked' : '' ?> /></label>
 							<label for="notifications"><?php echo $translations['userConfig']['notifications']; ?></label>
 						</div>
 						<!-- Submit -->
 						<div class="form-group">
 							<button type="submit" class="btn btn-primary btn-large"><?php echo $translations['userConfig']['confirm-changes']; ?></button>
 						</div>
+						<!-- Delete account -->
+						<div class="form-group">
+							<button type="button" id="deleteBtn" class="btn btn-delete-outline btn-delete-large">
+								<?php echo $translations['userConfig']['delete-account']; ?>
+							</button>
+						</div>
+
 					</form>
 				</div>
 			</div>
@@ -127,14 +139,69 @@
 		<?php include_once '../includes/footer.php'; ?>
 	</section>
 
+	<!-- Script to delete the account completely from the DB -->
+	<script>
+		document.getElementById('deleteBtn').addEventListener('click', function(e) {
+			e.preventDefault();
+
+			Swal.fire({
+				title: '¿Estás seguro?',
+				text: "¡No podrás revertir esto!",
+				icon: 'warning',
+				showCancelButton: true,
+				confirmButtonText: 'Sí, eliminar',
+				cancelButtonText: 'Cancelar',
+				reverseButtons: true
+			}).then((result) => {
+				if (result.isConfirmed) {
+					// Ejecutamos el fetch directamente
+					fetch("<?php echo BASE_URL; ?>/app/auth/deleteAccount.php", {
+							method: "POST",
+							headers: {
+								"X-Requested-With": "XMLHttpRequest"
+							}
+						})
+						.then(response => response.json())
+						.then(data => {
+							if (!data.success) {
+								return Swal.fire('Error', 'Error al borrar cuenta', 'error');
+							}
+							// Mostramos el alert de éxito y al cerrarlo redirigimos:
+							Swal.fire(
+								'¡Eliminada!',
+								'Tu cuenta ha sido eliminada.',
+								'success'
+							).then(() => {
+								// Esto se ejecuta cuando el usuario hace click en "OK"
+								window.location.href = "<?php echo BASE_URL; ?>/index.php";
+							});
+						})
+						.catch(error => {
+							console.error("Error al hacer delete:", error);
+							Swal.fire('Error', 'Ocurrió un problema inesperado', 'error');
+						});
+
+				} else if (result.dismiss === Swal.DismissReason.cancel) {
+					Swal.fire(
+						'Cancelado',
+						'Tu cuenta está a salvo :)',
+						'error'
+					);
+				}
+			});
+		});
+	</script>
+
 	<script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"
 		integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT"
 		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" 
+		integrity="sha384-xdcph3JEuALbYZ4O+KG62jdgvvn+yDzS36x/q1GUFy7bmmxytMWdDNpt3+dmyage" 
+		crossorigin="anonymous"></script>
 	<script src="../js/landing_page.js"></script>
 	<script src="../js/trans.js"></script>
-    <script src="../js/userConfig.js"></script>
-    <script src="../js/validationUtils.js"></script>
-	
+	<script src="../js/userConfig.js"></script>
+	<script src="../js/validationUtils.js"></script>
 </body>
 
 </html>

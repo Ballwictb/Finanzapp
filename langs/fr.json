@@ -261,7 +261,8 @@
         "avatar-select": "Sélectionner un avatar",
         "new-password": "Nouveau mot de passe (facultatif)",
         "notifications": "Je souhaite recevoir des notifications par courrier électronique",
-        "confirm-changes": "Enregistrer les modifications"
+        "confirm-changes": "Enregistrer les modifications",
+        "delete-account": "Supprimer le compte"
     },
     "terms": {
         "title": "Termes et conditions",
