@@ -96,7 +96,7 @@
 									</label>
 								<?php endfor; ?>
 								<label>
-									<input type="radio" name="avatar" value="default" <?= empty($user['url_image']) ? 'checked' : '' ?> />
+									<input type="radio" name="avatar" value="https://carefully-happy-quetzal.global.ssl.fastly.net/assets/avatars/default.jpeg" <?= empty($user['url_image']) ? 'checked' : '' ?> />
 									<img src="https://carefully-happy-quetzal.global.ssl.fastly.net/assets/avatars/default.jpeg" alt="Avatar Default" />
 								</label>
 							</div>
