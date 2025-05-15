@@ -1,4 +1,33 @@
-<?php include_once "../config/config.php" ?>
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+	session_start();
+}
+include_once "../config/config.php";
+// Si no hay sesión de usuario, mostrar aviso y detener la ejecución
+if (empty($_SESSION['user']['id'])): ?>
+	<!DOCTYPE html>
+	<html lang="es">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Acceso denegado | <?php echo $translations['brand']; ?></title>
+		<link rel="stylesheet" href="../css/auth.css">
+	</head>
+
+	<body>
+		<div class="container auth-form">
+			<h2>Acceso denegado</h2>
+			<p>Debes <a href="<?php echo BASE_URL; ?>/app/login.php">iniciar sesión</a> para ver esta página.</p>
+		</div>
+	</body>
+
+	</html>
+<?php
+	exit;  // detenemos aquí el script para que no cargue el resto
+endif;
+
+// Si llegamos aquí, es que el usuario está logueado:
+?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -69,7 +98,7 @@
 		}
 
 		.avatar-options input[type="radio"]:checked+img {
-			border: 2px solid #007bff;
+			border: 4px solid red;
 		}
 	</style>
 </head>
@@ -117,7 +146,7 @@
 						</div>
 						<!-- Notifications -->
 						<div class="form-group checkbox-container">
-							<label class="checkbox-label"><input type="checkbox" id="notifications" name="notifications" <?= isset($user['notifications']) && $user['notifications'] ? 'checked' : '' ?> /></label>
+							<label class="checkbox-label"><input type="checkbox" id="notifications" name="notifications" <?= (isset($_SESSION['user']['accept_news']) && $_SESSION['user']['accept_news'] == 1) ? 'checked' : '' ?> /></label>
 							<label for="notifications"><?php echo $translations['userConfig']['notifications']; ?></label>
 						</div>
 						<!-- Submit -->
@@ -195,8 +224,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"
 		integrity="sha384-uuNfwJfjOG2ukYi4eAB11/t3lP4Zjf75a3UhgkLzEpiX8JpJfacpG7Ye+0tiVMxT"
 		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" 
-		integrity="sha384-xdcph3JEuALbYZ4O+KG62jdgvvn+yDzS36x/q1GUFy7bmmxytMWdDNpt3+dmyage" 
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"
+		integrity="sha384-xdcph3JEuALbYZ4O+KG62jdgvvn+yDzS36x/q1GUFy7bmmxytMWdDNpt3+dmyage"
 		crossorigin="anonymous"></script>
 	<script src="../js/landing_page.js"></script>
 	<script src="../js/trans.js"></script>

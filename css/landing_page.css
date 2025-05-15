@@ -412,8 +412,19 @@ h6 {
 	border: 2px solid #333;
 	border-radius: 12px;
 	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
-	width: 240px;
+
+	/* eliminamos el ancho fijo */
+	/* width: 240px; */
+
+	/* para que crezca según su contenido: */
+	width: auto;
+	min-width: 200px;
+	/* opcional: un ancho mínimo razonable */
 	padding: 20px;
+
+	/* evitamos que el texto (email largo) haga wrap y forcemos crecimiento horizontal */
+	white-space: nowrap;
+
 	z-index: 1000;
 	pointer-events: none;
 }
@@ -421,11 +432,11 @@ h6 {
 .profile-dropdown.open {
 	display: block;
 	pointer-events: auto;
-	animation: dropdownIn 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+	animation: dropdownIn 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
 }
 
 .profile-dropdown.closing {
-	animation: dropdownOut 0.3s ease-in forwards;
+	animation: dropdownOut 0.1s ease-in forwards;
 }
 
 .profile-header {
@@ -436,7 +447,7 @@ h6 {
 }
 
 .profile-preview img {
-	width: 200px;
+	width: 100px;
 	border-radius: 50%;
 	object-fit: cover;
 	border: 3px solid #333;

@@ -4,7 +4,9 @@
 /*
 if (!isset($_SESSION['user'])) {
 	$_SESSION['user'] = [
+		'id'   => '2',
 		'name'   => 'Lamine Yamal',
+		'accept_news'   => '1',
 		'url_image' => 'https://carefully-happy-quetzal.global.ssl.fastly.net/assets/avatars/01.jpeg',
 		'email' => 'pruebas@gmail.com'
 	];
@@ -71,8 +73,6 @@ $user       = $_SESSION['user'] ?? null;
 							alt="Avatar de <?php echo htmlspecialchars($user['name'], ENT_QUOTES); ?>"
 							class="avatar" style="width: 40px; height: 40px; border-radius: 50%;">
 					</button>
-					<!-- Logout -->
-					<button id="logoutBtn" class="btn btn-outline"><?php echo $translations['userConfig']['logout']; ?></button>
 
 					<!-- Dropdown menu -->
 					<div class="profile-dropdown" id="profileDropdown">
@@ -85,9 +85,13 @@ $user       = $_SESSION['user'] ?? null;
 								<p id="dropdownEmail"></p>
 							</div>
 						</div>
-						<a href="<?php echo BASE_URL; ?>/app/userConfig.php?lang=<?php echo $lang; ?>" class="btn btn-primary config-button">
-							<?php echo $translations['userConfig']['configuration']; ?>
-						</a>
+						<div>
+							<a href="<?php echo BASE_URL; ?>/app/userConfig.php?lang=<?php echo $lang; ?>" class="btn btn-primary config-button">
+								<?php echo $translations['userConfig']['configuration']; ?>
+							</a>
+							<!-- Logout -->
+							<button style="margin-left: 12px;" id="logoutBtn" class="btn btn-delete-outline"><?php echo $translations['userConfig']['logout']; ?></button>
+						</div>
 					</div>
 				</div>
 			<?php else: ?>

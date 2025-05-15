@@ -62,6 +62,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 if (data.success) {
                     notyf.success("Cambios realizados con éxito");
+                    // Wait a moment so the user sees the notification
+                    setTimeout(() => {
+                        // Reload the page to see the changes
+                        window.location.reload();
+                    }, 800);
                 } else {
                     notyf.error("No se pudieron guardar los cambios");
                 }
