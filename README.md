@@ -1,3 +1,7 @@
+
+> [!WARNING]
+> Este proyecto ha sido archivado 
+
 <div align="center">
   <!-- Logo oficial -->
   <a href="https://github.com/Ballwictb/FinanzApp">
